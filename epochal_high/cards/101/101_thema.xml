@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+
+	<h1>Tête-à-Tête</h1>
+	<preview>
+		<text>
+			 Kaffeegenuss im Stil&lt;br/&gt; des Rokoko
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text><![CDATA[
+				<h2>Das Rocaille-Ornament</h2>
+				<p>Das gesamte Service umfasst acht Teile: eine Kanne, ein Milch-kännchen, eine Zuckerdose, einen Löffel und zwei Tassen mit Unterschalen. Es ist also für den Kaffeegenuss zu zweit gedacht und wird darum <a href="glossar/tete-a-tete.xml">Tête-à-Tête</a> genannt. Die Formen verraten eine Entstehung in der Epoche des <a href="glossar/rokoko.xml">Rokoko</a> (siehe Abbildung unten links): Der <a href="101/henkel.xml" imageHighlightId="101.kanne2.jpg.h1">Henkel der Kanne</a> hat die Form einer <a href="glossar/rocaille.xml">Rocaille</a> – jener asymmetrischen, muschelförmig geschwungenen Zier-form, die dieser Epoche ihren Namen gab. Auch die <a href="101/ornamentalebemalung.xml" imageHighlightId="101.kanne2.jpg.h2">orna-mentale Bemalung</a> lässt auf das Rokoko schließen.</p>
+			]]></text>
+				<space height="00"/> 
+				 <imggroup maxHeight="300">
+				 <img src="101/kanne2.jpg" maxHeight="250" caption="Bemalung der Kanne" allowZoom="true" zoomCaption="Pascha Johann Friedrich Weitsch: &lt;i&gt;Kaffeeservice mit Hirtenlandschaft&lt;/i&gt;, Porzellan, 1765,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+				 <highlight x="0.022" y="0.26" radius="0.2" href="101/henkel.xml" id="101.kanne2.jpg.h1"/>
+				  <highlight x="0.43" y="0.22" radius="0.14" href="101/ornamentalebemalung.xml" id="101.kanne2.jpg.h2"/>
+			</img>
+			<img src="101/boucher.jpg" maxHeight="250" caption="Boucher: Heimliche Botschaft" allowZoom="true" zoomCaption="François Boucher: &lt;i&gt;Die heimliche Botschaft&lt;/i&gt;, Leinwand, 1793,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."> 
+			</img>
+			</imggroup>
+		
+		
+	
+		</column>
+		<column>
+		   
+		<text><![CDATA[	
+			<h2>Idealisierung</h2>
+			<p>Auch die Motive sind typisch für das Ro-koko: Das <a href="glossar/arkadien.xml">arkadische</a> Schäfer- und <a href="glossar/idyll.xml">Hirten-idyll</a> verkörpert eine Idealisierung des vermeintlich einfachen, gefühlvollen, na-turverbundenen Lebens der Hirten – sor-genfrei, friedlich und im Einklang mit der Natur.</p>
+			]]></text>
+		<space height="40"/>
+			<text><![CDATA[	
+			<h2>Urwüchsige Natur</h2>
+			<p>Im Rokoko entdeckte man die „wilde, un-berührte“ Natur als Gegenentwurf zur hö-fischen Zivilisation, zum Leben der höhe-ren Stände mit seinen unerbittlichen Hier-archien, strengen Konventionen und har-ten Konkurrenzkämpfen. In den Darstel-lungen verweilen galante Herren sowie anmutige Damen in grazilen Haltungen – sorgenfrei in bezaubernder Atmosphäre inmitten scheinbar urwüchsiger Natur. <i>Die Heimliche Botschaft</i> von <a href="glossar/francoisboucher.xml">François Boucher</a> ist ein charakteristisches Beispiel dafür (siehe Abbildung links).</p>
+			]]></text>
+	
+		
+		</column>
+	</content>
+</card>

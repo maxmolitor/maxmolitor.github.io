@@ -1,0 +1,167 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 22pt;
+    -webkit-tap-highlight-color: #ccc;
+    background-color: #DDD;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-overflow-scrolling: auto;
+    user-select: none;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    /* https://davidwalsh.name/font-smoothing */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+h3
+{
+    color: white;
+    padding: 4px;
+    margin: 2px;
+    background-color: rgba(0, 0, 15, .5);
+}
+
+a { text-decoration: none; }
+
+div.wrapper
+{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform-origin: 0% 100%;
+    transform: scale(0.25);
+}
+
+/* Color animation from https://www.tjvantoll.com/2012/02/20/css3-color-animations/ */
+@-webkit-keyframes color_change {
+  from { background-color: rgba(0, 0, 0, 0); }
+  to { background-color: red; }
+}
+@-moz-keyframes color_change {
+  from { background-color: rgba(0, 0, 0, 0); }
+  to { background-color: red; }
+}
+@-ms-keyframes color_change {
+  from { background-color: rgba(0, 0, 0, 0); }
+  to { background-color: red; }
+}
+@-o-keyframes color_change {
+  from { background-color: rgba(0, 0, 0, 0); }
+  to { background-color: red; }
+}
+@keyframes color_change {
+  from { background-color:rgba(0, 0, 0, 0); }
+  to { background-color: red; }
+}
+
+/*** CSS taken from https://medium.com/@jamesfuthey/simulating-the-creation-of-website-thumbnail-screenshots-using-iframes-7145269891db#.7v7fshos5 ***/
+.thumbnail
+{
+    position: relative;
+    -ms-zoom: 0.25;
+    -moz-transform: scale(0.25);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.25);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.25);
+    -webkit-transform-origin: 0 0;
+}
+
+
+.thumbnail:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: -1024px; /*** This is a deviation from the above mentioned
+    jamesfuthey blog. Otherwise touches would go through on iPad. ***/
+}
+
+.thumbnail iframe
+{
+    width: 1024px;
+    height: 624px;
+     -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+    -webkit-animation: color_change 1s infinite alternate;
+    -moz-animation: color_change 1s infinite alternate;
+    -ms-animation: color_change 1s infinite alternate;
+    -o-animation: color_change 1s infinite alternate;
+    animation: color_change 1s infinite alternate;
+}
+
+.thumbnail-container
+{
+    width: calc(1024px * 0.25);
+    height: calc(624px * 0.25);
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 2px 2px 10px #000;
+    color: #DDD;
+}
+
+div.preview
+{
+    display: inline-block;
+    margin: 22px;
+    padding: 0px;
+    color: #333;
+    font-size: 12pt;
+    text-align: center;
+    width: 256px;
+    height: 196px;
+}
+
+div.title
+{
+    padding-top: 8px;
+    width: 256px;
+    height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.container
+{
+    margin: 0px;
+    padding: 0px;
+    border: 2pt #000;
+    min-height: 100%;
+    min-width: 100%;
+    display: -webkit-flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: flex-end;
+    align-content: flex-end;
+}
+
+iframe {
+   pointer-events: none;
+}
+
+/** See https://github.com/electron/electron/issues/4420 */
+::selection {
+    background: transparent;
+}
+

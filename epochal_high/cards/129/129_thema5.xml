@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+<!-- <card type="technik"> -->
+	<h1>Die ideale Familie</h1>
+	<preview>
+		<text>
+			Liebe, Schutz und Geborgenheit
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Natürlich und lebendig</h2>
+				<p>Vater, Mutter und ihre drei Kinder sind harmonisch vereint und verkörpern vorbildlich eine glückliche Familie. Als ein Meisterwerk gilt dieses Familien-porträt in der Gestaltung des Themas, weil es die Zusammengehörigkeit und Verbundenheit der Mit-glieder einer Familie sowie ihre Liebe beieinander versinnbildlicht. Die Eltern und die Kinder stehen eng zueinander und posieren nicht starr für ein Porträt, sondern agieren in natürlicher und leben-diger Weise miteinander.</p>
+			]]></text>
+			<space height="37"/>
+		
+			
+				<text><![CDATA[
+				<h2>Familiäre Geborgenheit</h2>
+				<p>Die älteste Tochter reicht ihrer Mutter einen Korb mit <a href="129/blumen3.xml" imageHighlightId="129.familienbild.jpg.h3">Blumen</a>. Seitlich von ihr hebt sich der Vater mit beleuchtetem <a href="129/vater2.xml" imageHighlightId="129.familienbild.jpg.h4">Antlitz</a> vom Hintergrund ab; er hält eine <a href="129/nelke.xml" imageHighlightId="129.familienbild.jpg.h2">rote Nelke</a> in seiner Hand. Während er auf der linken Seite schützend hinter seinen Kindern steht, wendet sich die Mutter ihren Kindern von rechts zu. Sie hält die <a href="129/kleinejunge.xml" imageHighlightId="129.familienbild.jpg.h1">Jüngste</a> liebevoll auf ihrem Schoß. Diese – mit einer <a href="129/rinkelbel.xml" imageHighlightId="129.familienbild.jpg.h6">Rinkelbel</a> in der Hand – wendet sich munter dem Betrachter zu, sucht aber noch sicheren Rückhalt an der Brust der Mutter; beide bilden eine <a href="129/innigeeinheit.xml" >innige Einheit</a>.</p>
+			]]></text>
+			
+		
+		</column>
+		<column>
+		<space height="00"/>
+			<img src="129/familienbild.jpg" maxHeight="300" caption="Familienbild" allowZoom="true" zoomCaption="Rembrandt: &lt;i&gt;Familienbild&lt;/i&gt;, Leinwand, um 1668, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+			<highlight x="0.45" y="0.36" radius="0.06" href="129/kleinejunge.xml" id="129.familienbild.jpg.h1"/>
+			<highlight x="0.28" y="0.55" radius="0.04" href="129/nelke.xml" id="129.familienbild.jpg.h2"/>
+			<highlight x="0.24" y="0.69" radius="0.1" href="129/blumen3.xml" id="129.familienbild.jpg.h3"/>
+			<highlight x="0.2" y="0.15" radius="0.08" href="129/vater2.xml" id="129.familienbild.jpg.h4"/>
+			<highlight x="0.12" y="0.44" radius="0.08" href="129/maedchen.xml" id="129.familienbild.jpg.h5"/><highlight x="0.44" y="0.59" radius="0.05" href="129/rinkelbel.xml" id="129.familienbild.jpg.h6"/>
+			
+			 </img>
+			<space height="45"/>
+				<text><![CDATA[
+				<h2>Wer ist dargestellt?</h2>
+                <p>Lange wurde das Bild für ein Selbstporträt Remb-randts mit seiner Familie gehalten. Die dargestellten <a href="129/personen.xml">Personen</a> können bis heute allerdings nicht identifi-ziert werden. Möglicherweise handelt es sich gar nicht um das Porträt einer realen Familie, sondern um eine Art Idealbild, für das Rembrandt Modelle verpflichtet hat.</p> 
+				]]></text> 
+		</column>
+	</content>
+</card>

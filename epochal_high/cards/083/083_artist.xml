@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<card type="artist">
+<!-- <card type="thema"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="vergleich"> -->
+<!-- <card type="geschichte"> -->
+	<h1>Jacob Isaaksz. van Ruisdael</h1>
+	<preview>
+		<text>
+			130 Wasserfälle gemalt und keinen je gesehen
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text>
+			<![CDATA[
+				<h2>Ausbildung – Studienreise – Werk</h2>
+				<p>Jacok Isaaksz. van Ruisdael (1628/29-1682) erhielt seine Ausbildung wahrscheinlich bei seinem Vater Isaack und bei seinem Onkel, dem Landschaftsmaler Salomon van Ruysdael. 1648 trat er in die <a href="glossar/lukasgilde.xml">Lukasgilde</a> ein. Gemeinsam mit Nicolaes Berchem unternahm er kurz darauf Studienreisen durch die Niederlande und in die Grafschaft Bentheim. 1656 zog Ruisdael nach Amsterdam. Er schuf 700 Bilder, darunter 130 Darstellungen von Wasserfällen (siehe Abbildung rechts oben).</p>
+			]]>
+			</text>
+		<space height="40"/>
+			<text>
+			<![CDATA[
+				<h2>Natur – von Kunst inspiriert</h2>
+				<p>Das immer wiederkehrende Motiv des Wasserfalls in Ruisdaels Gesamtwerk hat er nie selbst in der Natur beobachtet. In der flachen Landschaft seiner Heimat kommt dieses Naturschauspiel kaum vor. Seine Bilder entstanden unter dem Einfluss anderer Land-schaftsmaler, allen voran Allaert van Everdingen. Dieser hatte von einer Reise nach Norwegen und Schweden zahlreiche Zeichnungen mitgebracht, die als Inspiration für seine nordischen Landschaften dienten (siehe Abbildung rechts unten). Trotzdem überzeugen Ruisdaels Gemälde im Vergleich durch realistischere Darstellungsweise.</p>
+				]]>
+				</text>
+		</column>
+		<column>
+			<text><![CDATA[
+				]]></text>
+		<space height="00"/>
+			<img src="083/ruisdael.jpg" maxHeight="270" caption="Jacob Isaaksz. van Ruisdael" allowZoom="true" zoomCaption="Jacok Isaaksz. van Ruisdael: &lt;i&gt;Wasserfall mit Wachtturm&lt;/i&gt;, um 1660/1670, &lt;br/&gt; Braunschweig, Herzog Anton Ulrich-Museum." />
+			
+			<img src="083/everdingen.jpg" maxHeight="210" caption="Allaert van Everdingen" allowZoom="true" zoomCaption="Allaert van Everdingen:&lt;i&gt; Wasserfall mit Blockhaus&lt;/i&gt;, 1660er Jahre, &lt;br/&gt; Braunschweig, Herzog Anton Ulrich-Museum." />
+			
+		</column>
+	</content>
+</card>

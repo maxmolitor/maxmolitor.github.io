@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<card type="artist">
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Christian Benjamin Rauschner</h1>
+	<preview>
+		<text>
+			Bildhauer, Medailleur, Wachsbossierer
+		</text>
+	</preview>
+	<content template="2">
+		<column>
+			<text><![CDATA[
+			    <h2>Lehre und Reisen</h2> 
+				<p>Christian Benjamin Rauschner wurde 1723 in Naumburg an der Saale geboren. Nach einer Lehre zum <a href="glossar/stukkateur.xml" >Stukkateur</a> bei seinem Vater unternahm er ausgedehnte Reisen in die nördlichen und südlichen Länder Europas. Aus Rom brachte er das Wissen um die Herstellung des sogenannten punischen Wachses mit. Die-ses korallenrote, mit Meerwasser gekochte Wachs nutzten schon die Römer als Wandverzierung.</p>
+			]]></text> 
+			<imggroup maxHeight="300">
+			<img src="098/rauschnerjupiter.jpg" maxHeight="500" caption="Satyr belauscht Antiope" allowZoom="true" zoomCaption="Christian Benjamin Rauschner: &lt;i&gt;Jupiter als Satyr belauscht Antiope&lt;/i&gt;, Wachs, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+			<img src="098/rauschnersebastian.jpg" maxHeight="500" caption="Der Heilige Sebastian" allowZoom="true" zoomCaption="Christian Benjamin Rauschner: &lt;i&gt;Der Heilige Sebastian&lt;/i&gt;, Wachs, um 1747-1767, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/> 
+			</imggroup>
+				</column>
+			<column>
+			<text><![CDATA[
+				<h2>Frankfurt am Main</h2>
+                <p>1747 ließ Rauchner sich in Frankfurt am Main nieder und erhielt 1752 das Bürger-recht. Als Stukkateur hatte er wiederholt Konflikte mit der Zunft der <a href="glossar/weissbinder.xml" >Weißbinder</a>, die 1760 mit einem Vergleich endeten.</p> 
+			]]></text>
+				<space height="50"/>
+			<text><![CDATA[
+				<h2>Erfolg mit Reliefs</h2>
+				<p>Rauschner arbeitete für kurze Zeit als Ma-ler in der <a href="glossar/hoechsterporzellanmanufaktur.xml" >Höchster Porzellanmanufaktur</a> und betätigte sich auch im Kunsthandel. Vor allem war er als Bildhauer, Medailleur und <a href="glossar/wachsbossierer.xml" >Wachsbossierer</a> tätig. Er schuf zahl-reiche <a href="glossar/relief.xml" >Reliefs</a>, die ihm großen Erfolg be-scherten. Das Herzog Anton Ulrich-Mu-seum besitzt rund 60 Arbeiten mit Szenen aus der Mythologie und Bibel (siehe Abbil-dungen) sowie <a href="glossar/genre.xml" >Genreszenen</a>, aber auch Porträts.</p> 
+			]]></text>
+		
+			
+			
+		</column>
+	</content>
+</card>

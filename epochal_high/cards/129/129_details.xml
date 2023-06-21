@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<card type="details">
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+<!-- <card type="technik"> -->
+	<h1>Details &amp; Symbolik</h1>
+	<preview>
+		<text>
+			Holländisches Arkadien
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text><![CDATA[
+				<h2>Der verschwundene Garten</h2>
+				<p>Der stark nachgedunkelte Hintergrund erschwert die Bestim-mung der Kulisse, vor der die Familie in Erscheinung tritt (siehe Abbildung rechts oben). Näheren Aufschluss liefert eine Kopie von <a href="129/fouquetdorval.xml" >Georges Fouquet-Dorval</a> (siehe Abbildung rechts unten). Sie beweist, dass das <a href="129/blaetterwerk.xml" imageHighlightId="129.fouquet.jpg.h1">Blätterwerk</a> im <i>Familienbild</i> vor rund 100 Jahren noch erkennbar war. Dieses Bildelement legt die Vermu-tung nahe, dass sich die dargestellte Szene in einem Garten ab-spielt. Dafür sprechen auch die <a href="129/gruenbraun.xml" imageHighlightId="129.familienbild.jpg.h6">Grün- und Brauntöne </a>des Hin-tergrundes sowie die <a href="129/blumen.xml" imageHighlightId="129.familienbild.jpg.h1">Blumen</a>, die das älteste Mädchen der Mutter in einem Korb reicht. Darüber hinaus hält der Vater eine <a href="129/nelke2.xml" imageHighlightId="129.familienbild.jpg.h2">rote Nelke</a> in seiner Hand.</p>
+			]]></text>
+			<space height="40"/>
+				<text><![CDATA[
+				<h2>Ort des glücklichen Lebens</h2>
+				<p>Der Garten in diesem holländischen Meisterwerk spielt auf die Ideallandschaft Arkadien und damit auf familiäre Harmonie und Familienglück an: Arkadien ist ein Berg- und Hochland im Zent-rum der <a href="glossar/peloponnes.xml">Peloponnes</a>, dessen Bewohner im Altertum als ur-wüchsiges Hirtenvolk galten. Die Gegend wurde zum Ort des <a href="glossar/goldeneszeitalter.xml">Goldenen Zeitalters</a> verklärt, wo die Menschen unbelastet von mühsamer Arbeit und gesellschaftlichen Zwängen im Einklang mit einer <a href="glossar/idyll.xml">idyllischen</a> Natur zufrieden und glücklich lebten.</p>
+			]]></text> Auch das Gemälde, in dem Rembrandts Schüler Govaert Flinck womöglich Saskia als Schäferin porträtiert hat, ist von der Idee arkadischen Glücks geprägt. 
+		</column>
+		<column>
+			<space height="00"/>
+			<img src="129/familienbild.jpg" maxHeight="250" caption="Rembrandt: Familienbild" allowZoom="true" zoomCaption="Rembrandt: &lt;i&gt;Familienbild&lt;/i&gt;, Leinwand, um 1668, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+			<highlight x="0.24" y="0.69" radius="0.1" href="129/blumen.xml" id="129.familienbild.jpg.h1"/>
+			<highlight x="0.27" y="0.55" radius="0.05" href="129/nelke2.xml" id="129.familienbild.jpg.h2"/>
+			<highlight x="0.44" y="0.08" radius="0.06" href="129/gruenbraun.xml" id="129.familienbild.jpg.h6"/>
+			 </img> 
+			<space height="10"/> 
+			<img src="129/fouquet.jpg" maxHeight="230" caption="Georges Fouquet-Dorval: Familienbild" allowZoom="true" zoomCaption="Georges Fouquet-Dorval: &lt;i&gt;Familienbild&lt;/i&gt; (nach Rembrandt), Radierung, um 1902-1909, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."> 
+				<highlight x="0.75" y="0.06" radius="0.12" href="129/blaetterwerk.xml" id="129.fouquet.jpg.h1"/>
+			 </img> 
+		</column>
+	</content>
+</card>

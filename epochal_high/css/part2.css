@@ -1,0 +1,157 @@
+.box{
+    margin:0;
+    border:0;
+    padding:0;
+    float:left;
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+}
+.iframe{
+    flex:7 1;
+    height:80vh;
+}
+.division{
+    flex:3 1;
+    overflow-y:auto;
+    display:block;
+}
+.clear{
+    clear:both;
+}
+
+html, body, iframe{
+    height: 90vh;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    border:0;
+    padding:0;
+}
+body{
+    margin:0;
+    border:0;
+    padding:0;
+	font-size: 20px;
+	font-family: arial;
+	color:white;
+    background-color:black;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.question-text{
+    margin: 30px;
+	font-weight: 600;
+    margin-top:70px;
+}
+.question-img{
+    margin: 30px;
+	font-weight: 600;
+    margin-bottom: 30px;
+}
+.question-imgtext{
+    margin:30px;
+}
+.answers-text {
+    margin-bottom: 20px;
+    display: block;
+    margin:30px
+}
+.answers-img {
+    margin-bottom: 20px;
+    margin:10px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.answers-image {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.answers-vpfield {
+    margin-left: 20px;
+    display: block;
+}
+.answers-text label{
+    margin-bottom: 20px;
+    display: block;
+    margin:30px;
+}
+.answers-img label{
+    margin:auto;
+}
+.answers-image label {
+    margin:0px;
+}
+
+
+.quiz-container{
+    width: 100%;
+    height:500px;
+    
+}
+
+button{
+    font-family: Arial;
+    font-size: 22px;
+    color: white;
+    background-color:black;
+    border-radius: 3px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom:30px;
+    width:350px;
+    align-items: center;
+    border-style:solid;
+    
+}
+
+button:hover{
+	background-color: grey;
+}
+
+a{
+	font-family: Arial;
+    font-size: 22px;
+    color: white;
+    background-color:black;
+    border-radius: 3px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:350px;
+    align-items: center;
+    border-style:solid;
+}
+
+a:hover{
+	background-color: grey;
+}
+
+#Timer{
+    position:absolute;
+    left:94%;
+    z-index:100;
+    border-style: solid;
+    margin:5px;
+    padding-left:8px;
+    padding-right:8px;
+}
+
+#TimerTitle{
+    margin:0px;
+}
+
+#TimerDisplay{
+    margin:0px;
+}
+

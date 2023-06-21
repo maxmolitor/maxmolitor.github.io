@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+
+	<h1>Italienische Landschaft </h1>
+	<preview>
+		<text>
+			Stille Größe
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Ideallandschaft</h2>
+				<p>Hackerts <i>Italienische Landschaft</i> (siehe Abbildung rechts unten) ist nicht nach der Natur gemalt, vielmehr hat sich der Maler an der klassischen Landschaftsmalerei des 17. Jahrhunderts orientiert, vor allem an derjenigen des Franzosen <a href="109/claudelorrain.xml">Claude Lorrain</a> (siehe Abbildung rechts oben). Er stilisiert die <i>Italienische Landschaft</i> zu einer Ideallandschaft, die auf die Antike verweist. Aufgrund dieser Stilisierung scheitern alle Versuche, das Landschaftsvorbild zu benennen. </p>
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[	
+			<h2>Komposition aus Versatzstücken</h2>
+			<p>Hackert wiederholt in diesem Bild einen bereits mehrmals verwendeten Typus. Er nutzt Versatz-stücke wie Baumgruppen, Flussbiegungen mit Klip-pen, Hirten, Ziegen und den antiken <a href="109/rundtempel.xml" imageHighlightId="109.hackert.jpg.h1">Rundtempel</a> von <a href="glossar/tivoli.xml">Tivoli</a>. Diese Motive ordnet er in einer Kom-position an, die Klarheit, Ruhe und maßvolle Aus-gewogenheit anstrebt. Hier kommt <a href="glossar/winckelmann.xml">Johann Joachim Winckelmanns</a> Idee der „edlen Einfalt und stillen Größe“ zum Ausdruck, die zum Leitgedanken des <a href="glossar/klassizismus.xml">Klassizismus</a> wurde. </p>
+			]]></text>
+		
+
+		</column>
+		<column>
+		<space height="00"/>
+			<img src="109/lorrain.jpg" maxHeight="250" caption="Landschaft von Claude Lorrain" allowZoom="true" zoomCaption="Claude Lorrain: &lt;i&gt;Sonnenuntergang&lt;/i&gt;, Leinwand, 1645-50, Turin, Galleria Sabauda." >
+			</img>
+			<img src="109/hackert.jpg" maxHeight="250" caption="Italienische Landschaft (Ausschnitt)" allowZoom="true" zoomCaption="Jakob Philipp Hackert: &lt;i&gt;Italienische Landschaft&lt;/i&gt; (Ausschnitt), Leinwand, 1793,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+			<highlight x="0.80" y="0.14" radius="0.08" href="109/rundtempel.xml" id="109.hackert.jpg.h1"/>
+			</img>
+		</column>
+	</content>
+</card>

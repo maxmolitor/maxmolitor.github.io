@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>PIXI Message</title>
+
+    <link rel="stylesheet" href="../3rdparty/highlight/styles/default.css">
+    <link rel="stylesheet" href="../../css/doctest.css">
+
+    <script src="../3rdparty/highlight/highlight.pack.js"></script>
+    <script src="../3rdparty/all.js"></script>
+
+    <script src="../all.js"></script>
+    <script src="./all.js"></script>
+</head>
+<body onload="Doctest.run()">
+    <h1>Message</h1>
+    <p>
+        A message box is a timed popup window. By default, the message window appears in the upper right corner and disappears after 5 seconds.
+    </p>
+    <p><a href="../../doc/out/Message.html">JavaScript API</a></p>
+    <p>Let's look at some message examples:</p><br />
+    <canvas id="canvas" class="interactive"></canvas>
+    <p>
+        What you should see: Two buttons which start message windows.
+    </p>
+    <script class="doctest">
+const app = new PIXIApp({
+    view: canvas,
+    width: 900,
+    height: 250
+}).setup().run()
+
+let button1 = new Button({
+    x: 0,
+    label: 'Default message',
+    action: e => {
+        const message = new Message({
+            app: app,
+            header: 'Dies ist die Überschrift',
+            content: 'Und dies ist der Text der Meldung.'
+        })
+        app.scene.addChild(message)
+    }
+})
+
+let button2 = new Button({
+    x: 170,
+    label: 'Bottom-centered message',
+    action: e => {
+        const message = new Message({
+            app: app,
+            content: 'Diese Nachricht hat nur einen Text.',
+            autoClose: false,
+            closeButton: true,
+            align: 'center',
+            verticalAlign: 'bottom'
+        })
+        app.scene.addChild(message)
+    }
+})
+
+let button3 = new Button({
+    x: 0,
+    y: 60,
+    label: 'Message from PixiApp',
+    action: e => {
+        let message = app.message({
+            content: 'Diese Nachricht verschwindet gleich wieder.'
+        })
+    }
+})
+
+app.scene.addChild(button1, button2)
+app.scene.addChild(button3)
+    </script>
+</body>

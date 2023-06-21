@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<header>
+	<!-- Thumbnail of artwork with 512px large side -->
+	<thumbnail>041/thumbnail.jpg</thumbnail>
+	<artist>Giovanni da Bologna, gen. Giambologna (1529-1608)</artist>
+	<title>Der Kriegsgott Mars</title>
+	<misc>Bronze, Modell vor 1587, Höhe: 39,3 cm</misc>
+	<description>
+		Voller Dynamik von der Zehenspitze bis zum gelockten Haupthaar – so zeigt sich der nackte Kriegsgott Mars im kraftvollen Vorwärtsschreiten. Damit verkörpert er die ihm zugeschriebene Eigenschaft des Zupackens, der Aggression.
+	</description>
+	<!-- <annotation >Zur Zeit nicht ausgestellt</annotation> -->
+</header>
+
+<card src="041/041_artist.xml"/>
+
+<card src="041/041_dargestellte.xml"/>
+
+<card src="041/041_details.xml"/>
+
+<card src="041/041_technik.xml"/>
+
+<!-- <card src="041/041_leben.xml"/>  -->
+
+<card src="041/041_extrainfo.xml"/>
+</data>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<header>
+	<!-- Thumbnail of artwork with 512px large side -->
+	<thumbnail>051/thumbnail.jpg</thumbnail>
+	<artist>Adam Elsheimer (1578-1610)</artist>
+	<title>Pietá (um 1603/1605)</title>
+	<misc>Kupfer, 21,3 x 16,2 cm</misc>
+	<description>
+		Liebevoll umfängt die jugendlich zarte Maria ihren toten Sohn Jesus. Behutsam bedeckt sie mit Leinentüchern seine blutenden Wunden und bereitet seinen Leichnam für die Grablegung vor. 
+	</description>
+</header>
+
+<card src="051/051_artist.xml"/>
+
+<card src="051/051_thema.xml"/>
+
+<card src="051/051_details.xml"/>
+
+<card src="051/051_komposition.xml"/>
+
+<card src="051/051_licht.xml"/>
+
+<!-- <card src="051/051_leben.xml"/> -->
+
+</data>

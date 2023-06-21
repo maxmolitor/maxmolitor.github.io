@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<card type="details">
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Details &amp; Symbolik</h1>
+	<preview>
+		<text>
+			Feinste Details &lt;br/&gt; aus hartem Stein 
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+			    <h2>Ein aufwändiges Kostüm</h2>
+				<p>Die Büste des Herzogs ruht auf einem runden So-ckel (siehe Abbildung). Er ist bekleidet mit einer schwungvollen <a href="090/stoff.xml" imageHighlightId="090.bildnis.jpg.h6">Stoffdraperie</a> über einer Rüstung, die auf der Brust mit einem <a href="090/haupt.xml" imageHighlightId="090.bildnis.jpg.h1">Gorgonenhaupt</a> ge-schmückt ist. Unten links ist ein <a href="090/band.xml" imageHighlightId="090.bildnis.jpg.h2">Ordensband</a> und am Hals ein <a href="090/hemd.xml" imageHighlightId="090.bildnis.jpg.h3">gebauschtes Hemd</a> erkennbar. Über diesem bewegten Arrangement von Kostümdetails erhebt sich das Haupt des Herzogs mit seinen klaren, ruhigen Gesichtszügen. </p> 
+			]]></text>
+		<space height="40"/>
+			<text><![CDATA[
+				<h2>Leichtigkeit im Detail</h2>
+				<p>Die Wendung des Kopfes wird begleitet von einer gegenläufigen Bewegung der Perücke: An seiner linken Seite ist das <a href="090/haar.xml" imageHighlightId="090.bildnis.jpg.h4">Haar</a> hinter die Schulter zurück-genommen und gibt so den Blick auf die Brust und die üppige Stoffdraperie frei. Rechts dagegen setzt eine nach vorn fallende <a href="090/straehne.xml" imageHighlightId="090.bildnis.jpg.h5">Strähne</a> einen reizvollen Akzent. Es wird deutlich, wie fein der Bildhauer die stofflichen Details der Büste aus dem Stein heraus-gearbeitet hat: Die gedrehten Locken, der Stoff des Gewandes und das gebauschte Hemd wirken nicht wie aus hartem Stein, sondern leicht und weich.</p>
+			]]></text>
+		
+		</column>
+		<column>
+		<text><![CDATA[
+		]]></text>
+		<space height="00"/>
+			<img src="090/bildnis.jpg" maxHeight="500" caption="Herzog Anton Ulrich" allowZoom="true" zoomCaption="Balthasar Permoser:&lt;i&gt; Herzog Anton Ulrich von Braunschweig-Lüneburg&lt;/i&gt;, &lt;br/&gt; vor 1710, Alabaster, Braunschweig, Herzog Anton Ulrich-Museum.">
+			 <highlight x="0.47" y="0.37" radius="0.07" href="090/haupt.xml" id="090.bildnis.jpg.h1"/>
+			 <highlight x="0.38" y="0.63" radius="0.09" href="090/band.xml" id="090.bildnis.jpg.h2"/>
+			 <highlight x="0.45" y="0.27" radius="0.07" href="090/hemd.xml" id="090.bildnis.jpg.h3"/>
+			 <highlight x="0.60" y="0.26" radius="0.10" href="090/haar.xml" id="090.bildnis.jpg.h4"/>
+			 <highlight x="0.30" y="0.37" radius="0.10" href="090/straehne.xml" id="090.bildnis.jpg.h5"/>
+			 <highlight x="0.58" y="0.58" radius="0.10" href="090/stoff.xml" id="090.bildnis.jpg.h6"/>
+			 
+			</img>
+		</column>
+	</content>
+</card>

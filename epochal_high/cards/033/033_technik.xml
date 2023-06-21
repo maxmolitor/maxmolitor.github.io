@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+<card type="technik">
+	<h1>Technik</h1>
+	<preview>
+		<text>
+		      Von der Tonmasse zur Majolika
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text><![CDATA[
+			    <h2>Formen und Glasieren</h2>
+				<p>Majolika, auch Fayence genannt, ist ein <a href="glossar/keramisch.xml" >keramisches Erzeugnis</a>, das aus einer kalkhaltigen Tonmasse hergestellt wird. Zunächst wird diese Mischung zu Fliesen oder zu Geschirr, wie Tellern und Gefäßen, <a href="033/geformt.xml" >geformt</a>. Nach dem Trocknen dieser Rohlinge folgt der sogenannte <a href="glossar/schruehbrand.xml" >Schrühbrand</a> bei gemäßigten Temperatu-ren. Hierbei nehmen die Rohlinge eine gelblich-graue oder rötliche Farbe an. Der <a href="glossar/scherben.xml" >Scherben</a> wird mit einer <a href="glossar/zinnglasur.xml" >Zinnglasur</a> ver-sehen (siehe Abbildung rechts oben).</p>
+			]]></text>
+			<space height="40"/> 
+			<text><![CDATA[
+			<h2>Bemalen und Brennen</h2>
+				<p>In die rohe Glasurschicht wird mit <a href="glossar/majolikafarben.xml" >Majolikafarben</a>, wie Blau, gemalt (siehe Abbildung rechts unten), anschließend folgt der <a href="glossar/glasurbrand.xml" >Glasurbrand</a>. Während des <a href="033/brennen.xml" >Brennens</a> sinken die Farben in die Glasur ein und reagieren mit dem Zinn, dadurch nehmen die Stücke das Erscheinungsbild leuchtend bemalten Porzellans an. Für die Schaffung eines farbig stimmigen Bildes benötigten die Majolikamaler allerdings viel Erfahrung, denn die Farbtöne än-derten sich mit dem Brand sehr stark. Um den Malprozess zu erleichtern, werden den Majolikafarben seit dem 20. Jahrhun-dert organische Farben beigemischt. Diese Beimischungen ver-hindern starke Veränderungen der Farbtöne nach dem Brand.</p> 
+			]]></text>
+			</column>
+		<column>
+			<img src="033/glasieren1.jpg" maxHeight="220" caption="Glasieren" allowZoom="true" zoomCaption="Glasieren der einmal gebrannten Tonmasse (Scherben) mit Zinnoxid,   &lt;br/&gt; Antikbau Stawe, Fliesenmanufaktur."/>
+			
+			<space height="00"/>
+		
+			<img src="033/bemalen.jpg" maxHeight="250" caption="Bemalen" allowZoom="true" zoomCaption="Bemalen der ungebrannten Glasurschicht, &lt;br/&gt; Antikbau Stawe, Fliesenmanufaktur."/>
+		
+		
+		</column>
+	</content>
+</card>

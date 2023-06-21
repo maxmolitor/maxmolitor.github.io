@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<text><![CDATA[
+		<p><span class="popuptext">Rembrandt Harmensz. van Rijn (1606 in Leiden - 1669 in Amsterdam) gilt als einer der bedeutendsten niederländischen Maler und Radierer des Barock. Er wurde besonders wegen seiner Verwendung von Licht und Schatten hochgeschätzt. Sein Gesamtwerk umfasst biblische und mythologische Themen, Porträts, Selbstporträts und Landschaften.</span></p> 
+	]]></text>
+	<img src="glossar/rembrandt.jpg" maxHeight="400" caption=" "/>
+    <text><![CDATA[	
+	<p><span class="popuptext">Rembrandt: <i>Bildnis einer Dame</i>, Holz, 1633, Braunschweig, Herzog Anton Ulrich-Museum.</span></p>
+	]]></text> 
+</content>

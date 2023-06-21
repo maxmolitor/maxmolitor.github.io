@@ -1,0 +1,72 @@
+
+.flipWrapper
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flipCard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+     /*** See: https://stackoverflow.com/questions/7439042/css-js-to-prevent-dragging-of-ghost-image ***/
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+.flipFace{
+    box-shadow: 2px 2px 10px #000;
+    visibility: hidden;
+}
+
+.front{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-color:#333;
+}
+
+.back{
+    background-color:#333;
+    position:absolute;
+    border: 8px solid white;
+}
+
+.closeBtn {
+    transform-origin: top right;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    padding: 4px;
+    right: 0px;
+    top: 0px;
+}
+
+.infoBtn {
+    /*border-radius:100%;
+    box-shadow: 
+        inset 0 0 50px 30px #00FF00, 
+        0 0 4px 5px #00FF00;*/
+    transform-origin: bottom right;
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    padding: 4px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.backBtn {
+    transform-origin: bottom right;
+    position: fixed;
+    width: 44px;
+    height: 44px;
+    padding: 4px;
+    right: 0px;
+    bottom: 0px;
+}

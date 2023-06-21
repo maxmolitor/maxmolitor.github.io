@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+
+	<h1>Landschaftsdarstellung</h1>
+	<preview>
+		<text>
+			Natur vor der Haustür
+		</text>
+	</preview>
+	
+	<content template="3">
+		<column>
+			<text><![CDATA[
+				<h2>Neue Landschaftsauffassung</h2>
+				<p>In den 1620er Jahren hatten sich die holländischen Maler von der <a href="glossar/weltlandschaft.xml">„Weltlandschaft“</a> abgewandt – einer von erhöhtem Standpunkt aus konstruierten <a href="070/ueberschaulandschaft.xml">Über-schaulandschaft</a>, wie sie noch bei <a href="070/bruegel.xml">Pieter Bruegel</a> zu finden ist (siehe Abbildung rechts oben). Anstelle dieser frei erfundenen Landschaften trat nun das Interesse für die heimische Umgebung in ihrer All-täglichkeit.  </p>
+			]]></text>
+			
+		<space height="40"/>
+		
+			<text><![CDATA[	
+			<h2>Beobachtet, skizziert und komponiert</h2>
+			<p>Die Künstler entdeckten die Natur „vor ihrer Haus-tür“, sie beobachteten Wetter und alltägliches Leben. Die daraus hervorgegangenen Studien dienten im Atelier häufig als Vorlagen für die Gemälde. Auch Darstellungen von Menschen bei der Arbeit oder im Müßiggang (z. B. Reisen, Handeln, Fischen) wurden als Nahaufnahmen in die Landschaften eingebun-den. Bereits van Goyens Lehrer <a href="glossar/vandevelde.xml">Esaias van de Velde</a> hatte im Sinne dieser neuen Landschaftsauffassung gearbeitet (siehe Abbildung rechts unten).</p>
+			]]></text>
+	</column>
+	<column>
+			<space height="00"/>
+			<img src="070/031.jpg" maxHeight="205" caption="Pieter Bruegel d. Ä." allowZoom="true" zoomCaption="Pieter Bruegel d. Ä.: &lt;i&gt;Kaninchenjagd&lt;/i&gt;, Radierung, 1560, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."></img>
+			<space height="10"/>
+			<img src="070/velde.jpg" maxHeight="205" caption="Esaias van de Velde" allowZoom="true" zoomCaption="Esaias van de Velde: &lt;i&gt;Landschaft mit Reitern&lt;/i&gt;, Holz, 1623, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."></img>
+		</column>
+	</content>
+</card>

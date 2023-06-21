@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<card type="thema">
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+<!-- <card type="zuschreibung"> -->
+
+	<h1>Herzog Heinrich Julius</h1>
+	<preview>
+		<text>
+			Glanz und Schatten einer Herrschaft
+		</text>
+	</preview>
+
+	<content template="2">
+		<column>
+			<text><![CDATA[
+				<h2>Herzog zu Braunschweig-Lüneburg-Wolfenbüttel</h2>
+				<p>Heinrich Julius (1564-1613, siehe Abbildung) war der älteste Sohn des <a href="glossar/herzogjulius.xml" >Herzogs Julius</a>. 1589 übernahm er die Regierung des Fürstentums und sicherte territoriale Zugewinne seines Vaters, wie Calenberg und Grubenhagen. Er ließ u. a. in Wolfenbüttel den Stadtteil Heinrichstadt ausbauen, den Stadtmarkt anlegen, die Hauptkirche errichten sowie die Festung und die <a href="glossar/helmstedteruniversitaet.xml" >Helm-stedter Universität</a> erweitern.</p>
+			]]></text>
+			<space height="35"/>
+			<text><![CDATA[
+				<h2>Streit mit der Stadt Braunschweig</h2>
+				<p>Mit der Stadt Braunschweig, die nach Unabhängigkeit strebt, lag Heinrich Julius im Streit. Beim Kaiser erwirkte er gegen deren Bewohner die <a href="glossar/reichsacht.xml">Reichsacht</a>. Darüber verfasste er sogar eine <a href="049/schrift.xml">2000-Seiten-Schrift</a> im Jahr 1608.</p>
+			]]></text>
+				<space height="35"/>
+			<text><![CDATA[
+				<h2>Glanz seiner Herrschaft</h2>
+				<p>Heinrich Julius förderte ein glänzendes höfisches Leben, sam-melte Künstler, Literaten und Wissenschaftler um sich. 1593 en-gagierte er eine englische Schauspieltruppe und schrieb selbst zahlreiche Theaterstücke. Er reiste mehrmals nach Prag an den Hof <a href="glossar/kaiserrudolfII.xml" >Kaiser Rudolfs II.</a>, knüpfte Kontakte zu den dort tätigen Künstlern und gab Kunstwerke in Auftrag. Er hielt sich in seinen letzten Lebensjahren oft in Prag auf, wo er zum Direktor des <a href="glossar/geheimrat.xml" >Geheimen Rats</a> ernannt wurde.</p>
+			]]></text>– ein Regierungsinstrument des Kaisers – Hier noch Informationenen, kat. Dresden s. 71.
+		</column>
+		<column>
+			<space height="00"/>
+			<img src="049/heinrich.jpg" maxHeight="320" caption="Heinrich Julius" allowZoom="true" zoomCaption="Lucas Kilian: &lt;i&gt;Heinrich Julius, Herzog zu Braunschweig-Lüneburg,&lt;/i&gt; Zeichnung, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."/>
+			<space height="10"/>
+			<text><![CDATA[
+				<h2>Schattenseiten seiner Herrschaft</h2>
+				<p>Seine Herrschaft hatte aber auch Schat-tenseiten: Er war wegen seines Hexen-brennens bekannt und ließ auch Juden verfolgen. Zudem hinterließ er 1,2 Millio-nen <a href="glossar/taler.xml" >Taler</a> Schulden, obwohl er zu Beginn seiner Herrschaft einen Staatsschatz von 7000 Talern vorgefunden hatte.</p>
+			]]></text>
+		</column>
+	</content>
+</card>

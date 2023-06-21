@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<header>
+	<!-- Thumbnail of artwork with 512px large side -->
+	<thumbnail>098/thumbnail.jpg</thumbnail>
+	<artist>Christian Benjamin Rauschner (1723–1793)</artist>
+ <title>Die drei Grazien (1747-1767)</title> 
+<misc>Wachs, Hinterglasmalerei, Staubperlen, rote Glasperlen, Papier, Moos</misc>
+<misc>Rahmen Höhe: 54 cm, Breite: 39 cm, Tiefe: 10,7 cm; Innen, Höhe: 41cm, Breite: 26,8 cm</misc>
+	<description>
+		Inmitten einer Landschaft präsentieren sich drei nackte Frauen. Sie sind mit ihren jeweils unterschiedlichen Haut- und Haarfarben in drei verschiedenen Ansichten dargestellt. Durch die unterschiedlichen, kunstvollen Modellierungen des Waches entsteht ein reizvoller Kontrast zwischen den Frauen und den Landschaftselementen.
+	</description>
+	<!-- <annotation href="098/popup.xml">Zur Zeit nicht ausgestellt</annotation> -->
+</header>
+
+<card src="098/098_artist.xml"/>
+
+<card src="098/098_dargestellte.xml"/>
+
+<card src="098/098_details.xml"/>
+
+<card src="098/098_komposition.xml"/>
+
+<card src="098/098_technik.xml"/>
+
+
+</data>

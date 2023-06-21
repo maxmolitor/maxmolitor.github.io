@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<card type="komposition">
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Raum &amp; Komposition</h1>
+	<preview>
+		<text>
+			Verdeckte Kreuzformen &lt;br/&gt;verdeutlichen die Kräfte
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Räumlichkeit ohne Raum</h2>
+				<p>Das Geschehen spielt sich vor einem gleichmäßig schwarzen Hintergrund ohne Tiefe ab (siehe Abbil-dung). Trotzdem entsteht im Bild der Eindruck von Räumlichkeit. Dieser Eindruck wird nur durch die in Licht und Schatten plastisch modellierten Körper der Dargestellten, die vordringenden oder zurück-weichenden Gliedmaßen und deren Überschnei-dungen geschaffen.</p>
+			]]></text>
+			<space height="20"/>
+			<img src="054/raum.jpg" maxHeight="280" caption="Die Dornenkrönung Christi" allowZoom="true" zoomCaption="Orazio Gentileschi: &lt;i&gt;Die Dornenkrönung Christi,&lt;/i&gt; Leinwand, um 1610/15, &lt;br/&gt; Braunschweig, Herzog Anton Ulrich-Museum.">
+			    <highlight x="0.22" y="0.50" radius="0.13" href="054/perspektivischeverkuerzung.xml" id="054.raum.jpg.h1"/>	
+			</img>
+		</column>
+		<column>
+				<text><![CDATA[
+				<h2>Komposition</h2>
+				<p>Der linke Folterer bildet mit der Christusfigur eine Diagonale von links oben nach rechts unten (siehe rote Linie). Eine dazu gegenläufige Diagonale ergibt sich aus dem linken Arm und dem rechten Bein dieses <a href="glossar/scherge.xml" >Schergen</a> (siehe gelbe Linie). Eine weitere gegenläufige Diagonale bildet der rechte Scherge (siehe blaue Linie). Insgesamt kann man in dem In-einandergreifen der Gliedmaßen Kreuzformen aus Diagonalen auf der Bildfläche ausmachen. Diese ver-deutlichen die Richtung der einwirkenden Kräfte. Sie springen allerdings nicht sofort ins Auge, sondern liegen der Komposition unauffällig zugrunde.</p>
+				]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Bedrängt-bedrückende Situation</h2>
+				<p>Die Szene ist in extremer Nahsicht gezeigt: Die Köp-fe und die Arme der Knechte scheinen das Format fast zu sprengen. Die leichte Aufsicht, die <a href="054/perspektivischeverkuerzung.xml" imageHighlightId="054.raum.jpg.h1">perspekti-vischen Verkürzungen</a> der Körper und die Kräftedia-gonalen betonen zudem das Bedrängt-Bedrückende der Situation. Beides steigert den Eindruck der Ge-walt – das Thema des Gemäldes.</p>
+			]]></text>
+		</column>
+	</content>
+</card>

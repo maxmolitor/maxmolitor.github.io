@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<card type="details">
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Details &amp; Symbolik</h1>
+	<preview>
+		<text>
+			Rätselhafte Lichterscheinung
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+		<text><![CDATA[
+				<h2>Religiös-mystische Symbolik</h2>
+				<p>Der Gelehrte schaut gebannt auf eine <a href="071/lichterscheinung.xml" imageHighlightId="071.details.jpg.h1">rätselhafte Lichterscheinung</a>, die vor dem hell erleuchteten Fenster schwebt (siehe Abbildung). Ihr Zentrum bil-det ein <a href="glossar/inri.xml">Christus-Monogramm</a>, umgeben von kon-zentrisch angeordneten Buchstabenfolgen aus der <a href="glossar/kabbala.xml">Kabbala</a>.</p>
+			]]></text>
+		<space height="40"/>
+			<text><![CDATA[
+				<h2>Geisterhafter Spiegel</h2>
+				<p>Rechts neben dieser religiös-mystischen Lichter-scheinung hält eine geisterhafte <a href="071/spiegel.xml" imageHighlightId="071.details.jpg.h4">Hand</a> einen Spie-gel. Auf ihn deutet der Zeigefinger einer weiteren Hand. Einer neueren Deutung zufolge wird hier auf eine Bibelstelle angespielt, die die Begrenztheit menschlicher Erkenntnis beschreibt: „Wir sehen jetzt durch einen Spiegel ein dunkles Bild; dann aber werde ich erkennen, wie ich erkannt bin.“ (1. Brief des Paulus an die Korinther, Kapitel 13, Vers 12).</p>
+				<p>Die religiös-mystische Lichterscheinung und der geisterhafte Spiegel in der Studierstube des Ge-lehrten bringen den Gegensatz zwischen wissen-schaftlichem Erkenntnisstreben und übersinnlicher Wahrheitssuche zum Ausdruck. </p>
+			]]></text>
+				
+		</column>
+		<column>
+		<space height="00"/>
+			<img src="071/gelehrter.jpg" maxHeight="500" caption="Gelehrter in seiner Studierstube" allowZoom="true" zoomCaption="Rembrandt: &lt;i&gt;Gelehrter in seiner Studierstube&lt;/i&gt;, Radierung, um 1652,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett.">
+			<highlight x="0.60" y="0.37" radius="0.08" href="071/lichterscheinung.xml" id="071.details.jpg.h1"/>
+			<highlight x="0.01" y="0.37" radius="0.10" href="071/schaedel.xml" id="071.details.jpg.h3"/>
+			<highlight x="0.71" y="0.45" radius="0.08" href="071/spiegel.xml" id="071.details.jpg.h4"/>
+			</img>
+			
+			Das Geheimnisvolle ist von Rembrandt gewollt und wesentliches Moment der Darstellung. Rembrandt hat seine Aussage der Grenzen des menschlichen Strebens nach Erkenntnis durch das Helldunkel sinnfällig gestaltet: Die strahlende übersinnliche Erkenntnis bricht in das Schattenreich menschlichen Suchens ein.Bei all den Deutungen und Spekulationen, die sich um das Geheimnis der Lichterscheinung ranken, steht doch zweierlei fest: Zum einen ist das Geheimnisvolle von Rembrandt gewollt – es ist ein wesentliches Moment der Darstellung. Und zum anderen geht es hier um das Streben nach Erkenntnis. 
+			
+		</column>
+	</content>
+</card>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>PIXI Popup</title>
+
+    <link rel="stylesheet" href="../3rdparty/highlight/styles/default.css">
+    <link rel="stylesheet" href="../../css/doctest.css">
+
+    <script src="../3rdparty/highlight/highlight.pack.js"></script>
+    <script src="../3rdparty/all.js"></script>
+
+    <script src="../all.js"></script>
+    <script src="./all.js"></script>
+</head>
+<body onload="Doctest.run()">
+    <h1>Popup</h1>
+    <p>
+        This class represents a popup window that can be used to display an arbitrary view. The popup window is a floating container that appears on top of the current activity.
+    </p>
+    <p>Let's look at some popup examples:</p><br />
+    <canvas id="canvas" class="interactive"></canvas>
+    <p>
+        What you should see: Three popups and a button which opens a popup.
+    </p>
+    <script class="doctest">
+const app = new PIXIApp({
+    view: canvas,
+    width: 900,
+    height: 250,
+    transparent: false,
+    backgroundColor: 0xcccccc
+}).setup().run()
+
+let popup1 = new Popup({
+    x: 20,
+    y: 20,
+    header: 'Popup'
+})
+
+let popup2 = new Popup({
+    x: 140,
+    y: 30,
+    padding: 20,
+    header: 'Popup',
+    content: 'Man kann die Erfahrung nicht\nfrüh genug machen, wie\nentbehrlich man in der\nWelt ist.',
+    headerStyle: {fill: 0xaa3322},
+    textStyle: {fill: 0x5544ee, fontSize: 10}
+})
+
+let popup3 = new Popup({
+    x: 330,
+    y: 20,
+    content: 'Man sollte alle Tage wenigstens ein kleines Lied hören, ein gutes Gedicht lesen,\nein treffliches Gemälde sehen und, wenn es möglich zu machen wäre,\neinige vernünftige Worte sprechen.'
+})
+
+let button1 = new Button({
+    x: 20,
+    y: 160,
+    icon: 'speaker_notes',
+    action: () => {
+        app.scene.addChild(new Popup({
+            x: 100,
+            y: 100,
+            closeButton: true,
+            header: 'Die Kunst ist eine Vermittlerin des Unaussprechlichen.',
+            stroke: 0x336699,
+            strokeWidth: 3
+        }))
+    }
+})
+
+app.scene.addChild(popup1, popup2, popup3)
+app.scene.addChild(button1)
+    </script>
+</body>

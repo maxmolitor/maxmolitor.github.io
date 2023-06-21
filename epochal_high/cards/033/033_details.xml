@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<card type="details">
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Details &amp; Symbolik</h1>
+	<preview>
+		<text>
+			Eine bunte Götterschar
+		</text>
+	</preview>
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<p>Die Szene <a href="033/szene.xml" >„Das Urteil des Paris“</a> spielt sich in der lin-ken Hälfte des Tellers ab (siehe Abbildung). Der <a href="033/paris.xml" imageHighlightId="033.overlay.jpg.h1">junge Paris</a>, zu erkennen am <a href="033/hirtenstab.xml" >Hirtenstab</a> und an der <a href="033/kopfbedeckung.xml" >Kopfbedeckung</a>, hat den goldenen Apfel vom Göt-terboten <a href="033/merkur.xml" imageHighlightId="033.overlay.jpg.h2">Hermes</a> erhalten und übergibt diesen an <a href="033/aphrodite.xml" imageHighlightId="033.overlay.jpg.h3">Aphrodite</a>. Damit wird diese zur schönsten Göttin erklärt und von der Siegesgöttin <a href="033/nike.xml" imageHighlightId="033.overlay.jpg.h4" >Nike</a> bekränzt. Über dieses Urteil verärgert, droht <a href="033/hera.xml" imageHighlightId="033.overlay.jpg.h5">Hera</a> Paris mit ewiger Feindschaft. <a href="033/athene.xml" imageHighlightId="033.overlay.jpg.h6">Athene</a> hat sich mit diesem Urteil ab-gefunden und kleidet sich wieder an. Links dieser Szene befinden sich drei Frauen, die sogenannten <a href="033/quellnymphen.xml" imageHighlightId="033.overlay.jpg.h12">Quellnymphen</a>. Entsprechend zu dieser Gruppe ha-ben sich rechts der Hauptszene drei <a href="033/flussgottheiten.xml" imageHighlightId="033.overlay.jpg.h11">Flussgottheiten</a> niedergelassen. Der Fluss verläuft von links oben nach rechts unten und trennt die irdische von der himmlischen Sphäre (siehe rote Linie).</p>
+				]]></text> 
+				<space height="20"/>
+			<text><![CDATA[
+				 <p>Am Himmel, links von <a href="033/zwillinge.xml" imageHighlightId="033.overlay.jpg.h8">Castor und Pollux</a>, sieht man <a href="033/apoll.xml" imageHighlightId="033.overlay.jpg.h7">Apoll</a> im <a href="033/tierkreis.xml" >Tierkreis</a> auf seinen vier Pferden reitend. Rechts in den Wolken, über <a href="033/ailos.xml" imageHighlightId="033.overlay.jpg.h13">Äolus</a>, thront <a href="033/zeus.xml" imageHighlightId="033.overlay.jpg.h9">Zeus</a>, der Paris zum Richter bestimmt hat. Dahinter ist <a href="033/selene.xml" imageHighlightId="033.overlay.jpg.h10">Selene</a>, die Göttin der Nacht, zu erkennen.</p>
+				 ]]></text>  
+				 <space height="20"/>
+		
+
+		</column>
+		<column>
+		<space height="00"/>
+		<img src="033/overlay.jpg" maxHeight="500" caption="Teller, Das Urteil des Paris" allowZoom="true" zoomCaption="Werkstatt der Fontana: &lt;i&gt;Teller, Das Urteil des Paris&lt;/i&gt;, Majolika, um 1550,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+		<highlight x="0.19" y="0.5" radius="0.04" href="033/paris.xml" id="033.overlay.jpg.h1"/>
+		<highlight x="0.25" y="0.44" radius="0.04" href="033/merkur.xml" id="033.overlay.jpg.h2"/>
+		<highlight x="0.41" y="0.46" radius="0.035" href="033/aphrodite.xml" id="033.overlay.jpg.h3"/>
+		<highlight x="0.44" y="0.37" radius="0.04" href="033/nike.xml" id="033.overlay.jpg.h4"/>
+		<highlight x="0.34" y="0.46" radius="0.035" href="033/hera.xml" id="033.overlay.jpg.h5"/>
+		<highlight x="0.48" y="0.48" radius="0.04" href="033/athene.xml" id="033.overlay.jpg.h6"/>
+		<highlight x="0.42" y="0.17" radius="0.08" href="033/apoll.xml" id="033.overlay.jpg.h7"/>		
+		<highlight x="0.63" y="0.22" radius="0.07" href="033/zwillinge.xml" id="033.overlay.jpg.h8"/>
+		<highlight x="0.78" y="0.24" radius="0.04" href="033/zeus.xml" id="033.overlay.jpg.h9"/>
+		<highlight x="0.85" y="0.22" radius="0.04" href="033/selene.xml" id="033.overlay.jpg.h10"/>
+		<highlight x="0.02" y="0.43" radius="0.08" href="033/quellnymphen.xml" id="033.overlay.jpg.h12"/>
+		<highlight x="0.6" y="0.53" radius="0.15" href="033/flussgottheiten.xml" id="033.overlay.jpg.h11"/>		
+		<highlight x="0.73" y="0.36" radius="0.08" href="033/ailos.xml" id="033.overlay.jpg.h13"/>
+			</img>
+		</column>
+	</content>
+</card>

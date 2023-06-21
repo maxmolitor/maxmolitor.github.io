@@ -1,0 +1,996 @@
+[
+    {
+        "audio": null,
+        "artist": "Ägyptisch",
+        "yearStr": "-320",
+        "x": 2003,
+        "name": "001 - Aeg S 20",
+        "year": -320,
+        "tags": [
+            "Ägypten",
+            "Antike",
+            "Skulptur; Statuette",
+            "Herrschermacht",
+            "Granit"
+        ],
+        "y": 890,
+        "number": 1
+    },
+    {
+        "audio": null,
+        "artist": "Römisch",
+        "yearStr": "54",
+        "x": 1712,
+        "name": "003 - Gem 300",
+        "year": 54,
+        "tags": [
+            "Italien",
+            "Antike",
+            "Kunsthandwerk",
+            "Mythologie",
+            "Edelstein"
+        ],
+        "y": 889,
+        "number": 3
+    },
+    {
+        "audio": null,
+        "artist": "Albrecht Dürer (1471-1528)",
+        "yearStr": "1496",
+        "x": 0,
+        "name": "019 - KK Inv.Nr3940 A.Dürer AB 3.51",
+        "year": 1496,
+        "tags": [
+            "Deutschland",
+            "Renaissance",
+            "Graphik; Druckgraphik",
+            "Bibel",
+            "Moral"
+        ],
+        "y": 0,
+        "number": 19
+    },
+    {
+        "audio": null,
+        "artist": "Giorgio da Castelfranco, gen. Giorgione (1477/78-1510)",
+        "yearStr": "1509",
+        "x": 1670,
+        "name": "020 - GG 454",
+        "year": 1509,
+        "tags": [
+            "Italien",
+            "Renaissance",
+            "Malerei",
+            "Portrait; Selbstportrait; Bibel"
+        ],
+        "y": 686,
+        "number": 20
+    },
+    {
+        "audio": null,
+        "artist": "Lucas van Leyden (um 1489-1533)",
+        "yearStr": "1530",
+        "x": 1951,
+        "name": "024 - GG 160",
+        "year": 1530,
+        "tags": [
+            "Niederlande",
+            "Renaissance",
+            "Malerei",
+            "Portrait; Selbstportrait",
+            "Holz"
+        ],
+        "y": 546,
+        "number": 24
+    },
+    {
+        "audio": null,
+        "artist": "Giovanni Battista di Jacopo, gen. Rosso Fiorentino (1494-1540)",
+        "yearStr": "1530",
+        "x": 1859,
+        "name": "027 - GG 479",
+        "year": 1530,
+        "tags": [
+            "Italien",
+            "Manierismus",
+            "Malerei",
+            "Akt",
+            "Tod",
+            "Holz"
+        ],
+        "y": 770,
+        "number": 27
+    },
+    {
+        "audio": null,
+        "artist": "Hans Holbein d. J. (1497/98-1543)",
+        "yearStr": "1533",
+        "x": 1748,
+        "name": "028 - GG 18",
+        "year": 1533,
+        "tags": [
+            "Deutschland; Braunschweig",
+            "Renaissance",
+            "Malerei",
+            "Portrait",
+            "Farbe",
+            "Holz"
+        ],
+        "y": 670,
+        "number": 28
+    },
+    {
+        "audio": null,
+        "artist": "Lucas Cranach d. Ä. (1472-1553)",
+        "yearStr": "1537",
+        "x": 1760,
+        "name": "029 - GG 25",
+        "year": 1537,
+        "tags": [
+            "Deutschland",
+            "Renaissance",
+            "Malerei",
+            "Mythologie",
+            "Liebe; Moral",
+            "Holz"
+        ],
+        "y": 477,
+        "number": 29
+    },
+    {
+        "audio": null,
+        "artist": "Pieter Bruegel d. Ä. (ca. 1525-1569)",
+        "yearStr": "1560",
+        "x": 0,
+        "name": "031 - KK 2070",
+        "year": 1560,
+        "tags": [
+            "Niederlande",
+            "Renaissance",
+            "Graphik; Druckgraphik",
+            "Landschaft",
+            "Freizeit"
+        ],
+        "y": 0,
+        "number": 31
+    },
+    {
+        "audio": null,
+        "artist": "Ludger tom Ring d. J. (1522-1584)",
+        "yearStr": "1547",
+        "x": 1951,
+        "name": "032 - GG 863",
+        "year": 1547,
+        "tags": [
+            "Deutschland",
+            "Renaissance",
+            "Malerei",
+            "Portrait; Selbstportrait",
+            "Holz"
+        ],
+        "y": 625,
+        "number": 32
+    },
+    {
+        "audio": null,
+        "artist": "Werkstatt der Fontana",
+        "yearStr": "1550",
+        "x": 1579,
+        "name": "033 - Maj 648",
+        "year": 1550,
+        "tags": [
+            "Italien",
+            "Renaissance",
+            "Kunsthandwerk; Keramik",
+            "Akt; Mythologie",
+            "Farbe",
+            "Liebe",
+            "Majolika"
+        ],
+        "y": 891,
+        "number": 33
+    },
+    {
+        "audio": null,
+        "artist": "Florenz",
+        "yearStr": "1550",
+        "x": 1664,
+        "name": "036 - Bro 40",
+        "year": 1550,
+        "tags": [
+            "Italien",
+            "Manierismus",
+            "Skulptur; Statuette",
+            "Akt",
+            "Bronze"
+        ],
+        "y": 451,
+        "number": 36
+    },
+    {
+        "audio": null,
+        "artist": "Ludger tom Ring d. J. (1522-1584)",
+        "yearStr": "1569",
+        "x": 1760,
+        "name": "037 - GG 699",
+        "year": 1569,
+        "tags": [
+            "Deutschland; Braunschweig",
+            "Renaissance",
+            "Malerei",
+            "Portrait",
+            "Holz"
+        ],
+        "y": 559,
+        "number": 37
+    },
+    {
+        "audio": null,
+        "artist": "Florenz",
+        "yearStr": "1577",
+        "x": 1645,
+        "name": "038 - Maj 53",
+        "year": 1577,
+        "tags": [
+            "Italien",
+            "Renaissance",
+            "Kunsthandwerk; Keramik",
+            "Landschaft",
+            "Tafelkultur",
+            "Porzellan; Medici-Porzellan"
+        ],
+        "y": 889,
+        "number": 38
+    },
+    {
+        "audio": null,
+        "artist": "Augsburg",
+        "yearStr": "1580",
+        "x": 1838,
+        "name": "039 - Bro 226",
+        "year": 1580,
+        "tags": [
+            "Deutschland",
+            "Renaissance",
+            "Skulptur; Statuette",
+            "Tier",
+            "Bronze"
+        ],
+        "y": 480,
+        "number": 39
+    },
+    {
+        "audio": null,
+        "artist": "Giovanni da Bologna, gen. Giambologna (1529-1608)",
+        "yearStr": "1587",
+        "x": 1700,
+        "name": "041 - Bro 106",
+        "year": 1587,
+        "tags": [
+            "Italien",
+            "Manierismus",
+            "Skulptur; Statuette",
+            "Akt; Mythologie",
+            "Bronze"
+        ],
+        "y": 311,
+        "number": 41
+    },
+    {
+        "audio": null,
+        "artist": "Annibale Carracci (1560-1609)",
+        "yearStr": "1592",
+        "x": 0,
+        "name": "042 - KK 9388",
+        "year": 1592,
+        "tags": [
+            "Italien",
+            "Renaissance",
+            "Graphik; Druckgraphik",
+            "Akt; Mythologie",
+            "Liebe"
+        ],
+        "y": 0,
+        "number": 42
+    },
+    {
+        "audio": null,
+        "artist": "Heinrich Rappost d. Ä. (gest. 1592)",
+        "yearStr": "1589",
+        "x": 1877,
+        "name": "043 - Wac 146",
+        "year": 1589,
+        "tags": [
+            "Deutschland; Braunschweig",
+            "Renaissance",
+            "Kunsthandwerk; Medaillen",
+            "Portrait",
+            "Herrschermacht",
+            "Wachs; Messing"
+        ],
+        "y": 379,
+        "number": 43
+    },
+    {
+        "audio": null,
+        "artist": "Christoph Rohr (nachweisbar 1582-1601)",
+        "yearStr": "1600",
+        "x": 1882,
+        "name": "045 - Uhr 77",
+        "year": 1600,
+        "tags": [
+            "Deutschland; Braunschweig",
+            "Renaissance",
+            "Kunsthandwerk; Uhren; Goldschmiedearbeiten",
+            "Bronze; Eisen; Messing; Tierhaut; Stahl"
+        ],
+        "y": 577,
+        "number": 45
+    },
+    {
+        "audio": null,
+        "artist": "Joachim Anthonisz. Wtewael (1566-1638)",
+        "yearStr": "1602",
+        "x": 1790,
+        "name": "046 - GG 174",
+        "year": 1602,
+        "tags": [
+            "Niederlande",
+            "Manierismus",
+            "Malerei",
+            "Akt; Mythologie",
+            "Farbe; Perspektive",
+            "Liebe",
+            "Kupfer"
+        ],
+        "y": 406,
+        "number": 46
+    },
+    {
+        "audio": null,
+        "artist": "Augsburg",
+        "yearStr": "1602",
+        "x": 1536,
+        "name": "047 - Moe 80",
+        "year": 1602,
+        "tags": [
+            "Deutschland",
+            "Renaissance",
+            "Kunsthandwerk; Reisealtar",
+            "Bibel",
+            "Holz; Kupfer; Silber"
+        ],
+        "y": 528,
+        "number": 47
+    },
+    {
+        "audio": null,
+        "artist": "Hans von Aachen (1551/52-1615)",
+        "yearStr": "1602",
+        "x": 1725,
+        "name": "048 - GG 1088",
+        "year": 1602,
+        "tags": [
+            "Deutschland",
+            "Manierismus",
+            "Malerei",
+            "Akt; Mythologie",
+            "Licht",
+            "Kupfer"
+        ],
+        "y": 394,
+        "number": 48
+    },
+    {
+        "audio": null,
+        "artist": "Adriaen de Vries (um 1556-1626)",
+        "yearStr": "1604",
+        "x": 1633,
+        "name": "049 - Bro 178",
+        "year": 1604,
+        "tags": [
+            "Deutschland; Braunschweig",
+            "Renaissance",
+            "Skulptur; Statuette",
+            "Herrschermacht",
+            "Bronze"
+        ],
+        "y": 311,
+        "number": 49
+    },
+    {
+        "audio": null,
+        "artist": "Adam Elsheimer (1578-1610)",
+        "yearStr": "1604",
+        "x": 1334,
+        "name": "051 - GG 852",
+        "year": 1604,
+        "tags": [
+            "Deutschland",
+            "Barock",
+            "Malerei",
+            "Akt; Bibel",
+            "Tod",
+            "Kupfer"
+        ],
+        "y": 538,
+        "number": 51
+    },
+    {
+        "audio": null,
+        "artist": "Adam Elsheimer (1578-1610)",
+        "yearStr": "1606",
+        "x": 1346,
+        "name": "052 - GG 550",
+        "year": 1606,
+        "tags": [
+            "Deutschland",
+            "Barock",
+            "Malerei",
+            "Landschaft",
+            "Licht",
+            "Kupfer"
+        ],
+        "y": 479,
+        "number": 52
+    },
+    {
+        "audio": null,
+        "artist": "Orazio Gentileschi (1563-1639)",
+        "yearStr": "1613",
+        "x": 1423,
+        "name": "054 - GG 805",
+        "year": 1613,
+        "tags": [
+            "Italien",
+            "Barock",
+            "Malerei",
+            "Akt; Bibel"
+        ],
+        "y": 681,
+        "number": 54
+    },
+    {
+        "audio": null,
+        "artist": "Peter Paul Rubens (1577-1640)",
+        "yearStr": "1601",
+        "x": 0,
+        "name": "055 - KK 91",
+        "year": 1601,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Graphik; Zeichnung",
+            "Akt; Bibel"
+        ],
+        "y": 0,
+        "number": 55
+    },
+    {
+        "audio": null,
+        "artist": "Peter Paul Rubens (1577-1640)",
+        "yearStr": "1617",
+        "x": 1344,
+        "name": "057 - GG 87",
+        "year": 1617,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Malerei",
+            "Bibel",
+            "Liebe; Tod",
+            "Holz"
+        ],
+        "y": 393,
+        "number": 57
+    },
+    {
+        "audio": null,
+        "artist": "Bernardo Strozzi (1581/82-1644)",
+        "yearStr": "1622",
+        "x": 1516,
+        "name": "060 - GG 797",
+        "year": 1622,
+        "tags": [
+            "Italien",
+            "Barock",
+            "Malerei",
+            "Heilige",
+            "Farbe; Licht"
+        ],
+        "y": 393,
+        "number": 60
+    },
+    {
+        "audio": null,
+        "artist": "David Teniers d. J. (1610-1690)",
+        "yearStr": "1644",
+        "x": 1115,
+        "name": "062 - GG 140",
+        "year": 1644,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Malerei",
+            "Genre; Interieur",
+            "Wissenschaft",
+            "Holz"
+        ],
+        "y": 558,
+        "number": 62
+    },
+    {
+        "audio": null,
+        "artist": "Leonhard Kern (1588-1663)",
+        "yearStr": "1643",
+        "x": 1476,
+        "name": "063 - Hol 9",
+        "year": 1643,
+        "tags": [
+            "Deutschland",
+            "Barock",
+            "Skulptur; Statuette",
+            "Akt; Bibel",
+            "Holz"
+        ],
+        "y": 565,
+        "number": 63
+    },
+    {
+        "audio": null,
+        "artist": "Gabriel Grupello (1644-1730)",
+        "yearStr": "1703",
+        "x": 1326,
+        "name": "066 - Elf 80",
+        "year": 1703,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Skulptur; Statuette",
+            "Akt; Bibel",
+            "Tod",
+            "Holz; Elfenbein"
+        ],
+        "y": 672,
+        "number": 66
+    },
+    {
+        "audio": null,
+        "artist": "Werkstatt des Ulrich Baumgartner (um 1580-1652)",
+        "yearStr": "1615",
+        "x": 936,
+        "name": "069 - Moe 85",
+        "year": 1615,
+        "tags": [
+            "Deutschland",
+            "Barock",
+            "Kunsthandwerk",
+            "Freizeit",
+            "Holz; Elfenbein; Silber"
+        ],
+        "y": 680,
+        "number": 69
+    },
+    {
+        "audio": null,
+        "artist": "Jan van Goyen (1596-1656)",
+        "yearStr": "1631",
+        "x": 1023,
+        "name": "070 - GG 340",
+        "year": 1631,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Malerei",
+            "Landschaft",
+            "Farbe",
+            "Holz"
+        ],
+        "y": 410,
+        "number": 70
+    },
+    {
+        "audio": null,
+        "artist": "Rembrandt Harmensz. van Rijn (1606-1669)",
+        "yearStr": "1652",
+        "x": 0,
+        "name": "071 - KK 1027",
+        "year": 1652,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Graphik; Druckgraphik",
+            "Interior",
+            "Licht",
+            "Moral; Wissenschaft"
+        ],
+        "y": 0,
+        "number": 71
+    },
+    {
+        "audio": null,
+        "artist": "Ca. 1770/75; Black Basalt, rote und weiße Bemalung;",
+        "yearStr": "1633",
+        "x": 935,
+        "name": "072 - GG 233",
+        "year": 1633,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Malerei",
+            "Portrait",
+            "Holz"
+        ],
+        "y": 544,
+        "number": 72
+    },
+    {
+        "audio": null,
+        "artist": "Rembrandt Harmensz. van Rijn (1606-1669)",
+        "yearStr": "1638",
+        "x": 922,
+        "name": "073 - GG 236",
+        "year": 1638,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Malerei",
+            "Landschaft",
+            "Farbe; Licht",
+            "Holz"
+        ],
+        "y": 406,
+        "number": 73
+    },
+    {
+        "audio": null,
+        "artist": "Willem Claesz. Heda (1594-1680/82)",
+        "yearStr": "1642",
+        "x": 935,
+        "name": "075 - GG 802",
+        "year": 1642,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Malerei",
+            "Stillleben",
+            "Tafelkultur",
+            "Holz"
+        ],
+        "y": 475,
+        "number": 75
+    },
+    {
+        "audio": null,
+        "artist": "Gerard van Honthorstm (1590-1656)",
+        "yearStr": "1622",
+        "x": 1428,
+        "name": "076 - GG 178",
+        "year": 1622,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Malerei",
+            "Genre",
+            "Licht",
+            "Liebe; Moral"
+        ],
+        "y": 769,
+        "number": 76
+    },
+    {
+        "audio": null,
+        "artist": "Caspar Langenbucher (um 1620-1678)",
+        "yearStr": "1649",
+        "x": 1129,
+        "name": "077 - Uhr 76",
+        "year": 1649,
+        "tags": [
+            "Deutschland",
+            "Barock",
+            "Kunsthandwerk; Uhren; Goldschmiedearbeiten",
+            "Wissenschaft",
+            "Bronze; Eisen; Silber; Edelstein; Holz; Messing"
+        ],
+        "y": 491,
+        "number": 77
+    },
+    {
+        "audio": null,
+        "artist": "Gerard Dou (1613-1675)",
+        "yearStr": "1657",
+        "x": 1129,
+        "name": "078 - GG 304",
+        "year": 1657,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Malerei",
+            "Genre",
+            "Licht",
+            "Wissenschaft",
+            "Holz"
+        ],
+        "y": 625,
+        "number": 78
+    },
+    {
+        "audio": null,
+        "artist": "Johannes Vermeer (1632-1675)",
+        "yearStr": "1658",
+        "x": 1020,
+        "name": "080 - GG 316",
+        "year": 1658,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Malerei",
+            "Genre; Interieur",
+            "Farbe; Licht",
+            "Moral; Liebe; Mode"
+        ],
+        "y": 493,
+        "number": 80
+    },
+    {
+        "audio": null,
+        "artist": "Jacob Isaaksz. van Ruisdael (1628/29-1682)",
+        "yearStr": "1678",
+        "x": 844,
+        "name": "083 - GG 378",
+        "year": 1678,
+        "tags": [
+            "Niederlande",
+            "Barock",
+            "Malerei",
+            "Landschaft"
+        ],
+        "y": 457,
+        "number": 83
+    },
+    {
+        "audio": null,
+        "artist": "Johann Michael Maucher (1645-1701)",
+        "yearStr": "1680",
+        "x": 1021,
+        "name": "084 - Elf 407",
+        "year": 1680,
+        "tags": [
+            "Deutschland",
+            "Barock",
+            "Kunsthandwerk",
+            "Akt; Mythologie",
+            "Mode",
+            "Elfenbein"
+        ],
+        "y": 586,
+        "number": 84
+    },
+    {
+        "audio": null,
+        "artist": "Stephan Andreas Richard (tätig 1704-1718) und Heinrich Paus Groskurt (1675-1751)",
+        "yearStr": "1704",
+        "x": 799,
+        "name": "087 - 670_11_b",
+        "year": 1704,
+        "tags": [
+            "Deutschland; Braunschweig",
+            "Klassizismus",
+            "Kunsthandwerk; Medaillen",
+            "Portrait",
+            "Herrschermacht",
+            "Silber"
+        ],
+        "y": 502,
+        "number": 87
+    },
+    {
+        "audio": null,
+        "artist": "Hyacinthe Rigaud (1659-1743)",
+        "yearStr": "1704",
+        "x": 791,
+        "name": "088 - 528neu",
+        "year": 1704,
+        "tags": [
+            "Deutschland; Braunschweig; Frankreich",
+            "Rokoko",
+            "Malerei",
+            "Portrait",
+            "Herrschermacht"
+        ],
+        "y": 661,
+        "number": 88
+    },
+    {
+        "audio": null,
+        "artist": "Heinrich Paul Groskurt (1675-1751)",
+        "yearStr": "1694",
+        "x": 799,
+        "name": "089 - 671_3_b",
+        "year": 1694,
+        "tags": [
+            "Deutschland; Braunschweig",
+            "Klassizismus",
+            "Kunsthandwerk; Medaillen",
+            "Portrait",
+            "Herrschermacht",
+            "Silber"
+        ],
+        "y": 538,
+        "number": 89
+    },
+    {
+        "audio": null,
+        "artist": "Balthasar Permoser (1651-1732)",
+        "yearStr": "1710",
+        "x": 789,
+        "name": "090 - Ste5",
+        "year": 1710,
+        "tags": [
+            "Deutschland; Braunschweig",
+            "Klassizismus",
+            "Skulptur; Büste",
+            "Portrait",
+            "Herrschermacht",
+            "Edelstein"
+        ],
+        "y": 756,
+        "number": 90
+    },
+    {
+        "audio": null,
+        "artist": "Nicolas de Largillierre (1656-1746)",
+        "yearStr": "1724",
+        "x": 711,
+        "name": "093 - GG 521",
+        "year": 1724,
+        "tags": [
+            "Frankreich",
+            "Rokoko",
+            "Malerei",
+            "Portrait",
+            "Herrschermacht"
+        ],
+        "y": 510,
+        "number": 93
+    },
+    {
+        "audio": null,
+        "artist": "Christian Benjamin Rauschner (1723-1793)",
+        "yearStr": "1757",
+        "x": 513,
+        "name": "098 - Wac 25",
+        "year": 1757,
+        "tags": [
+            "Deutschland",
+            "Rokoko",
+            "Skulptur; Relief",
+            "Akt; Mythologie",
+            "Wachs; Edelstein"
+        ],
+        "y": 613,
+        "number": 98
+    },
+    {
+        "audio": null,
+        "artist": "William Hogarth (1697-1764)",
+        "yearStr": "1733",
+        "x": 0,
+        "name": "099 - KK 9669",
+        "year": 1733,
+        "tags": [
+            "England",
+            "Rokoko",
+            "Graphik; Druckgraphik",
+            "Genre; Interieur",
+            "Moral"
+        ],
+        "y": 0,
+        "number": 99
+    },
+    {
+        "audio": null,
+        "artist": "Pascha Johann Friedrich Weitsch (1723-1803)",
+        "yearStr": "1765",
+        "x": 588,
+        "name": "101 - Für 745",
+        "year": 1765,
+        "tags": [
+            "Deutschland; Braunschweig",
+            "Rokoko",
+            "Kunsthandwerk; Porzellan",
+            "Landschaft",
+            "Tafelkultur",
+            "Porzellan"
+        ],
+        "y": 682,
+        "number": 101
+    },
+    {
+        "audio": null,
+        "artist": "Francois Boucher (1703-1770)",
+        "yearStr": "1767",
+        "x": 432,
+        "name": "103 - GG 808",
+        "year": 1767,
+        "tags": [
+            "Frankreich",
+            "Rokoko",
+            "Malerei",
+            "Genre",
+            "Liebe"
+        ],
+        "y": 476,
+        "number": 103
+    },
+    {
+        "audio": null,
+        "artist": "Bartolomeo Cavaceppi (1716-1799)",
+        "yearStr": "1771",
+        "x": 650,
+        "name": "104 - Ste 8",
+        "year": 1771,
+        "tags": [
+            "Italien",
+            "Klassizismus",
+            "Skulptur; Büste",
+            "Portrait",
+            "Herrschermacht",
+            "Marmor"
+        ],
+        "y": 889,
+        "number": 104
+    },
+    {
+        "audio": null,
+        "artist": "Manufaktur Wedgwood",
+        "yearStr": "1773",
+        "x": 652,
+        "name": "107 - Wed 370",
+        "year": 1773,
+        "tags": [
+            "England",
+            "Klassizismus",
+            "Kunsthandwerk; Keramik",
+            "Mode",
+            "Keramik; Wedgwood"
+        ],
+        "y": 693,
+        "number": 107
+    },
+    {
+        "audio": null,
+        "artist": "Jakob Philipp Hackert (1737-1807)",
+        "yearStr": "1793",
+        "x": 529,
+        "name": "109 - GG 780",
+        "year": 1793,
+        "tags": [
+            "Deutschland",
+            "Klassizismus",
+            "Malerei",
+            "Landschaft",
+            "Perspektive"
+        ],
+        "y": 405,
+        "number": 109
+    },
+    {
+        "audio": null,
+        "artist": "Heinrich Christian Brüning (1779-1855)",
+        "yearStr": "1820",
+        "x": 711,
+        "name": "110 - Für 6382",
+        "year": 1820,
+        "tags": [
+            "Deutschland",
+            "Klassizismus",
+            "Kunsthandwerk; Keramik",
+            "Landschaft",
+            "Mode",
+            "Porzellan"
+        ],
+        "y": 671,
+        "number": 110
+    }
+]

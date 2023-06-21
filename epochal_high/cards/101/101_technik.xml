@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+<card type="technik">
+
+	<h1>Technik</h1>
+	<preview>
+		<text>
+			Formen, Brennen, Glasieren
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text><![CDATA[
+				<h2>Was ist Porzellan?</h2>
+				<p>Porzellan ist ein feinkeramisches Erzeugnis, das aus einem Ge-misch von <a href="glossar/kaolin.xml" >Kaolin</a>, <a href="glossar/feldspat.xml" >Feldspat</a> und <a href="glossar/quarz.xml" >Quarz</a> hergestellt wird. Durch Änderung der Mischverhältnisse der Hauptbestandteile des Porzellans oder durch weitere Beimischungen entstehen ver-schiedene Porzellanarten. Grob unterscheidet man zwei Haupt-arten von Porzellan: das Weichporzellan (Hauptbestandteil Quarz) und Hartporzellan (Hauptbestandteil Kaolin). Das Weich-porzellan findet Verwendung im Haushalt, wie z. B. Geschirre, hingegen wird das Hartporzellan als Bestandteil z. B. von tech-nischen Geräten eingesetzt.</p>
+			]]></text>
+			<space height="05"/>
+			<img src="101/porzellanmalerei3.jpg" maxHeight="260" caption="Aufglasurmalerei" allowZoom="true" zoomCaption="Porzellanmaler bei der Arbeit: Die Bemalung wird auf die Glasur aufgebracht. (Bild aus Wikipedia. Autor: Walter J. Pilsak. Hochgeladen von: Walter J. Pilsak.)"/>
+
+		</column>
+		<column>
+		
+			<text><![CDATA[
+				<h2>Oft und heiß gebrannt</h2>
+				<p>Die Porzellanmasse wird durch verschie-dene <a href="glossar/formgebungstechniken.xml" >Formgebungstechniken</a> zu Gegen-ständen, wie Figuren, Gefäßen oder Tel-lern geformt. Die Rohlinge werden ge-trocknet, gebrannt, in der Regel glasiert und einem Glasurbrand unterzogen.</p> 
+				<p>Der erste Brand, der sogenannte <a href="glossar/biskuitbrand.xml" >„Bisquit-brand“</a>, wird bei 1000 °C durchgeführt. Danach wird in der Regel eine Unter-glasurmalerei aufgebracht, bevor der <a href="glossar/scherben.xml" >Scherben</a> in die Glasur eingetaucht wird. Anschließend wird ein Glasurbrand bei 1230-1250 °C (Weichporzellan) bzw. 1380-1410 °C (Hartporzellan) vorgenommen. Dabei fließt die Glasur, bestehend aus Quarz, Marmor, Feldspat und Kaolin, zu einer Glasschicht aus. Soll eine sogenann-te Aufglasurmalerei vorgenommen wer-den (siehe Abbildung), ist ein Dekorbrand nötig; abschließende Gold-, Silber- oder Platindekorationen erfordern einen wei-teren Dekorbrand. Beide Brände werden bei <a href="101/niedrigentemperaturen.xml" >niedrigen Temperaturen</a> durchge-führt.</p>
+			]]></text>
+			
+				
+		</column>
+	</content>
+</card>

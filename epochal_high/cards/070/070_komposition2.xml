@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<card type="komposition">
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+
+	<h1>Raum &amp; Komposition</h1>
+	<preview>
+		<text>
+			Anordnung der Flächen, Größe der Figuren
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+		        <h2>Vorder-, Mittel- und Hintergrund</h2>
+				<p>Die hintereinander gestaffelten dunklen und hellen Zonen bewirken die räumliche Tiefe des Bildes (siehe Abbildung). Die von der Sonne beschienene <a href="070/licht.xml">Fläche</a> bildet gemeinsam mit dem schmalen <a href="070/schatten_vorne.xml">schatti-gen Hügel</a> am unteren Bildrand den Vordergrund. Der dunklere <a href="070/schatten.xml">Mittelgrund</a> erstreckt sich von den Resten einer <a href="070/bretterwand2.xml" imageHighlightId="070.duenenlandschaft.jpg.h1">Bretterwand</a> über eine <a href="070/tuer2.xml" imageHighlightId="070.duenenlandschaft.jpg.h2">umgefallene Tür</a> bis hin zu <a href="070/verschatteteduenen.xml" imageHighlightId="070.duenenlandschaft.jpg.h3">verschatteten Dünen</a> in der linken Bildzone. Im Hintergrund lässt die <a href="070/sanfteduenen.xml" imageHighlightId="070.duenenlandschaft.jpg.h4">sanfte Dünenland-schaft</a> einen Blick in die weite Ferne zu. Auch das <a href="070/dach.xml" imageHighlightId="070.duenenlandschaft.jpg.h5">Dach</a> eines Hauses sowie <a href="070/maennerundtiere.xml" imageHighlightId="070.duenenlandschaft.jpg.h6">Männer und Tiere</a> auf einem Hügel sind im Hintergrund zu erkennen.</p> 
+				]]></text>
+				<space height="40"/>
+				<text><![CDATA[
+				 <h2>Größenstaffelungen</h2>	
+				<p>Die räumliche Tiefenwirkung wird zusätzlich durch die unterschiedlichen Größen der Figuren unter-stützt. So wirkt die <a href="070/maennergruppe.xml" >Männergruppe</a> auf dem Hügel im Vergleich zu dem <a href="070/mannVG.xml" imageHighlightId="070.duenenlandschaft.jpg.h7">Mann in roter Jacke</a> weit entfernt. Sogar innerhalb des Mittelgrundes ist eine räum-liche Staffelung festzustellen: Der <a href="070/mann.xml" imageHighlightId="070.duenenlandschaft.jpg.h8">Mann am Bretter-zaun</a> ist größer dargestellt als die <a href="070/gruppe.xml" imageHighlightId="070.duenenlandschaft.jpg.h9">Gruppe</a> links.</p>
+					]]></text>
+					
+		
+		</column>
+		<column>
+			<space height="00"/>
+					
+					<img src="070/duenenlandschaft.jpg" maxHeight="500" caption="Dünenlandschaft" allowZoom="true" zoomCaption="Jan van Goyen: &lt;i&gt;Dünenlandschaft&lt;/i&gt;, Eichenholz, 1631, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum." >
+			
+			<highlight x="0.8" y="0.62" radius="0.05" href="070/bretterwand2.xml" id="070.duenenlandschaft.jpg.h1"/>
+			<highlight x="0.66" y="0.58" radius="0.05" href="070/tuer2.xml" id="070.duenenlandschaft.jpg.h2"/>
+			<highlight x="0.057" y="0.8" radius="0.04" href="070/verschatteteduenen.xml" id="070.duenenlandschaft.jpg.h3"/>
+			<highlight x="0.009" y="0.75" radius="0.03" href="070/sanfteduenen.xml" id="070.duenenlandschaft.jpg.h4"/>
+			<highlight x="0.21" y="0.71" radius="0.03" href="070/dach.xml" id="070.duenenlandschaft.jpg.h5"/>
+			<highlight x="0.86" y="0.42" radius="0.07" href="070/maennerundtiere.xml" id="070.duenenlandschaft.jpg.h6"/>
+			<highlight x="0.75" y="0.72" radius="0.03" href="070/mannVG.xml" id="070.duenenlandschaft.jpg.h7"/>
+			<highlight x="0.5" y="0.58" radius="0.03" href="070/mann.xml" id="070.duenenlandschaft.jpg.h8"/>
+			<highlight x="0.28" y="0.62" radius="0.06" href="070/gruppe.xml" id="070.duenenlandschaft.jpg.h9"/>
+			</img>
+		
+			<space height="50"/>
+				
+		links beginnt mit dem <a href="070/mann.xml" imageHighlightId="070.duenenlandschaft.jpg.h4">Mann</a> mit dem Strohhut in der Mitte des Bildes, der sich über den Zaun beugt. Er ist für die räumliche Wahrnehmung in dem Bild eine Schlüsselfigur, da er die Trennung der beiden Ebenen durch den Bretterzaun betont. Ein kleines <a href="070/haus.xml" imageHighlightId="070.duenenlandschaft.jpg.h1">Hausdach</a> mit Schorn-stein links zeigt ebenfalls an, dass sich die Landschaft hinter dem Horizont fortsetzt. Dies wird von dem Hügel am rechten Bildrand mit den drei im Hintergrund verschwindenden <a href="070/menschen.xml" imageHighlightId="070.duenenlandschaft.jpg.h3">Männern</a> bestätigt.
+				
+		</column>
+	</content>
+</card>

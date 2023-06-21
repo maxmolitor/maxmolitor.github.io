@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<card type="extra info">
+	<h1>Kunstwerk im Vergleich</h1>
+	<preview>
+		<text>
+			Raffael auf dem Teller
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+			    <h2>„Raffaelische Geschirre“</h2>
+				<p>Die Majolikamaler benutzten als Vorlagen für sze-nische Darstellungen in der Regel <a href="glossar/kupferstich.xml" >Kupferstiche</a> von Gemälden oder Zeichnungen bedeutender Künstler. Zu den beliebtesten Vorlagen zählten die Werke <a href="glossar/raffael.xml" >Raf-faels</a>. Es hielt sich daher bis ins 18. Jahrhundert die Legende, dass Raffael in seiner Geburtsstadt Urbino – eines der Hauptzentren der Majolikaherstellung – ei-genhändig zahlreiche Majoliken bemalt habe. Diese Stücke wurden „raffaelische Geschirre“ genannt.</p>
+			]]></text> 
+			<space height="40"/>
+				<text><![CDATA[
+			    <h2>Vom Eckigen zum Runden</h2>
+				<p>Unserem Majolika-Teller (siehe Abbildung rechts o-ben) liegt ebenfalls eine Zeichnung Raffaels zugrun-de. Die Zeichnung selbst ist verloren gegangen, aber im Kupferstich von <a href="glossar/marcantonioraimondi.xml" >Marcantonio Raimondi</a> überlie-fert (siehe Abbildung rechts unten). Ein Vergleich zwischen Teller und Kupferstich macht deutlich, dass die Szene auf der Majolika mit Raffaels Zeichnung große Ähnlichkeiten aufweist. Bei der Übertragung auf den Teller wurde die Komposition an die runde Form angepasst: Nach oben und unten hin wurde sie erweitert, links und rechts ein wenig angeschnitten.</p>
+			]]></text> 
+			</column>
+		<column>
+		<space height="00"/>	
+			<img src="033/platte.jpg" maxHeight="220" caption="Majolika-Teller" allowZoom="true" zoomCaption="Werkstatt der Fontana: &lt;i&gt;Teller, Das Urteil des Paris&lt;/i&gt;, Majolika, um 1550, Braunschweig, Herzog Anton Ulrich-Museum."/> 
+		<space height="10"/>	
+			<img src="033/raffael.jpg" maxHeight="400" caption="Kupferstich von Marcantonio Raimondi" allowZoom="true" zoomCaption="Marcantonio Raimondi: &lt;i&gt;Drei Flussgötter&lt;/i&gt; (nach Raffael), Kupferstich, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."/>
+		</column>
+
+	</content>
+</card>

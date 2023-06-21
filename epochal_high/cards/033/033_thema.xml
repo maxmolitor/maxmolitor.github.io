@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Das Urteil des Paris</h1>
+	<preview>
+		<text>
+			Zwischen drei Frauen
+		</text>
+	</preview>
+	
+    <content template="2">
+		<column>
+			<text><![CDATA[
+				<p>„Das Urteil des Paris“, das Thema unseres <a href="033/teller.xml" >Tellers</a>, ist eine Erzäh-lung aus der antiken Mythologie (siehe Abbildung rechts oben): Der <a href="033/paris2.xml" imageHighlightId="033.pariskupferstich.jpg.h1">junge Paris</a> soll einen erbitterten Streit zwischen drei Göt-tinnen beenden und entscheiden, wer unter <a href="033/aphrodite2.xml" imageHighlightId="033.pariskupferstich.jpg.h2">Aphrodite</a>, <a href="033/athene2.xml" imageHighlightId="033.pariskupferstich.jpg.h3">Athene</a> und <a href="033/hera2.xml" imageHighlightId="033.pariskupferstich.jpg.h4">Hera</a> die Schönste ist.</p>
+			]]></text>
+			<space height="35"/>
+			<text><![CDATA[
+				<h2>Zankapfel</h2>
+				<p>Zum Streit zwischen den Götinnen führte ein goldener Apfel mit der Aufschrift „Der Schönsten“. Diesen <a href="glossar/zankapfel.xml" >Zankapfel</a> warf <a href="033/eris.xml" >Eris</a> während der Hochzeit von <a href="033/peleusundthetis.xml" imageHighlightId="033.hochzeit.jpg.h3">Peleus und Thetis</a> unter die Götter. Diese <a href="033/eris2.xml" imageHighlightId="033.hochzeit.jpg.h1">folgenreiche Tat</a> hat <a href="glossar/wtewael.xml" >Joachim Anthonisz. Wtewael</a> in einem Gemälde dargestellt (siehe Abbildung rechts unten).</p>
+			]]></text> 
+			<space height="35"/>
+			<text><![CDATA[
+			    <h2>Die Entscheidung</h2>
+				<p>Um die Wahl für sich zu entscheiden, versuchten die Göttinnen Paris zu bestechen: Aphrodite bot ihm die Liebe der schönsten Frau der Welt (Helena), Athene stellte ihm Weisheit in Aussicht und Hera versprach ihm Herrschaft über die Welt. Paris entschied sich für Aphrodite und <a href="033/wolkendurchblick.xml" imageHighlightId="033.hochzeit.jpg.h2">übergab</a> ihr den goldenen Apfel. Jedoch war die ihm versprochene Helena bereits mit Menelaos, dem König der Griechen, verheiratet. Paris entführte sie und löste den sagenumwobenen <a href="glossar/trojanischerkrieg.xml" >Trojanischen Krieg</a> aus.</p>
+			]]></text>
+			</column> 
+		<column>
+		<space height="00"/>
+	<img src="033/pariskupferstich.jpg" maxHeight="200" caption="Das Urteil des Paris" allowZoom="true" zoomCaption="Johann Daniel Herz, d. Ä.: &lt;i&gt;Teller, Das Urteil des Paris&lt;/i&gt; (nach Abraham Drentwett), Kupferstich und Radierung, 1714, Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett.">	
+		<highlight x="0.05" y="0.3" radius="0.15" href="033/paris2.xml" id="033.pariskupferstich.jpg.h1"/>
+		<highlight x="0.32" y="0.21" radius="0.09" href="033/aphrodite2.xml" id="033.pariskupferstich.jpg.h2"/>
+		<highlight x="0.5" y="0.28" radius="0.11" href="033/athene2.xml" id="033.pariskupferstich.jpg.h3"/>
+		<highlight x="0.72" y="0.14" radius="0.12" href="033/hera2.xml" id="033.pariskupferstich.jpg.h4"/>
+		</img>
+	<space height="40"/>
+	<img src="033/hochzeit.jpg" maxHeight="500" caption="Die Hochzeit von Peleus und Thetis" allowZoom="true" zoomCaption="Joachim Anthonisz. Wtewael: &lt;i&gt;Die Hochzeit von Peleus und Thetis&lt;/i&gt;, Kupfer, 1602, &lt;br/&gt; Braunschweig, Herzog Anton Ulrich-Museum.">
+	<highlight x="0.30" y="0.22" radius="0.08" href="033/eris2.xml" id="033.hochzeit.jpg.h1"/>
+	<highlight x="-0.01" y="0.23" radius="0.06" href="033/wolkendurchblick.xml" id="033.hochzeit.jpg.h2"/>
+	<highlight x="0.48" y="0.38" radius="0.05" href="033/peleusundthetis.xml" id="033.hochzeit.jpg.h3"/>
+	</img>
+		
+
+			</column>
+	</content>
+</card>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<card type="licht und farbe">
+<!-- <card type="extra info"> -->
+
+	<h1>Licht &amp; Farbe</h1>
+	<preview>
+		<text>
+			Friedlich und idyllisch
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Ideal der Ruhe und Ausgewogenheit</h2>
+				<p>Wir blicken auf ein friedliches <a href="glossar/idyll.xml">Idyll</a> (siehe Abbildung): Der Fluss gleitet still dahin, im milden Schein der Abendsonne erstrahlt der Berghang mit dem krö-nenden <a href="109/rundtempel.xml" imageHighlightId="109.landschaft.jpg.h1">Rundtempel</a> und am blauen Himmel ziehen weiße Wolken. Die lasierende Malweise entspricht dem <a href="glossar/klassizismus.xml">klassizistisches</a> Ideal der Ruhe und Ausgewo-genheit: Schichten dünner Farbe überlagern ein-ander und bilden eine glatte Oberfläche. Hackert malt mit feinstem Pinsel minutiös jedes Detail bis in die Ferne: die <a href="109/ziegen.xml" imageHighlightId="109.landschaft.jpg.h2">Ziegen</a>, deren Silhouetten sich vor dem schimmernden Wasser abheben, den sich im Fluss spiegelnden <a href="109/kahn.xml" imageHighlightId="109.landschaft.jpg.h3">Kahn</a> und die <a href="109/stadt.xml" imageHighlightId="109.landschaft.jpg.h4">Stadt</a> am Fuß der Berge.</p>
+			]]></text>
+			
+		</column>
+		<column>
+		
+		<space height="00"/>
+			<img src="109/landschaft.jpg" maxHeight="500" caption="Hackerts Italienische Landschaft" allowZoom="true" zoomCaption="Jakob Philipp Hackert: &lt;i&gt;Italienische Landschaft&lt;/i&gt;, Leinwand, 1793,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+			<highlight x="0.71" y="0.45" radius="0.05" href="109/rundtempel.xml" id="109.landschaft.jpg.h1"/>
+			<highlight x="0.41" y="0.76" radius="0.05" href="109/ziegen.xml" id="109.landschaft.jpg.h2"/>
+			<highlight x="0.49" y="0.70" radius="0.04" href="109/kahn.xml" id="109.landschaft.jpg.h3"/>
+			<highlight x="0.47" y="0.59" radius="0.05" href="109/stadt.xml" id="109.landschaft.jpg.h4"/>
+			</img>
+
+		</column>
+	</content>
+</card>

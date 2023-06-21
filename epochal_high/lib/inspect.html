@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="../lib/3rdparty/highlight/styles/default.css">
+	<link rel="stylesheet" href="../css/doctest.css">
+	<script src="../lib/3rdparty/highlight/highlight.pack.js"></script>
+    <script src="all.js"></script>
+</head>
+<body onload="Doctest.run(); test()" >
+<h1>
+	Code and Class Inspection
+</h1>
+<p>
+    To Do: Use SystemJS to load modules and main code. This ensures that
+    all code can be parsed by acorn into an Abstract Syntax Tree which
+    in turn allows to extract class statements and related extends phrases.
+</p>
+<script class="doctest">
+
+function test() {
+	let sources = Inspect.allScriptSources()
+	console.log(sources)
+}
+
+</script>
+<h2>
+References
+</h2>
+<ul>
+
+    <li><a href="https://nystudio107.com/blog/using-systemjs-as-javascript-loader">Using SystemJS as JavaScript Loader</a></li>
+    <li><a href="http://stackoverflow.com/questions/2051678/getting-all-variables-in-scope">Getting all Variables in Scope</a></li>
+    <li><a href="https://www.keithcirkel.co.uk/metaprogramming-in-es6-symbols/">Metaprogramming in JavaScript</a></li>
+</ul>
+</body>

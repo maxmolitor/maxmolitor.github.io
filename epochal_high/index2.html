@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=auto, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Part2</title>
+    <link rel="stylesheet" href="css/part2.css">
+</head>
+<body>    
+
+    <div class="box" style="margin:0px;padding:0px;">
+        <iframe class="iframe" src="epochal.html" frameborder="0" scrolling="no" width="70vw" height="100vh" align="left"> </iframe>
+        
+        <div class="division" frameborder="0" scrolling="no" width="30vw" height="100vh" align="left">
+
+            <div id="Timer" style="visibility: hidden;">
+                <p id=TimerTitle>Timer:</p>
+                <p id="TimerDisplay">30:00</p>
+            </div>
+
+            <div class="quiz-container">
+                <div id="quiz"></div>
+            </div>
+            
+            <button id="next">
+                NEXT QUESTION
+            </button>
+            
+            <a id='a' download='Download.csv' type='text/csv'  onclick="window.open('index3.html')" style="display: none;">SUBMIT</a>
+        
+            <div id="results"></div>
+
+        </div>    
+
+        
+    </div>
+
+    <script src="questionpanel2.js"></script>
+
+
+
+</body>
+</html> 

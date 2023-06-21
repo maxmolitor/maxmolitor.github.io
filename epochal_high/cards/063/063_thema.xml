@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Klagende Eva</h1>
+	<preview>
+		<text>
+			Woran erkennt man Eva?
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Die Figur</h2>
+				<p>Die weibliche Figur wirkt völlig auf sich bezogen (siehe Abbildung), ein direkter Blickkontakt zum Betrachter ist nicht möglich. Sie steht im <a href="glossar/kontrapost.xml" imageHighlightId=" ">Kontrapost</a> und stellt mit erhobenen Armen ihre Rundungen zur Schau. Von den Füßen bis zum Blick nach oben vollzieht ihr Körper eine halbe Drehung. Obwohl sie mit der Vorderseite eine eindeutige Hauptansicht besitzt, leitet sie so in die Rundumsicht der ganzen Gestalt hinüber.</p>
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Eva</h2>
+				<p>Dass es sich hier um eine klagende Eva handelt, erschließt sich nicht – wie sonst üblich – aus <a href="063/attribut.xml" >Attri-buten</a>. Vielmehr spricht dafür die Kombination aus der schonungslosen Darstellung des nackten Kör-pers und dem schmerzlichen Gesichtsausdruck mit geöffnetem Mund, verzweifeltem Blick und gerun-zelter Stirn. Die warmen Brauntöne und der matte Schimmer des Birnbaumholzes erhöhen noch die sinnliche Anmutung der üppigen Körperformen und weisen gleichwohl auf deren Vergänglichkeit hin. </p>
+			]]></text>
+		</column>
+		<column>
+            <space height="00"/>
+			<img src="063/klagendeeva.jpg" maxHeight="260" caption="Klagende Eva" allowZoom="true" zoomCaption="Leonhard Kern: &lt;i&gt;Klagende Eva&lt;/i&gt;, Birnbaumholz, 1640/45, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+			<space height="10"/>
+			<img src="063/gesicht.jpg" maxHeight="200" caption="Gesichtsausdruck" allowZoom="true" zoomCaption="Leonhard Kern: &lt;i&gt;Klagende Eva&lt;/i&gt;, Birnbaumholz, 1640/45, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+		</column>
+	</content>
+</card>

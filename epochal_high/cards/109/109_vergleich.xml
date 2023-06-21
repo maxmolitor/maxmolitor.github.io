@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<card type="extra info">
+
+	<h1>Kunstwerk im Vergleich</h1>
+	<preview>
+		<text>
+			Mehr als nur Landschaft
+		</text>
+	</preview>
+
+	<content template="2">
+		<column>
+		<text><![CDATA[
+				<h2>Vom Barock zum Klassizismus</h2>
+				<p>Die Entwicklung der Landschaftsmalerei vom <a href="glossar/barock.xml">Barock</a> zum <a href="glossar/klassizismus.xml">Klas-sizismus</a> ist an Hackerts <i>Italienischer Landschaft</i> gut nachzu-vollziehen (siehe Abbildung unten links). Dieses Gemälde ist geprägt von den <a href="glossar/lokalfarbe.xml">Lokalfarben</a> Blau und Grün sowie einer ruhigen und friedlichen Stimmung. Damit steht sie im Kontrast zu der tonigen Farbigkeit der barocken <i><a href="109/gewitterlandschaft.xml">Gewitterlandschaft</a></i> <a href="glossar/rembrandt.xml">Rembrandts</a> (siehe Abbildung rechts oben) und dem tosenden <i>Wasserfall mit Wachtturm</i> von <a href="glossar/ruisdael.xml">Ruisdael</a> aus derselben Epoche (siehe Abbildung rechts unten). Hackerts klassizistisches Ideal der ausgeglichenen Ruhe steht in deutlichem Kontrast zu den beiden barocken Landschaften.</p>
+
+			]]></text>
+		<space height="00"/>
+				<img src="109/landschaft.jpg" maxHeight="255" caption="Jakob Philipp Hackert " allowZoom="true" zoomCaption="Jakob Philipp Hackert: &lt;i&gt;Italienische Landschaft&lt;/i&gt;, Leinwand, 1793,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+
+	</column>
+		<column>
+		<space height="00"/>
+			<img src="109/073.jpg" maxHeight="210" caption="Rembrandt" allowZoom="true" zoomCaption="Rembrandt: &lt;i&gt;Gewitterlandschaft&lt;/i&gt;, Holz, um 1637/38, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+
+			<img src="109/083.jpg" maxHeight="270" caption="Jacob Isaaksz. van Ruisdael" allowZoom="true" zoomCaption="Jacob Isaakz. van Ruisdael: &lt;i&gt;Wasserfall mit Wachtturm,&lt;/i&gt; 1699, &lt;br/&gt; Braunschweig, Herzog Anton Ulrich-Museum." />
+
+
+		</column>
+	</content>
+</card>

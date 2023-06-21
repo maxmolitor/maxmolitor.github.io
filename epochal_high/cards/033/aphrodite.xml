@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+    <img src="033/aphrodite.jpg" maxHeight="400" caption=" "/>
+	<text><![CDATA[	
+	<p><span class="popuptext">In der griechischen Mythologie ist Aphrodite die Göttin der Liebe, der Schönheit und der Sinnlichkeit. Sie gilt als die schönste aller Göttinnen. In der römischen Mythologie wird sie Venus genannt.</span></p>
+	]]></text>
+	<!-- <text><![CDATA[	
+	<p><span class="popuptext">Sie nimmt von Paris den goldenen Apfel und wird dadurch die Siegerin des Titels „die Schönste“.</span></p>
+	]]></text> -->
+</content>

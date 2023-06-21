@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<card type="komposition">
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+
+	<h1>Raum &amp; Komposition</h1>
+	<preview>
+		<text>
+			Perspektive und Staffelung
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+			    <h2>Perspektive und hintereinander gestaffelte Figuren</h2>
+                <p>Der Eindruck von Raumtiefe wird durch die perspek-tivisch gezeichneten Dielen des Fußbodens, den in Aufsicht gegebenen Tisch mit Büchern darauf, die schräg stehenden Stühle und die hintereinander gestaffelten Figuren erzeugt.</p>
+		]]></text>
+	<space height="40"/>
+		<text><![CDATA[
+		        <h2>Komplexe Anordnung</h2>
+				<p>Rechts ist das Mobiliar in einer komplexen Anord-nung dicht gedrängt: der in starker perspektivischer Verkürzung gesehene Rokoko-Tisch an der Wand, das Fenster, der Stuhl und dahinter das Arbeitspult des Künstlers. Obwohl mit dieser Anordnung der Eindruck von Raumtiefe entsteht, wirkt diese Ecke des Raumes enger im Vergleich zu der anderen Hälfte des Raumes, wie z. B. der Bereich hinter der Frau. Die Gemälde an der hinteren Wand schließen den Tiefenraum mit einer Fläche ab.</p>
+				]]></text>
+		</column>
+		<column>
+			<space height="00"/>
+			<img src="105/105.jpg" maxHeight="500" caption="Kabinett eines Malers" allowZoom="true" zoomCaption="Daniel Nikolaus Chodowiecki: &lt;i&gt;Kabinett eines Malers&lt;/i&gt;, Radierung, 1771, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."/>
+		
+		</column>
+	</content>
+</card>

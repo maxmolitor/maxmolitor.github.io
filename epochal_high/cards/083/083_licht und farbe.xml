@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<card type="licht und farbe">
+
+	<h1>Licht &amp; Farbe</h1>
+	<preview>
+		<text>
+			Farbe macht Stimmung
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Farbiger Kontrast</h2>
+				<p>Die dramatische Landschaft von Ruisdael ist über-wiegend in dunklen Grün-, Grau- und Brauntönen gemalt (siehe Abbildung rechts oben) – ein enges Spektrum verwandter Farben, das die einzelnen Naturelemente zu einer Einheit verbindet. Einen Gegensatz dazu bilden das Blau des <a href="083/himmel.xml" imageHighlightId="083.ruisdael.jpg.h1">Himmels</a>, das Weiß der <a href="083/wolke.xml" imageHighlightId="083.ruisdael.jpg.h3">Wolken</a> und die helle <a href="083/gischt.xml" imageHighlightId="083.ruisdael.jpg.h2">Gischt</a>. Das kontrastreiche Wechselspiel des Wetters ist gut an der großen <a href="083/wolke.xml" imageHighlightId="083.ruisdael.jpg.h3">Gewitterwolke</a> zu beobachten: Sie wird von links hell beleuchtet, ist aber auf der rechten Seite gleichzeitig dunkel und schwer.</p>
+				]]></text>
+		<space height="40"/>
+			<text><![CDATA[
+			<h2>Drama und Idylle</h2>
+			<p>Die düsteren Farben des Bildes tragen wesentlich zum Eindruck einer heroischen und urwüchsigen Landschaft bei. Im Gegensatz zu dieser dramatischen Landschaft finden sich in idyllischen Landschaftsdar-stellungen mit friedlichem und harmonischem Cha-rakter eher helle und freundliche Farben. Dies sieht man zum Beispiel in der <i>Italienischen Landschaft</i> von <a href="083/hackert.xml">Jakob Philipp Hackerts</a> aus dem Herzog Anton Ulrich-Museum (siehe Abbildung rechts unten).</p>
+			]]></text>
+		</column>
+		<column>
+		<space height="00"/>
+			<img src="083/ruisdael.jpg" maxHeight="240" caption="Jacob Isaaksz. van Ruisdael" allowZoom="true" zoomCaption="Jacob Isaaksz. van Ruisdael: &lt;i&gt;Wasserfall mit Wachtturm,&lt;/i&gt; 1699, &lt;br/&gt; Braunschweig, Herzog Anton Ulrich-Museum." >
+			 <highlight x="0.01" y="0.06" radius="0.08" href="083/himmel.xml" id="083.ruisdael.jpg.h1"/>
+				 <highlight x="0.40" y="0.55" radius="0.10" href="083/gischt.xml" id="083.ruisdael.jpg.h2"/>
+				 <highlight x="0.25" y="0.01" radius="0.13" href="083/wolke.xml" id="083.ruisdael.jpg.h3"/>
+				 </img>
+			<space height="20"/>	 
+			<img src="083/109.jpg" maxHeight="180" caption="Jacob Philipp Hackert " allowZoom="true" zoomCaption="Jacob Philipp Hackert: &lt;i&gt;Italienische Landschaft&lt;/i&gt;, Leinwand, 1793,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+		</column>
+	</content>
+</card>

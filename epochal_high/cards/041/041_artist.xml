@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<card type="artist">
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Giambologna</h1>
+	<preview>
+		<text>
+			Statuetten aus Florenz &lt;br/&gt;in ganz Europa
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text><![CDATA[
+				<h2>Wege nach Florenz</h2>
+				<p>Giovanni da Bologna, kurz Giambologna, wurde 1529 im flä-mischen Douai geboren (siehe Abbildung) und ging bei Jacques Du Broeucq in die Lehre. 1550 reiste er zum Studium antiker Skulpturen nach Rom. Als er über Florenz nach <a href="glossar/flandern.xml" >Flandern</a> zurückkehren wollte, bot ihm der Kunstsammler Bernardo Vecchietti an, für zwei weitere Jahre seine Studien in Florenz zu finanzieren.</p>
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Hofkünstler der Medici</h2>
+				<p>Durch Vecchietti lernte Giambologna Francesco de‘ <a href="glossar/medici.xml" >Medici</a> kennen. Diese Bekanntschaft bot ihm die Möglichkeit Hof-bildhauer der Medici zu werden. Er blieb für den Rest seines Lebens in Florenz und schuf Bronzefiguren und große Statuen aus Marmor, deren Dynamik bis heute bewundert wird.</p>
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Verbreitung in ganz Europa</h2>
+				<p>Die großen Skulpturen Giambolognas wurden als Verkleine-rungen in Bronze vervielfältigt. Diese Statuetten dienten den Medici als diplomatische Geschenke und wurden von europä-ischen Sammlern gekauft. So wurde Giambologna einer der einflussreichsten Bildhauer, der viele Jahrhunderte auf die europäische Kunst wirkte.</p>
+			]]></text>
+		</column>
+		<column>
+		   <space height="00"/>
+		    <img src="041/Karte_Giambologna.jpg" maxHeight="500" caption="Stationen auf Giambolognas Reise: &lt;br/&gt;A: Douai, B: Rom, C: Florenz " allowZoom="true" zoomCaption="A: Douai, B: Rom, C: Florenz (Karte aus googlemaps)"/>
+		</column>
+	</content>
+</card>

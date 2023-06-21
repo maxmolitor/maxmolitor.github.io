@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<card type="licht und farbe">
+<!-- <card type="extra info"> -->
+	<h1>Licht &amp; Farbe</h1>
+	<preview>
+		<text>
+			Licht und Erkenntnis
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+		
+			<text><![CDATA[
+				<h2>Licht und Schatten</h2>
+				<p>Die <a href="glossar/radierung.xml" >Radierung</a> zeichnet sich durch einen starken Hell-Dunkel-Kontrast aus (siehe Abbildung). Die Lichterscheinung im Zent-rum des Raumes erhellt sowohl den Kopf des Gelehrten, als auch die wissenschaftlichen Objekte im Vordergrund. Dagegen bleibt die hintere Wand im <a href="071/gegenstaende.xml" imageHighlightId="071.gelehrter.jpg.h1">Dunkeln</a> – nur der <a href="071/schaedel.xml" imageHighlightId="071.gelehrter.jpg.h3">Totenschädel</a> hebt sich davon ab. Durch die Staffelung der hellen und dunk-len Partien entsteht eine räumliche Tiefenwirkung. Vor allem aber unterstreicht sie die inhaltliche Aussage des Blattes: Die Metaphorik vom Licht als Sinnbild für Erkenntnis.</p> 
+			]]></text>
+			Als perspektivisches Mittel nutzt Rembrandt das Helldunkel. 
+		<space height="40"/>
+			<text><![CDATA[
+				<h2>Zwischen Erkenntniswunsch und vergeblichem Streben </h2>
+				<p>Zwischen dem dunkelsten und dem hellsten Bereich steht der Gelehrte. Ihn hat Rembrandt am detailreichsten ausgearbeitet, sodass die Falten des Gewandes ein lebhaftes Wechselspiel von <a href="071/falten.xml" imageHighlightId="071.gelehrter.jpg.h2">Licht und Schatten</a> wiedergeben. Hinter dem Gelehrten befin-det sich der Totenschädel – das Symbol der Vergänglichkeit und Vergeblichkeit irdischen Strebens. Dem entgegengesetzt stehen <a href="071/globus.xml" imageHighlightId="071.gelehrter.jpg.h4">Globus</a> und <a href="071/buecher.xml" imageHighlightId="071.gelehrter.jpg.h5">Bücher</a> im Vordergrund für seinen Wunsch nach wissenschaftlicher Erkenntnis. Wie gefangen zwischen den symbolträchtigen Gegenständen vor und hinter ihm schaut der Gelehrte auf die <a href="071/lichterscheinung.xml" imageHighlightId="071.gelehrter.jpg.h6">überirdische Erscheinung</a>.</p> 
+				]]></text>
+			
+				Erscheinung beleuchtet auf wissenschaftlichen Instrumenten (Menschliche Erkenntnisinstrumente). In Lichterscheinung überirdische Erkenntnis. Instrumente stehen für menschliche erkenntnis. himmelsglobus reposoir.
+		</column>
+		<column>
+			<space height="00"/>
+			<img src="071/gelehrter.jpg" maxHeight="500" caption="Gelehrter in seiner Studierstube" allowZoom="true" zoomCaption="Rembrandt: &lt;i&gt;Gelehrter in seiner Studierstube&lt;/i&gt;, Radierung, um 1652, Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett.">
+			<highlight x="0.12" y="0.19" radius="0.12" href="071/gegenstaende.xml" id="071.gelehrter.jpg.h1"/>
+			<highlight x="0.15" y="0.62" radius="0.12" href="071/falten.xml" id="071.gelehrter.jpg.h2"/>
+			<highlight x="0.03" y="0.37" radius="0.10" href="071/schaedel.xml" id="071.gelehrter.jpg.h3"/>
+			<highlight x="0.73" y="0.79" radius="0.12" href="071/globus.xml" id="071.gelehrter.jpg.h4"/>
+			<highlight x="0.77" y="0.58" radius="0.12" href="071/buecher.xml" id="071.gelehrter.jpg.h5"/>
+			<highlight x="0.60" y="0.37" radius="0.08" href="071/lichterscheinung.xml" id="071.gelehrter.jpg.h6"/>
+			</img>
+			
+			
+		</column>
+	</content>
+</card>
