@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	 <title>Doctests Functional Tests</title>
+	 <link rel="stylesheet" href="../lib/3rdparty/highlight/styles/default.css">
+	<link rel="stylesheet" href="../css/doctest.css">
+	<script src="../lib/3rdparty/highlight/highlight.pack.js"></script>
+    <script src="../lib/3rdparty/all.js"></script>
+	<script src="all.js"></script>
+	<script src="pixi/all.js"></script>
+</head>
+<body onload="Doctest.run(); loaded()" >
+<h1>
+	Functional Tests
+</h1>
+<p>
+If you want to test the UI in all functional aspects, it'is important to be able
+to simulate user interactions. Trdditionally this is mainly done by simulating
+key pressed and mouse events. For touch events the support is less common and
+often restricted to a platform (e.g. selendroid extends Selenium tests for
+Android browsers.)
+</p>
+<p>To achive basic touch support one must be able to programmatically generate
+touch events. This can simply be done by calling new TouchEvent, new PointerEvent, but
+it's more complex to hide the platform differences behind a consistent interface.
+To achive this goal we start to record touch and mouse events.</p>
+</p>
+<pre><code class="html">
+&lt;main id="main" class="container" style="width: 100%; height:400px; border: 1px solid gray;"&gt;
+    &lt;canvas id="canvas" style="position: absolute; z-index:10000; user-select: none; pointer-events: none; border: 1px solid red;"&gt;
+	    Get a better browser, bro.
+    &lt;/canvas&gt;
+    &lt;img src="examples/women.jpeg" id="image" draggable="false" width="274" height="184"/&gt;
+&lt;/main&gt;
+</code></pre>
+<main id="main" class="container interactive" style="width: 100%; height:400px; border: 1px solid gray;">
+    <canvas id="canvas" draggable="false"  style="position: absolute; z-index:10000; user-select: none; pointer-events: none;">
+	    Get a better browser, bro.
+    </canvas>
+    <img src="examples/women.jpeg" id="image" draggable="false" width="274" height="184"/>
+</main>
+<script class="doctest">
+const test = new AppTest(canvas, main)
+const app = new App()
+let scatterContainer = new DOMScatterContainer(main)
+
+function setup() {
+    var imageScatter = new DOMScatter(image, scatterContainer, {
+                        x: 44,
+                        y: 144,
+                        width: 274,
+                        height: 184,
+                        minScale: 0.5,
+                        maxScale: 5,
+                        scaling: true,
+                        rotating: true})
+}
+
+function reset() {
+    for(let scatter of scatterContainer.scatter.values()) {
+        scatter.reset()
+    }
+}
+
+function loaded() {
+    setup()
+    test.setup()
+    app.run()
+    test.run(reset)
+}
+</script>
+<h2>
+	References
+</h2>
+<ul>
+    <li><a href="http://selendroid.io/gestures.html">Mobile Gestures</a></li>
+</ul>
+</body>

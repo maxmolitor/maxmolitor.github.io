@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+	<link rel="stylesheet" href="../lib/3rdparty/highlight/styles/default.css">
+	<link rel="stylesheet" href="../css/doctest.css">
+	<script src="../lib/3rdparty/highlight/highlight.pack.js"></script>
+    <script src="../lib/3rdparty/all.js"></script>
+	<script src="all.js"></script>
+</head>
+<body onload="Doctest.run()" >
+<h1>
+	Frames
+</h1>
+<p>
+Frames are a major way to modularize the design of complex applications. Since
+pages presented in frames are independent of each other they can fail without
+impact on other pages. In addition preparing content in individual HTML files
+largely simplfies the workflow of content production.
+</p>
+<p>This approach, however, has limitations:</p>
+<script>
+    function appleError() {
+        alert("Refused to display 'http://www.apple.com/de/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.")
+    }
+</script>
+<ul><li>Some pages may prevent embedding them
+by 'X-Frame-Options', e.g. <a href="javascript:appleError()">www.apple.com</a>
+</li>
+<li>Sites with responsive design might not be able to detect the available space,
+ e.g. <a href="https:///de.wikipedia.org">de.wikipedia.org</a>
+</li>
+<li>Touch events are not dispatched correctly to multiple frames on platforms with
+<b>TouchEvents</b>, e.g. if frame one
+receives touch1, all related touch points touch2, ... touchN, are send to frame1
+although they might occur over frame two.
+</li>
+</ul>
+<p>To solve the last mentioned problem, we prevent frames form touch events by
+assigning a <pre>pointer-events: none;</pre> style. A wrapping div is used to capture
+the events instead. Captured events are collected by an InteractionMapper and
+distributed as synthesized mouse or touch events to the wrapped iframes.
+<p>
+Let's look at an example of two HTML IFrames embedded in this Doctest.</p>
+<pre><code class="html">
+&lt;div id="frameWrapper1"&gt;
+    &lt;iframe style="pointer-events: none;" src="examples/multitouch.html"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id="frameWrapper2" style="padding: 4px"&gt;
+    &lt;iframe style="pointer-events: none;" src="examples/multitouch.html"&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</code></pre>
+<div class="grayBorder" id="container" style="display: flex; justify-content: space-around;">
+    <div id="frameWrapper1" style="padding: 4px">
+        <iframe style="width:400px; height:360px; border:0; pointer-events: none;" src="examples/multitouch.html" allowfullscreen></iframe>
+    </div>
+    <div id="frameWrapper2" style="padding: 4px">
+        <iframe style="width:400px; height:360px; border:0; pointer-events: none;" src="examples/multitouch.html" allowfullscreen></iframe>
+    </div>
+</div>
+<p>The distribution of events is handled by the enclosing container. The container
+registers a InteractionMapper and provides adapter for iframes, that implement
+IInteractionTarget by sending programmatically generated events. If you test
+these frames on a multitouch device you will notice that the scatters within
+the frames can be manipulated independently of each other:
+<p/>
+<script class="doctest">
+    let frameContainer = new FrameContainer(container)
+
+</script>
+<h2>
+	References
+</h2>
+<ul>
+    <li><a href="http://stackoverflow.com/questions/8068578/how-do-i-use-multiple-iframes-in-my-html-page">Multiple iFrames</a></li>
+    <li><a href="https://benmarshall.me/responsive-iframes/">Responsive iFrames</a></li>
+</ul>
+</body>

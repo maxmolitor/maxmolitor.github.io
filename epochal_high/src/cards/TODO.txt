@@ -1,0 +1,8 @@
+Zu große Zoomables
+==================
+
+
+Bsp. Doppelportrait
+Die maximale Größe sollte auf die Kartengröße beschränkt sein.
+
+Bessere Positionierung wie in ArtInfoViewer

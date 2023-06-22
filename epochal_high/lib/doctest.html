@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Doctests</title>
+	<link rel="stylesheet" href="../lib/3rdparty/highlight/styles/default.css">
+	<link rel="stylesheet" href="../css/doctest.css">
+	<script src="../lib/3rdparty/highlight/highlight.pack.js"></script>
+	<script src="../lib/3rdparty/all.js"></script>
+	<script src="all.js"></script>
+</head>
+<body onload="Doctest.run()">
+<main>
+<h1>
+	Doctests
+</h1>
+<p>
+Doctests are explanatory descriptions of programs with executable code examples.
+Their main purpose is to explicate requirements, assumptions,
+and relationships between components that are difficult to understand from
+traditional API documentation. At the same time they provide tests of core
+functionality.
+</p>
+<p>Doctests are written as HTML5+JavaScript pages with embedded script tags
+marked by a <code>"doctest"</code> css class:
+<pre><code>&lt;script class="doctest"&gt;</code></pre>
+These scripts are evaluated and thereby tested when the page loads. See the
+source of this page for examples.
+Typically doctests are started by a
+<pre><code>&lt;body onload="Doctest.run()"&gt;</code></pre>
+call. This method loops over all script elements with a <code>"doctest"</code>
+css class and replaces these scripts with <code>&lt;pre&gt;</code> tags that
+(unlike<code>&lt;script&gt;</code> tags) are visible to the user.
+</p>
+<p>Let's look at an example of a simple program that uses a composite design
+pattern. A node with a query component that can be reused in other classes:</p>
+<script class="doctest">
+class Query {
+
+    constructor(node) {
+        this.node = node
+    }
+
+    search(text) {
+        // Typically this would be part of an async callback mechanim.
+        // Here we simulate this async call. The main assumption is that the
+        // Node class has a related callback method.
+        this.node.queryResult("Result for: " + text)
+    }
+}
+
+class Node {
+
+    constructor(name) {
+        this.name = name
+        this.query = new Query(this)
+    }
+
+    queryResult(result) {
+        this.result = result
+    }
+}
+</script>
+<p>We can now check whether the basic setup of our composite pattern works:</p>
+<script class="doctest">
+
+let node = new Node("Test")
+node.query.search("What about...")
+
+Doctest.expect(node.result, "Result for: What about...")
+
+</script>
+<p>Looking at the source of this doctest you will see that the test is done
+by the static <pre><code>Doctest.expect(expr, result)</code></pre> method. This
+method throws an error which can be used standard browser development tools to
+locate and trace the cause of the error.</p>
+<h2>
+	References
+</h2>
+<ul>
+    <li><a href="http://highlightjs.readthedocs.io">Code Highlighting with highlight.js</a></li>
+    <li><a href="https://github.com/davidchambers/doctest">David Chamber's JavaScript Doctest</a></li>
+</ul>
+</main>
+</body>

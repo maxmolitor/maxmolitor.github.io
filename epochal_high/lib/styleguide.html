@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Styleguide</title>
+	<link rel="stylesheet" href="../lib/3rdparty/highlight/styles/default.css">
+	<link rel="stylesheet" href="../css/doctest.css">
+	<script src="./3rdparty/highlight/highlight.pack.js"></script>
+    <script src="./3rdparty/all.js"></script>
+	<script src="all.js"></script>
+</head>
+<body onload="Doctest.run()" >
+<h1>
+	Styleguide
+</h1>
+<p id="paragraph">
+Modern JavaScript is more concise (some would say Pythonic) than ever. The
+language shows a clear trend to omit superfluous chars (e.g. the semicolon after
+each statement, a compact notation for multiline-strings) provide more specific
+keywords (e.g. let and const in addition to the var statement, class and static
+for object oriented programing and namespaces).
+This styleguide lists some of the newer ways which should be prefered over older
+styles still to be found on <a href="http://stackoverflow.com">stackoverflow</a>
+and other sites.
+</p>
+<script class="doctest">
+
+var a = 42      // Old way, global scope
+let b = 42      // New way, local scope
+const c = 42    // Use this for values that should remain constant
+
+// Commonly used but in modern browsers no longer needed
+let p = document.getElementById('paragraph')
+
+// Instead use id directly
+console.log(paragraph)
+
+
+// Iteration the old way
+let list = [a, b, c]
+for(var i=0; i<list.length; i++) {
+    let value = list[i]
+}
+// Prefered shorter version
+for(let key of list) {
+    let value = list[key]
+}
+
+// Anonymous functions the old way
+list.forEach(function(value) { })
+
+// Prefered arrow functions
+list.forEach((value) => { })
+
+// The main advantage of arrow functions is the fact that this is now
+// bound to the value in the outer context. This makes bind calls superfluous.
+class Test {
+
+    obsolete1() {
+        this.addEventListener(function(event) {
+            console.log("This is still this:", this)
+        }.bind(this))
+    }
+
+    obsolete2() {
+        var that = this
+        this.addEventListener(function(event) {
+            console.log("This is still that:", that)
+        })
+    }
+
+    method() {
+        this.addEventListener((event) => {
+            console.log("This is still this:", this)
+        })
+    }
+}
+
+</script>
+<p>The same holds for HTML5.</p>
+<pre><code>
+&lt;!-- Old way --&gt;
+&lt;script type="text/javascript" src=""&gt;&lt;/script&gt;
+
+&lt;!-- Prefered way: text/javascript is now the default type --&gt;
+&lt;script src=""&gt;&lt;/script&gt;
+
+</code></pre>
+</body>
