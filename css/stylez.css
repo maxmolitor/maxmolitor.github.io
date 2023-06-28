@@ -121,5 +121,9 @@ body{
     .wide{
         display:none;
     }
-
+}
+@media only screen and (max-width: 700px){
+    .tailored_content{
+        width:90%;
+    }
 }
