@@ -17,7 +17,7 @@ body{
 .tailored_content{
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -131,9 +131,9 @@ body{
         display:none;
     }
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 900px){
     .tailored_content{
-        width:90%;
+        width:75%;
     }
 }
 @media only screen and (max-width: 850px){
@@ -142,5 +142,8 @@ body{
     }
     #quer{
         display:inline;
+    }
+    .tailored_content{
+        width:90%;
     }
 }
