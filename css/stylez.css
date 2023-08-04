@@ -28,7 +28,13 @@ body{
 .title{
     font-family: Nunito;
     font-size: 30px;
-    margin-bottom:50px;
+    margin-bottom:10px;
+    text-align: center;
+}
+.caption{
+    font-family: Nunito;
+    font-size: 10px;
+    margin-bottom:30px;
     text-align: center;
 }
 
@@ -47,7 +53,7 @@ body{
 .textblock{
     font-family: Nunito;
     font-size: 18px;
-    margin-bottom:50px;
+    margin-bottom:30px;
     margin-top:30px;
     text-align: justify;
 }
@@ -72,7 +78,6 @@ body{
 
 .flex_container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -129,6 +134,9 @@ body{
     }
     .wide{
         display:none;
+    }
+    .flex_container{
+        flex-wrap: wrap;
     }
 }
 @media only screen and (max-width: 900px){
