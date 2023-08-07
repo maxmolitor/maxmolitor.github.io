@@ -28,7 +28,7 @@ body{
 .title{
     font-family: Nunito;
     font-size: 30px;
-    margin-bottom:10px;
+    margin-bottom:5px;
     text-align: center;
 }
 .caption{
@@ -149,6 +149,15 @@ body{
     .tailored_content{
         width:75%;
         margin-top: 20px;
+    }
+    .title{
+        text-align: left;
+    }
+    .caption{
+        text-align: left;
+    }
+    .subtitle{
+        text-align: left;
     }
 
 }
