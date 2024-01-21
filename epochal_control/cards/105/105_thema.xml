@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+
+	<h1>Ein Familienbildnis</h1>
+	<preview>
+		<text>
+			Familie im  &lt;br/&gt;bürgerlichen Zeitalter
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+				<text><![CDATA[
+				<h2>Für die Mutter des Künstlers</h2>
+				<p>Eine friedliche und harmonische Familie mit fünf Kindern bildet das Zentrum des Bildes (siehe Abbil-dung). Diese ist die Familie von Chodowiecki. Er schuf dieses Familienporträt für seine Mutter, wie die <a href="105/gewidmet.xml" imageHighlightId="105.105.jpg.h7">Aufschrift</a> verrät.</p>
+			]]></text> 
+			<space height="40"/>
+			<text><![CDATA[	
+			<h2>Die Familie des bürgerlichen Zeitalters</h2>
+			<p>Diese Radierung wurde zum Inbegriff der Familie im bürgerlichen Zeitalter und zählt zu Chodowieckis bekanntesten Werken. Neu an der Darstellung war der Verzicht auf würdevolle, standesgemäße Reprä-sentation zugunsten einer zwanglosen Natürlichkeit. Diese nicht repräsentative Atmosphäre des Raumes wird auch von den Stühlen betont, die aus verschie-denen Zeiten stammen und einander nicht ähneln.</p>
+			]]></text>
+
+		</column>
+		<column>
+	<space height="00"/>
+			<img src="105/105.jpg" maxHeight="500" caption="Kabinett eines Malers" allowZoom="true" zoomCaption="Daniel Nikolaus Chodowiecki: &lt;i&gt;Kabinett eines Malers&lt;/i&gt;, Radierung, 1771, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett." >
+			</img>
+		</column>
+	</content>
+</card>

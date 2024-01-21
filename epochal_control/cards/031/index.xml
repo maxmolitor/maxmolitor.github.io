@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<img src="031/031.jpg"/>
+<header>
+	<!-- Thumbnail of artwork with 512px large side -->
+	<thumbnail>031/thumbnail.jpg</thumbnail>
+	<artist>Pieter Bruegel d. Ä. (ca. 1525-1569)</artist>
+	<title>Die Kaninchenjagd (1560)</title>
+	<misc>Radierung, 21,3 x 28,8 cm (Blatt), sign. unten links: BRUEGEL 1506 [sic!]; oben rechts: H. Cock excu</misc>
+	<year>1560</year>
+	<nr>0031</nr>
+	<description>
+		Bruegel lässt in seiner einzigen eigenhändig ausgeführten Radierung eine ganze „Weltlandschaft“ entstehen – von der Jagdszene vorn über den Felsen und den Fluss bis zur Stadt am Meer in der Ferne. 
+	</description>
+	<annotation href="031/popup.xml">Zur Zeit nicht ausgestellt</annotation>
+</header>
+
+<card src="031/031_artist.xml"/>
+
+<card src="031/031_thema.xml"/>
+
+<card src="031/031_details.xml"/>
+
+<card src="031/031_licht.xml"/>
+
+<card src="031/031_technik.xml"/>
+
+<card src="031/031_vergleich.xml"/>
+
+
+</data>

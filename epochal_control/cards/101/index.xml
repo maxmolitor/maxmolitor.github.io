@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<img src="101/101.jpg"/>
+<header>
+	<!-- Thumbnail of artwork with 512px large side -->
+	<thumbnail>101/thumbnail.jpg</thumbnail>
+	<artist>Pascha Johann Friedrich Weitsch (1723–1803)</artist>
+	<title>Tête-à-Tête mit Hirtenlandschaften (um 1765)</title>
+	<misc>Manufaktur Fürstenberg, Porzellan</misc>
+	<misc>1) Kanne mit Deckel, Höhe: 20,6 cm 2) Zuckerdose mit Deckel, Höhe: 9 cm </misc>
+	<misc>3) Tasse, Höhe: 4,7 cm 4) Unterschale, Höhe: 4,7 cm 5) Löffel, Länge: 10,2 cm</misc>
+	<year>1765</year>
+	<nr>0101</nr>
+	<description>
+		 Die Bezeichnung „Tête-à-Tête“ verrät es: Dieses Service ist für den Kaffeegenuss zu zweit gedacht. Sowohl die Formen als auch die darauf abgestimmten Landschaftsdarstellungen und goldenen Verzierungen verkörpern typische Eigenschaften eines Rokoko-Geschirrs.
+	</description>
+	<!-- <annotation href=" ">Zur Zeit nicht ausgestellt</annotation> -->
+</header>
+
+<card src="101/101_artist.xml"/>
+
+<card src="101/101_thema.xml"/>
+
+<card src="101/101_details.xml"/>
+
+<card src="101/101_technik.xml"/> 
+
+<card src="101/101_vergleich3.xml"/> 
+
+<card src="101/101_thema3.xml"/>
+
+</data>

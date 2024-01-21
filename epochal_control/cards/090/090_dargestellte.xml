@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="dargestellte"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+<card type="thema">
+	<h1>Herzog Anton Ulrich</h1>
+	<preview>
+		<text>
+			Barocke Prachtentfaltung
+		</text>
+	</preview>
+	
+		<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Machtbewusst und Kunst liebend</h2>
+				<p>Anton Ulrich von Braunschweig-Wolfenbüttel (1633-1714, siehe Abbildung) war Herzog zu Braunschweig und Lüneburg und Fürst von Braunschweig-Wolfen-büttel aus dem Haus der Welfen. Er verkörperte den Typus des absolutistischen, machtbewussten <a href="glossar/barock.xml">Barock-fürsten</a>, war aber auch außerordentlich an den Künsten interessiert. Er schrieb selbst Gedichte, Romane und Ballette. Seine Kunstsammlungen – z. B. Gemälde, Porzellan, <a href="glossar/majolika.xml" >Majoliken</a> und <a href="090/email.xml" >Maleremail</a> – bilden den Grundstock des nach ihm benannten Museums in Braunschweig.</p>
+				]]></text>
+			<space height="50"/>
+			<text><![CDATA[
+				<h2>Mitregent</h2>
+				<p>Anton Ulrich war das fünfte Kind <a href="glossar/herzogaugustdj.xml" >Herzog Augusts d. J.</a> Sein älterer Bruder Rudolf August, der Nachfolger Herzog Augusts ab 1666, ernannte ihn 1667 zum <a href="glossar/statthalter.xml" >Statthalter</a>, 1685 zum gleichberechtigten Mitregen-ten. 1671 eroberte Anton Ulrich mit seinen wel-fischen Vettern die damals unabhängige Stadt Braunschweig. 1688 begann er mit dem Bau des Schlosses <a href="glossar/salzdahlum.xml" >Salzdahlum</a> bei Wolfenbüttel.</p>
+			]]></text>
+		</column>
+		<column>
+		<space height="00"/>
+			<img src="090/heiss.jpg" maxHeight="250" caption="Herzog Anton Ulrich" allowZoom="true" zoomCaption="Elias Christoph Heiss:&lt;i&gt; Herzog Anton Ulrich von Braunschweig und Lüneburg&lt;/i&gt;, nach Tobias Querfurt, Schabkunst, 1695, Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett.">
+			</img>
+		<space height="20"/>
+			<text><![CDATA[
+			<h2>Alleinherrscher</h2>
+			<p>1704 starb Rudolf August, Anton Ulrich wurde Allein-herrscher. Sein ehrgeizigstes politisches Ziel, die  <a href="glossar/kurwuerde.xml" >Kurwürde</a>, erfüllte sich zwar nicht, aber es gelang durch Einheirat Verknüpfungen zu wichtigen europä-ischen Herrscherhäusern herzustellen: Vermählung seiner Enkelin Elisabeth Christine 1708 mit Erzherzog Karl III. von Österreich, dem späteren Kaiser Karl VI., sowie seiner zweiten Enkelin mit Großfürst Alexei von Russland, dem Sohn Zar Peters I.</p>
+			]]></text>
+
+		</column>
+	</content>
+</card>

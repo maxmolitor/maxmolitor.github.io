@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <!-- disable zooming -->
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>EyeVisit Cards</title>
+  <style media="screen">
+    html,
+    body {
+      background-color: #EEE;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      /*** For regions observed by InteraktionDelegates and -Mappers ***/
+      -ms-content-zooming: none;
+      touch-action: none;
+      -webkit-font-smoothing: subpixel-antialiased;
+
+    }
+
+    /** https://davidwalsh.name/translate3d **/
+    img {
+        translate3d(0,0,0)
+    }
+
+    .flipWrapper {
+        translate3d(0,0,0)
+    }
+
+    .container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      min-height: 100%;
+    }
+    /** See https://github.com/electron/electron/issues/4420 */
+     ::selection {
+      background: transparent;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="../../css/flipeffect.css">
+  <link rel="stylesheet" type="text/css" href="./css/popup.css">
+  <link rel="stylesheet" type="text/css" href="./css/layout.css">
+  <link rel="stylesheet" type="text/css" href="./css/tooltip.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <script src="../../lib/3rdparty/all.js"></script>
+  <script src="../../lib/bootstrap.js"></script>
+  <template id="flipTemplate">
+        <div class="flipWrapper" onmousedown="return false" draggable="false">
+            <div class="flipCard">
+                <img class="flipFace front" draggable="false" src="" />
+                <div class="flipFace back" style="overflow: none;" draggable="false">
+                    <img class="flipButton backBtn" draggable="false" style="visibility:hidden;"  src="icons/close.svg" >
+                </div>
+            </div>
+            <img class="flipButton infoBtn" draggable="false" src="icons/info.svg" >
+        </div>
+    </template>
+
+    <template id="BACK">
+        <div class="annotation">
+            <p>
+            </p>
+        </div>
+        <div class="mainview">
+            <header class="mainHeader">
+                <img class="thumbnail" src="" />
+                <section class="mainSection">
+                    <p class="artist">
+                    </p>
+                    <p class="title">
+                    </p>
+                    <p class="misc">
+                    </p>
+                    <p class="description">
+                    </p>
+                </section>
+            </header>
+            <main class="mainContent">
+            </main>
+        </div>
+    </template>
+    <template id="CARD">
+        <div class="card">
+            <div class="titlebar">
+            </div>
+            <div class="wrapper">
+                <div class="preview">
+                </div>
+                <div id="leftcol" class="column">
+                </div>
+                <div id="rightcol" class="column">
+                </div>
+            </div>
+            <img class="zoomicon cardicon" src="icons/zoom.svg" />
+        </div>
+    </template>
+    <template id="TEXT">
+        <div class="text">
+        </div>
+    </template>
+    <template id="VIDEO">
+        <figure class="zoomable videofig">
+            <video class="mainimg" controls>
+                <source src="" type="video/mp4">
+            </video>
+            <img class="zoomicon" src="icons/zoom.svg">
+            <figcaption class="cap">
+            </figcaption>
+            <figcaption class="zoomcap">
+            </figcaption>
+        </figure>
+    </template>
+    <template id="GROUPIMAGE">
+        <div class="imggroup">
+            <figure class="zoomable half">
+                <img class="mainimghalf" /> <img class="zoomicon" src="icons/zoom.svg" />
+                <figcaption class="cap">
+                </figcaption>
+                <figcaption class="zoomcap">
+                </figcaption>
+            </figure>
+            <figure class="zoomable half">
+                <img class="mainimghalf" /> <img class="zoomicon" src="icons/zoom.svg" />
+                <figcaption class="cap">
+                </figcaption>
+                <figcaption class="zoomcap">
+                </figcaption>
+            </figure>
+        </div>
+    </template>
+    <template id="GROUPIMAGE_FIGURE">
+        <figure class="zoomable half">
+            <img class="mainimghalf" /> <img class="zoomicon" src="icons/zoom.svg" />
+            <figcaption class="cap">
+            </figcaption>
+            <figcaption class="zoomcap">
+            </figcaption>
+        </figure>
+    </template>
+    <template id="SINGLEIMAGE">
+        <figure class="zoomable singlefig">
+            <img class="mainimg" /> <img class="zoomicon" src="icons/zoom.svg" />
+            <figcaption class="cap">
+            </figcaption>
+            <figcaption class="zoomcap">
+            </figcaption>
+        </figure>
+    </template>
+    <template id="TOOLTIPIMG">
+        <figure class="zoomable">
+            <img class="mainimg" />
+            <figcaption class="zoomcap" style="display:block; height: 40px;">
+            </figcaption>
+        </figure>
+    </template>
+    <template id="SPACE">
+        <div class="spacer">
+        </div>
+    </template>
+    <template id="TOOLTIP">
+        <div class="tooltip">
+        </div>
+    </template>
+
+</head>
+<body oncontextmenu="return false;" onresize="resize()">
+<main class="container" id="main" >
+    <canvas id="canvas" />
+</main>
+<!--<canvas id="debugCanvas" style="z-index: 100000; position: absolute; top: 0px; left: 0px; pointer-events:none; width:100%; height: 100%;" /> -->
+<script>
+    function resize() {
+        if (typeof(debugCanvas) !== 'undefined') {
+            debugCanvas.width = window.innerWidth * window.devicePixelRatio
+            debugCanvas.height = window.innerHeight * window.devicePixelRatio
+        }
+    }
+    resize()
+    Bootstrap.import("./js/main.js")
+</script>
+</body>
+
+</html>

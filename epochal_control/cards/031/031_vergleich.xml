@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<card type="extra info">
+	<h1>Kunstwerk im Vergleich</h1>
+	<preview>
+		<text>
+			Das eigene Werk als Vorlage
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<p>Bruegel hatte bereits früher eine druckgrafische Serie von <i>Großen Landschaften</i> produziert, die von den Brüdern Doetecum nach seinen Zeichnungen radiert und von <a href="glossar/cock.xml">Hieronymus Cock</a> um 1555 heraus-gegeben wurde. Die <a href="glossar/radierung.xml" >Radierung</a> <i>Die Kaninchenjagd</i> (siehe Abbildung unten links) greift viele Aspekte dieser Serie auf, was zum Beispiel an den komposi-torischen Ähnlichkeiten zum Blatt <i>Der heilige Hiero-nymus in der Wüste</i> (siehe Abbildung unten rechts) deutlich wird.</p>
+			]]></text>
+			<space height="00"/>
+			<img src="031/linien.jpg" maxHeight="480" caption="Die Kaninchenjagd" allowZoom="true" zoomCaption="Pieter Bruegel d. Ä.: &lt;i&gt;Die Kaninchenjagd&lt;/i&gt;, Radierung,1560,&lt;br/&gt; Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett.">
+			<highlight x="0.74" y="-0.03" radius="0.06" href="031/signatur.xml" id="031.linien.h1"/>
+			</img>
+		</column>
+		<column>
+		    <text><![CDATA[
+				<p>Beide Landschaften sind von einem erhöhten Standpunkt aus und mit extremer räumlicher Tiefe dargestellt. Bruegel staffelt beim Aufbau seiner Landschaften mehrere diagonal verlaufende Zonen in Vorder-, Mittel- und Hintergrund hintereinander (siehe rote Linien). Übereinstimmend ist auch die leicht versteckte Darstellung der titelgebenden Szene in der unteren rechten Bildecke.</p>
+			]]></text>	
+			<space height="60"/>
+			<img src="031/hieronymus.jpg" maxHeight="500" caption="Der heilige Hieronymus in der Wüste" allowZoom="true" zoomCaption="Jan und Lucas van Doetecum: &lt;i&gt;Der heilige Hieronymus in der Wüste&lt;/i&gt; (nach Pieter Bruegel d. Ä.), Radierung, vor 1555, Amsterdam, Rijksmuseum, Rijksprentenkabinet."/>
+		</column>
+	</content>
+</card>

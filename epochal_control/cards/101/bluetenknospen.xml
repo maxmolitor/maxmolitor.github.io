@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+ <imggroup maxHeight="300">
+	<img src="101/bluetenknospen2.jpg"/>
+	
+	
+</imggroup>
+	
+	<text><![CDATA[
+		<p><span class="popuptext">Die Griffe der Gefäße sind als Blütenknospen gestaltet, wie hier am Beispiel der Zuckerdose zu sehen ist.</span></p>
+	]]></text>
+	<!-- <img src="101/bluetenknospen1.jpg"/> -->
+</content>

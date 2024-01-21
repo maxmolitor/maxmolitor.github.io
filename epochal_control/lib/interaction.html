@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Interaction Mapper Doctest</title>
+	<link rel="stylesheet" href="../lib/3rdparty/highlight/styles/default.css">
+	<link rel="stylesheet" href="../css/doctest.css">
+	<script src="../lib/3rdparty/highlight/highlight.pack.js"></script>
+    <script src="all.js"></script>
+</head>
+<body onload="Doctest.run()" >
+<h1>
+	Interaction Pattern
+</h1>
+<p>
+Since the correct handling of the divergent browser specific multitouch
+implementations is a difficult and recurring task we decided to encapsulate
+all related handlers for <code>TouchEvent</code> (WebKit, Mozilla) and
+<code>PointerEvent</code> (IE, Edge, Chrome) in
+a single delegate pattern.
+</p>
+<p>The main differences are that <code>PointerEvent</code> are fired for each
+touch point, whereas the <code>TouchEvent</code> collects multiple
+<code>TouchPoints</code> into a single event. The basic PointMap and Interaction
+classes unify this behavior by collection all contact points regardless
+of their original mouse, touch, or pointer events.</p>
+<h2>
+    Point Maps
+</h2>
+<p>The touch and pointer positions are collected in PointMaps which provide
+access to the positions via stringified touch and pointer ids. For mouse events the
+special id "mouse" is used. PointMaps can be cloned and pretty printed. In addition
+they provide auxiliary methods like <code>mean</code> and <code>farthests</code>
+which can be used to simplify the computation of gestures. In general
+<code>mean</code> can be used to compute the "center of interaction", i.e. the
+best guess of the anchor point for rotation and scaling operations.
+</p>
+<script class="doctest">
+let mouse = new PointMap({ mouse: {x:0, y:0}})
+let touches = new PointMap({ "touch1": {x:0, y:0}, "touch2": {x: 10, y: 10}})
+
+Doctest.expect(touches,
+"[PointMap touch1:{x:0, y:0}, touch2:{x:10, y:10}]")
+Doctest.expect(touches.clone(),
+"[PointMap touch1:{x:0, y:0}, touch2:{x:10, y:10}]")
+Doctest.expect(touches.mean(), {"x":5,"y":5})
+</script>
+<p>If more than two touch points are involved it may be best to look for the
+pair of points which are farthest away from each other. These points will
+represent the fingers farthest away from each other, a more simple substitute
+for 3, 4 or 5 touch points. Here we add a third point to our example touches
+and test whether the maximal distant points are found:
+<script class="doctest">
+touches.set("touch3", {x:5, y:5})
+Doctest.expect(touches.farthests(), [{"x":0,"y":0},{"x":10,"y":10}])
+</script>
+<h2>
+Interaction Points and Interactions
+</h2>
+Events and points change in time and gestures are computed from this dynamic behavior.
+To collect theses changes and to simplify the computation of gestures we
+collect PointMaps in a composite class InteractionPoints, which distinguishes
+start, current, previous, and ended point coordinates as well as the start timestamps.
+<script class="doctest">
+
+let interactionPoints = new InteractionPoints()
+
+interactionPoints.update("touch1", {x:0, y:0})
+interactionPoints.update("touch2", {x:5, y:5})
+interactionPoints.update("touch3", {x:10, y:10})
+Doctest.expect(interactionPoints.current.size, 3)
+
+// Initially current and previous points are equal
+Doctest.expect(interactionPoints.current, interactionPoints.previous)
+// Using updatePrevious we copy the current points to the previous ones.
+// This is always needed after change events
+interactionPoints.updatePrevious()
+
+// After this call current and previous can be used to compure the deltas:
+interactionPoints.update("touch1", {x: -2, y: -5})
+interactionPoints.update("touch2", {x: 5, y: 7})
+interactionPoints.update("touch3", {x: 15, y: 20})
+Doctest.expect(interactionPoints.current,
+    "[PointMap touch1:{x:-2, y:-5}, touch2:{x:5, y:7}, touch3:{x:15, y:20}]")
+
+// The delta object is a convenience object to access translation, scaling,
+// and rotation values as well as the center of transformation
+let delta = interactionPoints.delta()
+
+Doctest.expect(delta.x, 1.5)
+Doctest.expect(delta.y, 2.5)
+Doctest.expect(delta.zoom > 2.1, true)
+Doctest.expect(delta.rotate > 0.1, true)
+Doctest.expect(delta.about, {x:6.5, y:7.5})
+
+</script>
+<p>Interaction objects extend the idea of mapping touch ids to
+points to multiple target objects. Each touch id is mapped not only to the
+changing points of this touch but also to the  object that has been
+hit by the starting touch point. This object is the target of the interaction
+and remains for the whole duration of the multitouch gesture.
+
+
+<h2>
+    Interaction Delegate
+</h2>
+<p>The delegator registers all needed <code>TouchEvent</code>,
+<code>PointerEvent</code>, and <code>MouseEvent</code>
+handlers on a provided DOM elememt for a given target object, ensures that the
+events are captured by the target and boils the event handling down to simple
+<code>onStart</code>, <code>onMove</code>, <code>onEnd</code> events.
+
+
+<p>Let's look at an example of an InteractionDelegate and a target object that
+implements the <code>IInteractionTarget</code> interface. Typically you setup
+the delegator in the constructor of the class that uses the interation.
+</p>
+<script class="doctest">
+
+class InteractionTarget {
+
+    // The constructor of the target creates the InteractionDelegate
+    constructor(domElement) {
+        this.interaction = new InteractionDelegate(domElement, this)
+    }
+
+    // The following methods are needed by the IInteractionTarget interface
+
+    // Indicates that we want all events
+    capture(event) { return true }
+
+    // Handle collected touch points on start
+    onStart(event, points) {}
+
+    // Handle collected touch points on update
+    onMove(event, points) {}
+
+    // Handle collected touch points on end
+    onEnd(event, points, ended) {}
+
+    // Handle mouse wheel event
+    onMouseWheel(event) {}
+}
+
+</script>
+<p>We can now check whether the promised interface methods are implemented by the
+class:</p>
+<script class="doctest">
+Doctest.expect(IInteractionTarget.implementedBy(InteractionTarget), true)
+</script>
+<p>If we define an InteractionTarget that violates the IInteractionTarget interface
+we get an error. The following example of an interaction target uses an
+InteractionDelegate but does not implement the necessary methods:
+</p>
+<script class="doctest">
+    class InvalidInteractionTarget {
+
+        constructor(domElement) {
+            this.interaction = new InteractionDelegate(domElement, this, { debug: true})
+        }
+    }
+
+    try {
+        new InvalidInteractionTarget(null)
+    } catch (error) {
+        Doctest.expectError(error, "Expected IInteractionTarget")
+    }
+
+</script>
+
+<h2>
+    Interaction Mapper
+</h2>
+<p>Often we need to assign UI elements to touch and pointer events. This is
+supported by a special InteractionMapper delegate. A InteractionMapper
+maps events to specific parts of a container interaction target. The
+InteractionTarget must implement a findTarget method that returns an
+object implementing the IInteractionTarget interface.
+</p>
+<p>
+If the InteractionTarget also implements a <code>mapPositionToPoint</code> method this
+is used to map the points to the local coordinate space of the the target.
+This makes it easier to lookup elements and relate events to local
+positions.
+</p>
+<p>Let's see an example. A graph that uses an <code>InterationMapper</code> for it´s child
+objects:
+</p>
+<script class="doctest">
+
+    class Graph {
+
+        constructor(domElement) {
+            this.interaction = new InteractionMapper(domElement, this)
+            this.nodes = [
+                new Node('a'),
+                new Node('b')
+            ]
+        }
+
+        capture(event) { return true }
+
+        findTarget() {
+            for(let node of this.nodes) {
+                return node
+            }
+            return null
+        }
+    }
+
+    class Node {
+
+        constructor(name) {
+             this.name = name
+        }
+
+        capture(event) { return true }
+
+        onStart(event, interaction) {
+            Doctest.log("onStart called")
+        }
+
+        onMove(event, interaction) {
+            Doctest.log("onMove called")
+        }
+
+        onEnd(event, interaction) {
+            Doctest.log("onEnd called")
+        }
+
+    }
+
+</script>
+<p>Now we simulate a sequence of <code>onStart, onMove, onEnd</code> events by calling
+the registered event handlers programmatically. Note that the defined
+event handlers log their calls.</p>
+<script class="doctest">
+
+    let graph = new Graph(window)
+    window.dispatchEvent(Doctest.event('mousedown'))
+    window.dispatchEvent(Doctest.event('mousemove'))
+    window.dispatchEvent(Doctest.event('mouseup'))
+
+    Doctest.expectLog('onStart called',
+            'onMove called',
+            'onEnd called')
+
+</script>
+<h2>
+    Simple Dragging
+</h2>
+<p>Drag & Drop is a common interaction pattern. This behavior can be accomplished
+by a class that implements IInteractionMapperTarget as well as IInteractionTarget.
+You can grab the blue circle with touches or mouse and drag it around.</p>
+<div class="grayBorder" style="position: relative; width: 100%; height: 200px">
+    <div id="circle" style="position: absolute; left:50px; top: 50px; border-radius: 50%; width: 32px; height: 32px; background-color: blue;"></div>
+</div>
+<script class="doctest">
+    class Dragger {
+
+        constructor(element, container) {
+            /* The events are captured by the container but send to this
+            wrapper object, if the event target is identical to the wrapped
+            object. */
+            this.target = element
+            this.interaction = new InteractionMapper(container, this)
+        }
+
+        capture(event) { return true }
+
+        findTarget(event, localPoint, globalPoint) {
+            return (event.target == this.target) ? this : null
+        }
+
+        onStart(event, interaction) {
+            // Only needed to fulfill the IInteractionTarget interface
+        }
+
+        onMove(event, interaction) {
+            let move = interaction.move()
+            let x = parseInt(this.target.style.left) + move.x
+            let y = parseInt(this.target.style.top) + move.y
+            this.target.style.left = x + "px"
+            this.target.style.top = y + "px"
+        }
+
+        onEnd(event, interaction) {
+            // Only needed to fulfill the IInteractionTarget interface
+        }
+
+        onMouseWheel(event) {
+            // Only needed to fulfill the IInteractionTarget interface
+        }
+    }
+
+    Doctest.expect(IInteractionMapperTarget.implementedBy(Dragger), true)
+    Doctest.expect(IInteractionTarget.implementedBy(Dragger), true)
+
+    new Dragger(circle, document.body)
+</script>
+<h2>
+References
+</h2>
+<ul>
+    <li><a href="https://www.amazon.de/Patterns-Elements-Reusable-Object-Oriented-Software/dp/0201633612">Design Patterns [p. 20]</a></li>
+</ul>
+</body>

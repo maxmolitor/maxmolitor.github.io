@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+  
+	<text><![CDATA[
+		<p><span class="popuptext">Ein Skarabäus ist eine Nachbildung des Käfers „scarabaeus sacer“ (Heiliger Pillendreher). Man findet ihn bereits in frühen Kulturen Ägyptens als Schmuck an Ketten und Armbändern oder als Amulett.</span></p> 
+	]]></text>
+	<text><![CDATA[
+		<p><span class="popuptext">Der Heilige Pillendreher formt eine Kugel aus Mist und Dung und rollt diese vor sich her. Das Weibchen legt seine Eier in dieser Kugel ab, von der sich die Larven ernähren und aus ihr schlüpfen. Für die Ägypter hatte dies den Anschein, als entstünden die Käfer von selbst oder aus der Erde, weshalb ihnen Schöpferkraft zugesprochen wurde.</span></p> 
+	]]></text>
+	<img src="glossar/skarabaeus.jpg" maxHeight="400" caption=" "/>
+<text><![CDATA[	
+	<p><span class="popuptext"><i>Herzskarabäus des Harsiese</i>, Grüner Stein, Spätzeit, Braunschweig, Herzog Anton Ulrich-Museum.</span></p>
+	]]></text>
+</content>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<card type="details">
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Details &amp; Symbolik</h1>
+	<preview>
+		<text>
+			Woran erkennt man &lt;br/&gt;einen Kriegsgott?
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<p>Nach dem Vorbild antiker Götterdarstellungen prä-sentiert sich <i>der Kriegsgott Mars</i> in <a href="glossar/heroisch.xml">heroischer</a> Nackt-heit (siehe Abbildung), die auf seine übermensch-liche Kraft verweist. Nur das <a href="glossar/attribut.xml">Attribut</a> des <a href="041/schwert.xml" imageHighlightId="041.mars.jpg.h3">Schwertes</a>, das er einst in der rechten Hand hielt, weist ihn als Kriegsgott aus.</p>
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Faszinierendes Muskelspiel</h2>
+				<p>Die Figur ist durch gegenläufige Drehbewegungen so angelegt, dass ein ausgeprägtes Muskelspiel ent-steht. Während durch den kraftvoll ausgreifenden Schritt nach vorne und die Bewegung des Kopfes eine Linksdrehung entsteht, weist der Oberkörper und der linke Arm mit dem <a href="glossar/manierismus.xml">manieriert</a> ausgestreck-ten, überlangen <a href="041/zeigefinger.xml" imageHighlightId="041.mars.jpg.h2">Zeigefinger</a> in die engegengesetzte Richtung. Die so entstandene Körperhaltung zeich-net sich durch eine hohe Spannung aus.</p>
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Fühlbar feine Details</h2>
+				<p>Die Details an Händen, <a href="041/fuss.xml" imageHighlightId="041.mars.jpg.h4">Füßen</a> und im <a href="041/gesicht.xml" imageHighlightId="041.mars.jpg.h1">Gesicht</a> sind fein herausgearbeitet. Man meint, das gelockte Haar und den glatten, muskulösen Körper zu fühlen. In beidem zeigt sich die hohe Qualität dieses Gusses.</p>
+			]]></text>
+		</column>
+		<column>
+		<space height="00"/>
+			<img src="041/mars.jpg" maxHeight="480" caption="Der Kriegsgott Mars" allowZoom="true" zoomCaption="Giambologna: &lt;i&gt;Der Kriegsgott Mars&lt;/i&gt;, Bronze, Modell vor 1587, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+			    <highlight x="0.36" y="0.06" radius="0.11" href="041/gesicht.xml" id="041.mars.jpg.h1"/>
+				<highlight x="0.24" y="0.41" radius="0.09" href="041/zeigefinger.xml" id="041.mars.jpg.h2"/>
+				<highlight x="0.33" y="0.51" radius="0.05" href="041/schwert.xml" id="041.mars.jpg.h3"/>
+				<highlight x="0.66" y="0.84" radius="0.07" href="041/fuss.xml" id="041.mars.jpg.h4"/>
+			</img>
+		</column>
+	</content>
+</card>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<card type="details">
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+
+	<h1>Details &amp; Symbolik</h1>
+	<preview>
+		<text>
+			Einklang von &lt;br/&gt;Dekor, Form und Motiv 
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+			    <h2>Zusammenspiel von Malerei und Form</h2>
+                <p>Die Kompositionen der Landschaften legte Weitsch passend zur Grundform des jeweiligen Porzellan-stückes an. Bei der Unterschale entspricht die Kom-position der runden Form des <a href="glossar/spiegel.xml" >Spiegels</a>: So sind die <a href="101/baeume.xml" imageHighlightId="101.teller.jpg.h1">Bäume</a> links und rechts nach innen gebogen und schließen die Komposition nach oben hin ab (siehe Abbildung unten links). Auf der Kanne hingegen wölbt sich entsprechend der bauchigen Form ein großer <a href="101/torbogen.xml" imageHighlightId="101.kanne2.jpg.h2">Torbogen</a> (siehe Abbildung unten rechts). Dieser gewährt einen Blick auf einen <a href="101/felsdurchbruch.xml" imageHighlightId="101.kanne2.jpg.h3">Felsdurch-bruch</a>; hiermit wird der Eindruck von Tiefenraum geschaffen.</p>
+		]]></text>
+		<img src="101/teller.jpg" maxHeight="230" caption="Unterschale" allowZoom="true" zoomCaption="Pascha Johann Friedrich Weitsch: &lt;i&gt;Teller des Kaffeeservice&lt;/i&gt;, Porzellan, um 1765,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."> 
+			<highlight x="0.59" y="0.25" radius="0.1" href="101/baeume.xml" id="101.teller.jpg.h1"/>
+			<highlight x="0.35" y="0.01" radius="0.12" href="101/blumengirlande.xml" id="101.teller.jpg.h2"/>
+			 </img> die Kompositionen der Bemalungen sehr sensibel aus der Grundform des jeweiligen Gefäßes herausSo liegt beispielsweise bei der Zuckerdose der untere Bildrand nur knapp über dem horizontalen Standring (siehe linke Abbildung).
+		</column>
+		<column>
+		<text><![CDATA[
+		        <h2>Sorgfältig geplanter Gesamtentwurf </h2>
+				<p>Die nicht bemalten Flächen werden bei allen Porzel-lanstücken unwillkürlich als Himmel wahrgenom-men, dieser Eindruck wird durch die grau-blauen <a href="101/wolken.xml" imageHighlightId="101.kanne2.jpg.h1">Wolken</a> verstärkt. In die unbemalten Flächen ragen <a href="101/blumengirlande.xml" imageHighlightId="101.teller.jpg.h2">Blumengirlanden</a>, wodurch ein harmonisches Ge-samtbild von Dekor und Motiv entsteht. Allerdings wurde der Randdekor nicht von Weitsch selbst, son-dern von einem anderen Spezialisten ausgeführt. Er ist aber so vorzüglich auf die Landschaftsmalerei ab-gestimmt, dass man von einem sorgfältig geplanten Gesamtentwurf ausgehen darf.</p>
+				]]></text>
+				<space height="15"/>
+			<img src="101/kanne2.jpg" maxHeight="240" caption="Kanne &lt;i&gt;&lt;/i&gt;" allowZoom="true" zoomCaption="Pascha Johann Friedrich Weitsch: &lt;i&gt;Kaffeeservice mit Hirtenlandschaft&lt;/i&gt;, Porzellan, 1765,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+			<highlight x="0.55" y="0.36" radius="0.12" href="101/wolken.xml" id="101.kanne2.jpg.h1"/>
+			<highlight x="0.51" y="0.47" radius="0.16" href="101/torbogen.xml" id="101.kanne2.jpg.h2"/>
+			<highlight x="0.6" y="0.68" radius="0.08" href="101/felsdurchbruch.xml" id="101.kanne2.jpg.h3"/>
+			 </img> 
+		</column>
+	
+	</content>
+</card>

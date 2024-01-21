@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<img src="071/071.jpg"/>
+<header>
+	<!-- Thumbnail of artwork with 512px large side -->
+	<thumbnail>071/thumbnail.jpg</thumbnail>
+	<artist>Rembrandt Harmensz. van Rijn (1606-1669)</artist>
+	<title>Gelehrter in seiner Studierstube/„Faust“ (um 1652)</title>
+	<misc>Radierung, Grabstichel, Kaltnadel, I. Zustand, 21 x 16 cm (Platte)</misc>
+	<year>1652</year>
+	<nr>0071</nr>
+	<description>
+		Getroffen von einer überirdischen, strahlenden Lichterscheinung, blickt der Gelehrte von seiner Arbeit auf.
+	</description>
+	<annotation href="071/popup.xml">Zur Zeit nicht ausgestellt</annotation>
+</header>
+
+<card src="071/071_artist.xml"/>
+
+<card src="071/071_thema.xml"/>
+
+<card src="071/071_details.xml"/>
+
+<card src="071/071_licht.xml"/>
+
+<card src="071/071_technik.xml"/>
+
+
+
+<!--
+<card type="topic">
+	<title>Morgenlandschaft</title>
+	<preview>
+		<teaser>Ein beobachtetes Naturphänomen</teaser>
+	</preview>
+</card>
+
+<card type="composition">
+	<title>Licht &amp; Farbe</title>
+	<preview>
+		<teaser>Das Kunstvolle des Gemäldes liegt in den atmosphärischen Übergängen</teaser>
+	</preview>
+</card>
+
+<card type="composition">
+	<title>Licht &amp; Farbe</title>
+	<preview>
+		<teaser>Das Kunstvolle des Gemäldes liegt in den atmosphärischen Übergängen</teaser>
+	</preview>
+</card>
+
+<card type="details">
+	<title>Licht &amp; Farbe</title>
+	<preview>
+		<teaser>Das Kunstvolle des Gemäldes liegt in den atmosphärischen Übergängen</teaser>
+	</preview>
+</card>
+
+<card type="artwork">
+	<title>Licht &amp; Farbe</title>
+	<preview>
+		<teaser>Das Kunstvolle des Gemäldes liegt in den atmosphärischen Übergängen</teaser>
+	</preview>
+</card>
+-->
+</data>

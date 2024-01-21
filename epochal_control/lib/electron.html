@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Electron Node.js Test</title>
+	<link rel="stylesheet" href="../lib/3rdparty/highlight/styles/default.css">
+	<link rel="stylesheet" href="../css/doctest.css">
+	<script src="../lib/3rdparty/highlight/highlight.pack.js"></script>
+	<script src="../lib/3rdparty/all.js"></script>
+	<script src="all.js"></script>
+</head>
+<body onload="Doctest.run()">
+<main>
+<h1>
+	Electron Node.js Test
+</h1>
+<p>
+This doctest is expected to work only within the IWMBrowser. IWMBrowser windows
+are opened with a preload.js which is evaluated before the HTML is loaded.
+According to
+<a href="https://electron.atom.io/docs/faq/">"I can not use jQuery/RequireJS/Meteor/AngularJS in Electron"</a> we
+have to rename the symbols in the page before other libraries are included.
+In order to access node.js modules we can use `nodeRequire` instead.
+</p>
+<p>As a simple test we try to load a file from the filesystem:</p>
+<script class="doctest">
+
+if (typeof(nodeRequire) != 'undefined') {
+    let fs = nodeRequire('fs')
+    let content = fs.readFileSync('./index.html')
+    let lines = content.toString().split(/\n/)
+    console.log("First line", lines[0] )
+    Doctest.expect(lines[0], '<html>')
+}
+
+</script>
+<p>As simple as this test is, it shows that within the IWMBrowser one import all node.js
+modules. Don't forget to test for nodeRequire to avoid runtime errors in other browsers.
+</p>
+<h2>
+	References
+</h2>
+<ul>
+    <li><a href="https://electron.atom.io/docs/faq/">I can not use jQuery/RequireJS/Meteor/AngularJS in Electron</a></li>
+ </ul>
+</main>
+</body>

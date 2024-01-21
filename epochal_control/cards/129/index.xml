@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<img src="129/129.jpg"/>
+<header>
+	<!-- Thumbnail of artwork with 512px large side -->
+	<thumbnail>129/thumbnail.jpg</thumbnail>
+	<artist>Rembrandt Harmensz. van Rijn (1606-1669)</artist> 
+	<title>Familienbild (um 1668)</title>
+	<misc>Leinwand, 126 x 167 cm</misc>
+	<year>1668</year>
+	<nr>0129</nr>
+	<description>
+		Dieses Spätwerk ist etwa ein Jahr vor Rembrandts Tod entstanden und bildet die Quintessenz seines malerischen Schaffens. Das Bild vom Familienglück ist zeitlos gültig und noch heute tief berührend. 
+	</description>
+	<!-- <annotation href="129/popup.xml">Zur Zeit nicht ausgestellt</annotation> -->
+</header>
+
+<card src="129/129_artist.xml"/>
+
+<card src="129/129_thema.xml"/>
+
+<card src="129/129_details.xml"/>
+
+<card src="129/129_licht.xml"/>
+
+<card src="129/129_technik.xml"/>
+
+<card src="129/129_vergleich.xml"/>
+
+
+
+
+
+
+</data>

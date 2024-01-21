@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Flippable Doctest</title>
+	<link rel="stylesheet" href="../lib/3rdparty/highlight/styles/default.css">
+	<link rel="stylesheet" href="../css/doctest.css">
+	<script src="../lib/3rdparty/highlight/highlight.pack.js"></script>
+    <script src="../lib/3rdparty/all.js"></script>
+	<script src="./all.js"></script>
+
+    <link rel="stylesheet" href="../css/flipeffect.css">
+	<template id="flipTemplate">
+        <div class="flipWrapper">
+            <div class="flipCard">
+                <div class="flipFace front"></div>
+                <div class="flipFace back" style="visibility:hidden;"></div>
+            </div>
+                <!-- Very tricky problem to scale svgs: see https://css-tricks.com/scale-svg/ -->
+            <svg class="flipButton backBtn" style="visibility:hidden;" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+                <g stroke-width="8" stroke="white">
+                    <circle  cx="50" cy="50" r="44" fill="gray" />
+                    <line x1="30" y1="30" x2="70" y2="70"  />
+                    <line x1="30" y1="70" x2="70" y2="30"  />
+                </g>
+            </svg>
+
+            <svg class="flipButton infoBtn" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+                <circle cx="50" cy="50" r="44" stroke="white" stroke-width="8" fill="gray" />
+                <circle cx="50" cy="32" r="7" fill="white" />
+                <line x1="50" y1="46" x2="50" y2="78" stroke="white" stroke-width="12" />
+            </svg>
+        </div>
+    </template>
+
+</head>
+<body onload="Doctest.run()">
+<h1>
+	Flippable
+</h1>
+<p>
+The flip effect simulates a flip between a front and back view of an object
+by means of a 3D rotation. The DOMFlippable class implements this effect for two
+DOM nodes, one as the front view, the other as the back view. Both views are connected
+via a HTML template that defines the placeholders for front and back views. The
+style file "css/flipeffect.css" holds reasonable default styles for this kind of
+templates.
+</p>
+<pre><code>
+    &lt;template id="flipTemplate"&gt;
+        &lt;div class="flipWrapper"&gt;
+            &lt;div class="flipCard"&gt;
+                &lt;div class="flipFace front"&gt;&lt;/div&gt;
+                &lt;div class="flipFace back" style="visibility:hidden;"&gt;&lt;/div&gt;
+            &lt;/div>
+            &lt;svg class="flipButton backBtn" .../&gt;
+            &lt;svg class="flipButton infoBtn" .../&gt;
+        &lt;/div&gt;
+    &lt;/template&gt;
+</code>
+</pre>
+<h3>
+	Example
+</h3>
+<main id="main" style="border: 1px solid gray; position: relative; height: 256px;" >
+
+</main>
+<script class="doctest">
+let scatterContainer = new DOMScatterContainer(main)
+if (Capabilities.supportsTemplate()) {
+    let flip = new DOMFlip(scatterContainer,
+                            flipTemplate,
+                            new ImageLoader('./examples/king.jpeg'),
+                            new ImageLoader('./examples/women.jpeg'),
+                            { onUpdate: e => console.log(e)})
+    flip.load().then((flip) => {
+        flip.centerAt({ x: 150, y: 120})
+    })
+}
+else {
+    alert("Templates not supported, use Edge, Chrome, Safari or Firefox.")
+}
+</script>
+</body>

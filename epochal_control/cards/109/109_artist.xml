@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<card type="artist">
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Jakob Philipp Hackert</h1>
+	<preview>
+		<text>
+			Sehnsucht nach Italien
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text>
+			<![CDATA[
+				<h2>Studium der Landschaftsmalerei</h2>
+				<p>Jakob Philipp Hackert (1737-1807) studierte ab 1758 an der Berliner Akademie. Teil seiner Ausbildung war das Kopieren von Landschaftsbildern, wofür sich Hackert besonders <a href="glossar/claudelorrain.xml">Claude Lorrain</a> und Italien-Landschaften von niederländischen Malern des  17. Jahrhunderts zum Vorbild nahm.</p>
+			]]>
+			</text>
+		<space height="40"/>
+			<text>
+			<![CDATA[
+				<h2>Der  klassizistische Blick</h2>
+				<p>Hackert war ein beim europäischen Adel gefragter Landschaftsmaler. Auf seinen Reisen zeichnete und malte er die Natur, die er nach dem Ideal des <a href="glossar/klassizismus.xml">Klassi-zismus</a> komponierte. 1762 reiste Hackert durch Norddeutschland, nach Schweden und von dort aus nach Paris, 1768 durch Italien. Er lebte für fast zwei Jahrzehnte in Rom (siehe Abbildung). Dort gehörte er einer Künstler- und Gelehrtengruppe an. Er besuchte auch Sizilien und die Schweiz.</p>
+				]]>
+				</text>
+		</column>
+		<column>
+			<text><![CDATA[
+				<h2>Goethe als Biograf </h2>
+				<p>1786 wird Hackert Hofmaler König Ferdinands IV. und zieht nach Neapel. Er gründet eine Schule für Landschaftsmaler und Kupferstecher. 1787 beginnt seine Freundschaft mit Goethe, der nach Hackerts Tod 1807 eine biografische Skizze verfasst. </p>
+				]]></text>
+				<space height="20"/>
+			<img src="109/dunker.jpg" maxHeight="270" caption="Nach Jakob Philipp Hackert" allowZoom="true" zoomCaption="Balthasar Anton Dunker:&lt;i&gt; Ansicht von St. Peter zu Rom&lt;/i&gt; (nach Jakob Philipp Hackert), Radierung,&lt;br/&gt; Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett." />
+		</column>
+	</content>
+</card>

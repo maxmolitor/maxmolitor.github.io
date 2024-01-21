@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<card type="licht und farbe">
+	<h1>Licht &amp; Farbe</h1>
+	<preview>
+		<text>
+			Zarte Blässe, &lt;br/&gt;die im Licht erstrahlt
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+			<h2>Starke Licht- und Schattenkontraste</h2>
+			<p>Durch das von oben rechts einfallende <a href="glossar/schlaglicht.xml" >Schlaglicht</a> und die dadurch zustande kommenden Hell-Dunkel-Kontraste werden die Körper plastisch modelliert (siehe Abbildung). Die starken Licht- und Schatten-kontraste schaffen nicht nur den Eindruck der Räum-lichkeit, sondern auch einen dramatischen Aus-druck.</p>
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+			<h2>Bunt und hell auf schwarzem Grund</h2>
+			<p>Von dem dunklen Hintergrund heben sich die Bunt-farben der Gewänder – Grün, Rot, Blau, Braun und Weiß – sowie das <a href="glossar/inkarnat.xml" >Inkarnat</a> der Körper deutlich ab. Der entblößte Leib Christi, der im Kontrast zu den bekleideten <a href="glossar/scherge.xml" >Schergen</a> umso nackter wirkt, zieht alle Blicke auf sich. Gegen seine zarte Blässe, die im Licht erstrahlt, wirken die Knechte mit ihrer sonnenge-bräunten <a href="054/haut.xml" imageHighlightId="054.gentileschi.jpg.h1">Haut</a> roh und gewöhnlich.</p>			
+			]]></text>	
+		</column>
+		<column>
+		<space height="00"/>
+		    <img src="054/gentileschi.jpg" maxHeight="500" caption="Die Dornenkrönung Christi" allowZoom="true" zoomCaption="Orazio Gentileschi: &lt;i&gt;Die Dornenkrönung Christi, &lt;/i&gt; Leinwand, um 1610/15, &lt;br/&gt; Braunschweig, Herzog Anton Ulrich-Museum.">
+			   <highlight x="0.51" y="0.50" radius="0.12" href="054/haut.xml" id="054.gentileschi.jpg.h1"/>
+			</img>
+		</column>
+	</content>
+</card>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+ <card type="thema">
+	<h1>Majolika</h1>
+	<preview>
+		<text>
+		    Herkunft und Verbreitung
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+         
+<text><![CDATA[
+				<h2>Der Weg von Ost nach West</h2>
+				<p>Majoliken sind seit 500 v. Chr. im Nahen Osten nachweisbar, entstanden aber unabhängig davon auch in China und Indien. Ihre Verwendung breitete sich nach Westen hin aus und erreichte über Ägypten zunächst Nordafrika. Mit Beginn der muslimischen Herrschaft über die <a href="glossar/iberischehalbinsel.xml" >Iberische Halbinsel</a> im 8. Jahrhundert hielt die Majolika Einzug in Spanien (siehe Abbildung).</p>     
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+			   <h2>Angekommen in Europa</h2>
+				<p>Der Hauptumschlagplatz, die Insel <a href="033/mallorca.xml" imageHighlightId="033.majolikaweg.jpg.h1">Mallorca</a>, verlieh der Majoli-ka vermutlich ihren Namen. Seit dem 14. Jahrhundert wurden auch in anderen Ländern Europas Majoliken produziert. Einer der bedeutendsten Herstellungsorte seit dem 16. Jahrhundert ist die italienische Stadt <a href="033/faenza.xml" imageHighlightId="033.majolikaweg.jpg.h2">Faenza</a>. Von dieser leitet sich eine an-dere Bezeichnung für Majolika – die „Fayence“ – ab. Die Fayen-ce-Kunst breitete sich von Italien nach Frankreich und Holland aus. Im holländischen <a href="033/delft.xml" imageHighlightId="033.majolikaweg.jpg.h3">Delft</a> erreichte sie im 17. und 18. Jahr-hundert einen neuen Höhepunkt: Die Delfter-Fayence mit ihrem <a href="033/kobaltblau.xml" >blauen Dekor</a> und zusätzlicher <a href="glossar/coperta.xml" >Coperta</a> zeichnet sich durch ihre Ähnlichkeit mit chinesischem Porzellan aus. Im 18. Jahrhundert diente die Majolika bzw. Fayence im deutsch-spra-chigen Raum als willkommener Ersatz für das teure Porzellan.</p>    
+			]]></text>
+			
+			</column>
+			<column>
+			<text><![CDATA[
+			<h2>Gesammelt in Braunschweig</h2>
+				<p>Mit dem Erwerb zahlreicher Keramiken zwischen 1698 und 1710 legte <a href="glossar/herzogantonulrich.xml" >Herzog Anton Ulrich</a> eine umfangreiche Majolika-sammlung an. Zu seiner Zeit umfasste die Sammlung an die 1000 Exemplare. Auf-grund kriegsbedingter Verluste enthält der Bestand heute 933 Stücke und zählt damit zu den ältesten, nahezu vollständig erhaltenen fürstlichen Sammlungen.</p>     
+			]]></text>
+			<space height="10"/>
+			<img src="033/majolikaweg.jpg" maxHeight="500" caption="Der Weg der Majolika" allowZoom="true" zoomCaption="Landkarte: Der Weg der Majolika vom Nahen Osten nach Europa">
+			<highlight x="0.4" y="0.7" radius="0.08" href="033/mallorca.xml" id="033.majolikaweg.jpg.h1"/>		
+			<highlight x="0.65" y="0.48" radius="0.08" href="033/faenza.xml" id="033.majolikaweg.jpg.h2"/>
+			<highlight x="0.43" y="0.12" radius="0.07" href="033/delft.xml" id="033.majolikaweg.jpg.h3"/>
+			</img>
+			
+		</column>
+	</content>
+</card>

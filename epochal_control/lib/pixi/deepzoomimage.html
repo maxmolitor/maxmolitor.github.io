@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>DeepZoomImage Doctest</title>
+
+    <link rel="stylesheet" href="../3rdparty/highlight/styles/default.css">
+    <link rel="stylesheet" href="../../css/doctest.css">
+
+    <script src="../3rdparty/highlight/highlight.pack.js"></script>
+    <script src="../3rdparty/all.js"></script>
+    <script src="../3rdparty/jquery.min.js"></script>
+
+    <script src="../all.js"></script>
+    <script src="./all.js"></script>
+
+    <style>
+        #app{
+            display: table;
+            margin: 0 auto;
+        }
+
+        #app>* {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body onload="Doctest.run()">
+    <h1>DeepZoomImage</h1>
+    <p>
+        The main class of a deeply zoomable image that is represented by a hierarchy of tile layers for each zoom level. This gives
+        the user the impression that even huge pictures (up to gigapixel-images) can be zoomed instantaneously, since the
+        tiles at smaller levels are scaled immediately and overloaded by more detailed tiles at the larger level as fast
+        as possible.
+    </p>
+    <br />
+    <div id="app">
+        <button id="change_dpr">Change Pixel Ratio</button>
+        <div id="canvas_container"></div>
+        <div id="info"></div>
+    </div>
+    <script class="doctest">
+
+        // When an element is added, the ScatterApp wrapps it in it's own Scatter Container.
+        // Just as in the doctest: scatter.html
+        class ScatterApp extends PIXIApp {
+            sceneFactory() {
+                return new ScatterContainer(this.renderer, { showBounds: true, app: this })
+            }
+        }
+
+        let app
+        let state = 0
+
+        //Destroys the PIXIApp element and the corresponding canvas,
+        //to reinstantiate the entire application.
+        changePIXI()
+
+        function changePIXI() {
+            if (typeof app != 'undefined') {
+                //The parameter destroys the canvas, when destroying the app.
+                // Not deleting a new canvas resulted in some
+                // weird PIXI error.
+                app.destroy(true)
+            }
+
+
+            //A new canvas has to be created
+            //for the new view.
+            var canvas = document.createElement("canvas")
+            canvas_container.appendChild(canvas);
+
+            app = new ScatterApp({
+                resolution: state + 1,
+
+                //Default parameters
+                view: canvas,
+                autoResize: false,
+                width: 128,
+                height: 128,
+                backgroundColor: 0xFFCCCCCC
+            }).setup().run()
+
+
+            // For the creating a DeepZoomImage, a DeepZoomInfo has to
+            // be provided. It contains all the necessary informations
+            // for the DeepZoomImage, to behave as intended.
+            // (E.g. that it displays the right level of tiles for the current view distance.)
+
+            deepZoomInfo = new DeepZoomInfo(
+                {
+                    "tileSize": 128,
+                    "format": "jpg",
+                    "overlap": 0,
+                    "type": "map",
+                    "height": 4096,
+                    "width": 4096,
+                    "path": "assets/maps/test",
+                    "urlTileTemplate": "{path}/{level}/{column}/{row}.{format}"
+                });
+
+
+            // Create the DeepZoomImage
+            deepZoomImage = new DeepZoomImage(deepZoomInfo, {
+                highResolution: !!state
+            });
+
+
+
+            deepZoomImage.scatter = new DisplayObjectScatter(deepZoomImage, app, {
+                // Allow more flexible scaling for debugging purposes.
+                minScale: 0,
+                maxScale: 100,
+                // Notify the DeepZoomImage, when it's container has
+                // been transformed (translated, scaled, rotated, ...)
+                onTransform: (event) => {
+                    deepZoomImage.transformed(event)
+                }
+            });
+
+
+            // Add the DeepZoomImage to the scene.
+            app.scene.addChild(deepZoomImage)
+
+            //Set info text.
+            info.innerHTML = "resolution: " + app._options.resolution +
+                "<br>high resolution: " + !!state;
+        }
+
+
+        // Add functionality to the button.
+        change_dpr.addEventListener("click", (event) => {
+            state = (state + 1) % 2
+            changePIXI()
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<card type="artist">
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Rembrandt</h1>
+	<preview>
+		<text>
+			Erfolg, Armut und Schicksalsschläge
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text>
+			<![CDATA[
+				<h2>Vom Müllerssohn zum Maler</h2>
+				<p>Rembrandt Harmensz. van Rijn (1606-1669, siehe Abbildungen unten) wurde als Sohn eines Müllers in Leiden geboren. Er ging bei <a href="glossar/swanenburgh.xml">Jacob Isaacsz. van Swanenburgh</a> und <a href="glossar/pieterlastman.xml">Pieter Lastman</a> in die Lehre. 1631 zog Rembrandt nach Amsterdam, wo er in die <a href="glossar/lukasgilde.xml">Lu-kasgilde</a> eintrat und bald zum gefeierten Porträtmaler aufstieg.</p>
+			]]>
+			</text>
+			<space height="35"/>
+			<text>
+			<![CDATA[
+				<h2>Wohlstand und Bankrott</h2>
+				<p>1634 heiratete Rembrandt <a href="glossar/saskiavanuylenburgh.xml" >Saskia van Uylenburgh</a>. Saskias Ver-mögen und gute Kontakte zum Kunsthandel verhalfen der Fa-milie zu Wohlstand. Rembrandt kaufte ein Haus und begann Kunst zu sammeln. Diese Sammelleidenschaft und der Kredit für das Haus trieben ihn nach und nach in den Bankrott. Schließ-lich starb er 1669 in Armut – trotz großer künstlerischer Erfolge.</p>
+			]]></text>
+			<space height="15"/>
+			<imggroup maxHeight="250">
+			<img src="129/rembrandt.jpg" maxHeight="200" caption="Rembrandt" allowZoom="true" zoomCaption="Georg Friedrich Schmidt: &lt;i&gt;Rembrandt Harmensz. van Rijn&lt;/i&gt; (nach Rembrandt), Radierung, 1771, Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."/>
+			<img src="129/rembrandt2.jpg" maxHeight="200" caption="Rembrandt" allowZoom="true" zoomCaption="Rembrandt: &lt;i&gt;Selbstbildnis, zeichnend&lt;/i&gt;, Radierung, 1648, Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."/>
+			<img src="129/rembrandt1.jpg" maxHeight="200" caption="Rembrandt" allowZoom="true" zoomCaption="Georg Friedrich Schmidt: &lt;i&gt;Rembrandt Harmensz. van Rijn&lt;/i&gt; (nach Rembrandt), Radierung, 1771, Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."/>
+			</imggroup>
+			, noch ein Jahr vor Rembrandt, 1668, kurz nach seiner Hochzeit und vor Geburt seiner Tochter.1649 eine Verbindung einging, verstarb ebenfalls früh.1649 bekam Rembrandt mit seiner Gefährtin Hendrickje Stoffels . 1663 starb Hendrickje an der Pest.mit der Rembrandt eine Tochter bekam
+		</column>
+		<column>
+		<text>
+				<![CDATA[
+				<h2>Familiäre Schicksalsschläge</h2>
+				<p>Im Laufe seines Lebens ereilten Remb-randt familiäre Schicksalsschläge: Drei seiner Kinder starben jeweils kurz nach der Geburt, nur sein letztes Kind Titus blieb am Leben. Nach dessen Geburt starb 1642 seine Frau Saskia. Überdies verstarb seine spätere Gefährtin <a href="glossar/hendrickjestoffels.xml" >Hend-rickje Stoffels</a> im Jahr 1663 an der Pest. Zuletzt verlor er seinen <a href="glossar/titus.xml">Sohn Titus</a> 1668.</p> 
+				<p>Dieses wechselvolle Familienleben steht in Kontrast zum <i><a href="glossar/familienbild.xml">Familienbild</a></i> als Ausdruck von Familienglück.</p>
+				]]></text>
+				<space height="35"/>
+			<text><![CDATA[
+				<h2>Gesamtwerk</h2>
+				<p>Rembrandt führte eine <a href="glossar/werkstatt.xml" >Werkstatt</a> und hatte zahlreiche Schüler. Sein Gesamt-werk umfasst <a href="129/biblisch.xml" >biblische</a> und <a href="129/mythologisch.xml" >mythologi-sche</a> Themen, <a href="129/landschaften.xml" >Landschaften</a>, <a href="129/portraets.xml" >Porträts</a> so-wie zahlreiche <a href="129/selbstportraets.xml" >Selbstporträts</a>. Er hinterließ ein reiches Werk an Zeichnungen und <a href="glossar/radierung.xml">Ra-dierungen</a>; letzteren gewann er eine bis dahin nicht erreichte Vielfalt von Aus-drucksmöglichkeiten ab. </p>
+				]]></text>
+		</column>Er hinterließ ein reiches Werk an Zeichnungen und Radierungen. Er hinterließ fer-ner ein reiches Werk an Zeichnungen  – eine Technik, die er zu einem neuen Höhepunkt führte. Vielfalt und
+				Er experimentierte mit Radiertechniken
+	</content>
+</card>

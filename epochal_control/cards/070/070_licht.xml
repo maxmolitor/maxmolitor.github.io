@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<card type="licht und farbe">
+<!-- <card type="extra info"> -->
+
+	<h1>Licht &amp; Farbe</h1>
+	<preview>
+		<text>
+			Holztafel als Ausdruckträger
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>			
+		
+		<text><![CDATA[
+				<h2>Farben des Himmels = Farben der Erde</h2>
+				<p>Das Bild ist in einem engen Farbspektrum gehalten (siehe Abbildung). Die Farbgebung des Himmels wird von Blau und Grau, die der Dünen von Braun- und Gelbtönen bestimmt. Diese getrennten Bereiche sind allerdings auf raffinierte Art und Weise mitein-ander verbunden: Während sich die Farben des Him-mels auch in den <a href="070/bretter.xml" imageHighlightId="070.duenenlandschaft.jpg.h1">Brettern</a> und der <a href="070/kleidung.xml" imageHighlightId="070.duenenlandschaft.jpg.h2">Kleidung</a> wieder-finden, tauchen die erdigen Farben der Dünenland-schaft auch im Himmel wieder auf: Die Wolken sind von zarten Brauntönen durchzogen. Diese sind je-doch nicht gemalt – es ist die <a href="070/grundierung.xml" >ungrundierte</a> Holz-tafel, die <a href="070/holz.xml" imageHighlightId="070.duenenlandschaft.jpg.h3">sichtbar</a> ist.</p>
+			]]></text>
+			<space height="30"/>
+		<text><![CDATA[
+				<h2>„Typisch niederländisch“</h2>
+				<p>Der Himmel nimmt ungefähr zwei Drittel der ge-samten Bildfläche ein. Daher trägt die braune Farbe der durchscheinenden Holztafel im Bereich des Himmels maßgeblich zur Stimmung des Bildes bei, sie wird zum Ausdrucksträger. Der Holzgrund er-zeugt im Zusammenspiel mit den weiteren Farben des Himmels und dem beige-bräunlichen Kolorit</p>
+			]]></text>
+		
+			<text><![CDATA[
+			   
+			]]></text>
+		</column>
+		<column>
+			<space height="00"/>
+			<img src="070/duenenlandschaft.jpg" maxHeight="500" caption="Jan van Goyen" allowZoom="true" zoomCaption="Jan van Goyen: &lt;i&gt;Dünenlandschaft&lt;/i&gt;, Eichenholz, 1631, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum." >
+			<highlight x="0.64" y="0.64" radius="0.04" href="070/bretter.xml" id="070.duenenlandschaft.jpg.h1"/>
+			<highlight x="0.31" y="0.66" radius="0.04" href="070/kleidung.xml" id="070.duenenlandschaft.jpg.h2"/>
+			<highlight x="0.2" y="0.35" radius="0.07" href="070/holz.xml" id="070.duenenlandschaft.jpg.h3"/>
+			</img>
+			<space height="75"/>
+		<text><![CDATA[
+				<p>der Dünen eine <a href="070/typischniederlaendisch.xml" >„typisch niederländische“ Atmo-sphäre</a> . Darüber hinaus wird der Eindruck vermittelt, dass sich die dargestellte Landschaft in Meeresnähe befindet. Dieser herbe Charakter des Gemäldes entsteht also vor allem durch die tonale Grund-stimmung und weniger durch das Geschehen im Bild.</p>
+			]]></text>
+	
+		</column>
+	</content>
+</card>

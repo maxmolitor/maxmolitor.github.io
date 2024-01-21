@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<header>
+	<!-- Thumbnail of artwork with 512px large side -->
+	<thumbnail>049/thumbnail.jpg</thumbnail>
+	<artist>Adriaen de Vries (um 1556-1626) </artist>
+	<title>Herzog Heinrich Julius zu Pferde (um 1605) </title>
+	<misc>Bronze, Höhe: 52 cm</misc>
+	<description>
+		Diese Bronze ist eines der frühesten erhaltenen Beispiele eines Reiters auf einem springenden Pferd. In aufrechter Körperhaltung beherrscht Herzog Heinrich Julius das Pferd souverän. Sein selbstbewusster Gesichtsausdruck und der Kommandostab zeugen von Machtbewusstsein. 
+	</description>
+	<!-- <annotation href=" ">Zur Zeit nicht ausgestellt</annotation> -->
+</header>
+
+<card src="049/049_artist.xml"/>
+
+<!-- <card src="049/049_dargestellte2.xml"/> -->
+
+<!-- <card src="049/049_dargestellte.xml"/> -->
+
+<card src="049/049_thema.xml"/>
+
+<card src="049/049_details.xml"/>
+
+<card src="049/049_technik.xml"/>
+
+<card src="049/049_vergleich.xml"/>
+
+</data>

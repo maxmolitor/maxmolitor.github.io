@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>PIXI Flip Effect Doctest</title>
+	<link rel="stylesheet" href="../../lib/3rdparty/highlight/styles/default.css">
+	<link rel="stylesheet" href="../../css/doctest.css">
+	<script src="../../lib/3rdparty/highlight/highlight.pack.js"></script>
+    <script src="../../lib/3rdparty/all.js"></script>
+
+	<script src="../all.js"></script>
+	<script src="./all.js"></script>
+
+    <link rel="stylesheet" href="../../css/flipeffect.css">
+	<template id="flipTemplate">
+        <div class="flipWrapper">
+          <div class="flipCard">
+            <img class="flipFace front" src=""/>
+            <div class="flipFace back" style="visibility:hidden;" ></div>
+          </div>
+                <!-- Very tricky problem to scale svgs: see https://css-tricks.com/scale-svg/ -->
+            <svg class="flipButton backBtn" style="visibility:hidden;" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+                <g stroke-width="8" stroke="white">
+                    <circle  cx="50" cy="50" r="44" fill="gray" />
+                    <line x1="30" y1="30" x2="70" y2="70"  />
+                    <line x1="30" y1="70" x2="70" y2="30"  />
+                </g>
+            </svg>
+
+            <svg class="flipButton infoBtn" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+                <circle cx="50" cy="50" r="44" stroke="white" stroke-width="8" fill="gray" />
+                <circle cx="50" cy="32" r="7" fill="white" />
+                <line x1="50" y1="46" x2="50" y2="78" stroke="white" stroke-width="12" />
+            </svg>
+     </div>
+    </template>
+
+</head>
+<body onload="Doctest.run()">
+<h1>
+	Flip Effect
+</h1>
+<p>
+The flip effect, which simulates a flip between a front and back view of an object
+by means of a 3D rotation, is an interaction between a PIXI scatter object
+and a DOM Flip effect. The PIXI scatter is used as the source for the front view
+of the DOM Flip which is created on demand if the user clicks the Info Button
+which is added to the PIXI scatter by the FlipEffect wrapper.
+</p>
+<p>For the user it simply looks like a single flipping card, but in terms of
+UI elements, the following levels are mixed:</p>
+<ul><li>A PIXI scatter object, typically a zoomable image, as the default front view.</li>
+<li>A special button (typically an info button), which triggers the animation.</li>
+<li>A DOM based animation which works on a DOM clone of the PIXI scatter and
+a DOM representation of the back card. The PIXI scatter is hidden in the meanwhile.</li>
+<li>If the back card is closed, the DOM nodes are removed and the PIXI scatter
+is shown again.</li>
+</ul>
+<h3>
+	Example
+</h3>
+<main id="main" style="border: 1px solid red; position: relative;" >
+    <canvas id="canvas" class="grayBorder interactive">Canvas not supported</canvas>
+</main>
+<script class="doctest">
+
+let domScatterContainer = new DOMScatterContainer(main, {stopEvents: false})
+
+class ScatterApp extends PIXIApp {
+
+    sceneFactory() {
+        return new ScatterContainer(this.renderer, { showBounds: true, app: this})
+    }
+
+    setup() {
+        super.setup()
+        let urls = ['../examples/women.jpeg', '../examples/king.jpeg']
+        PIXI.loader.add(urls).load((loader) => {
+            // We need a loader because the size of the sprite must be known
+            // when the scatter is defined
+            let x = 30
+            let y = 30
+            for(let url in loader.resources) {
+                let sprite = PIXI.Sprite.fromImage(url)
+                sprite.interactive = true
+                let scatter = new DisplayObjectScatter(sprite, this.renderer,
+                        { x: x, y: y,
+                          startScale: 0.5,
+                          scale: 0.5,
+                          minScale: 0.2,
+                          maxScale: 1
+                        })
+                this.scene.addChild(sprite)
+                x += 100
+                y += 30
+                let loader = new ImageLoader(url)
+                let flipEffect = new FlipEffect(scatter, domScatterContainer, flipTemplate, loader)
+            }
+        })
+        return this
+    }
+}
+
+const app = new ScatterApp({ view: canvas,
+                           autoResize: false,
+                           width: 450,
+                           height: 250})
+
+app.setup()
+app.run()
+
+</script>
+</body>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<img src="033/033.jpg"/>
+<header>
+	<!-- Thumbnail of artwork with 512px large side -->
+	<thumbnail>033/thumbnail.jpg</thumbnail>
+	<artist>Werkstatt der Fontana</artist>
+	<title>Teller, Das Urteil des Paris (um 1550)</title>
+	<misc>Majolika, Durchmesser: 45 cm, Höhe: 6 cm</misc>
+	<year>1550</year>
+	<nr>0033</nr>
+	<description>
+		Wer ist die Schönste? Athena, die Göttin der Klugheit? Hera, die Gemahlin des Göttervaters Zeus? Aphrodite, die Göttin der Liebe und Schönheit? Die Antwort auf diese Frage gibt unser Majolika-Teller, auf dem eine Komposition Raffaels meisterhaft umgesetzt ist. 
+	</description>
+	<!-- <annotation href="033/popup.xml">Zur Zeit nicht ausgestellt</annotation> -->
+</header>
+
+<card src="033/033_thema.xml"/>
+
+<!-- <card src="033/033_thema2.xml"/> -->
+
+<card src="033/033_details.xml"/>
+
+<card src="033/033_licht.xml"/>
+
+<card src="033/033_technik.xml"/>
+
+<card src="033/033_vergleich.xml"/>
+
+<card src="033/033_thema3.xml"/>
+
+</data>

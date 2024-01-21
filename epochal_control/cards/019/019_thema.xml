@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Der verlorene Sohn</h1>
+	<preview>
+		<text>
+			Luxus - Armut - Reue 
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text><![CDATA[
+				<h2>Das Gleichnis</h2>
+				<p>Die Geschichte vom verlorenen Sohn war als Gleichnis Gottes seit dem Spätmittelalter sehr beliebt. Sie wird im Lukasevan-gelium (15,11-13) erzählt. Ein Mann hatte zwei Söhne. Der Ältere blieb beim Vater, aber der Jüngere ließ sich sein Erbe auszahlen, verließ sein Vaterhaus, verprasste sein Geld und schlug sich als armer Schweinehirt durch. Schließlich kehrte er reumütig zum Vater zurück, um sich bei ihm als Tagelöhner zu verdingen. Dieser jedoch nahm – sehr zum Ärger des älteren Sohnes – den Verlorenen mit offenen Armen wieder auf und ließ ihm zu Ehren sogar ein Kalb schlachten. In der Kunst wurde meistens das ausschweifende Leben oder die reumütige Heim-kehr des Sohnes dargestellt (siehe Abbildungen unten links).</p>
+			]]></text>
+			<space height="30"/>
+			<imggroup maxHeight="350">
+			<img src="019/sohn2.jpg" caption="Der verlorene Sohn &lt;br/&gt;verprasst seine Habe" allowZoom="true" zoomCaption="Hans Sebald Beham: &lt;i&gt;Der verlorene Sohn verprasst seine Habe&lt;/i&gt;, Kupferstich, 1540,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."/>
+			<img src="019/sohn3.jpg" caption="Die Rückkehr des &lt;br/&gt;verlorenen Sohnes" allowZoom="true" zoomCaption="Hans Sebald Beham: &lt;i&gt;Die Rückkehr des verlorenen Sohnes&lt;/i&gt;, Kupferstich, 1540,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."/> 
+			</imggroup>
+		</column>
+		<column>
+		    <text><![CDATA[
+			    <h2>Dürers Darstellung</h2>
+				<p>Dürer stellt im Unterschied zu dieser Tra-dition das jämmerliche Dasein des verlo-renen Sohns unter den Schweinen dar (siehe Abbildung unten rechts). Er verlegte die Szene in eine realistische, bäuerliche Umgebung aus der Gegend um Nürnberg.</p>
+			]]></text>
+			<space height="30"/>
+			<img src="019/sohn.jpg" maxHeight="280" caption="Der verlorene Sohn" allowZoom="true" zoomCaption="Albrecht Dürer: &lt;i&gt;Der verlorene Sohn&lt;/i&gt;, Kupferstich, um 1496,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett."/>
+		</column>
+	</content>
+</card>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<card type="leben des kunstwerks">
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Geschichten zum Kunstwerk</h1>
+	<preview>
+		<text>
+			Abgüsse in unterschiedlicher Qualität
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[	
+				<p>Vom <i>Kriegsgott Mars</i> existieren unterschiedlich hochwertige Abgüsse, die nach dem Modell Giam-bolognas angefertigt wurden. Die unterschiedliche Qualität von Abgüssen ergibt sich aus dem Aufwand der Oberflächenbearbeitung nach dem Guss.</p>
+				<p>Der Braunschweiger Guss gehört zu den frühen, qualitativ hochstehenden Nachgüssen, die der Gie-ßer Antonio Susini in der Werkstatt Giambolognas ausführte und die um 1600 zu datieren sind.</p>
+			]]></text>
+		</column>
+		<column>
+		    <text><![CDATA[
+				<p>Der früheste nachgewiesene Abguss gelangte 1587 als persönliches Geschenk des Künstlers an den sächsischen Kurfürsten Christian I., der dem Bild-hauer als Dank eine goldene Kette zukommen ließ. Dieses Dresdner Exemplar ist noch qualitätsvoller als die Braunschweiger Version. Aus dem mit ihm ver-knüpften Datum wird übrigens auf eine Entstehungs-zeit des Modells vor 1587 geschlossen.</p>	
+			]]></text>
+		</column>
+	</content>
+</card>

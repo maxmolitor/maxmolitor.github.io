@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+<card type="technik">
+	<h1>Technik &amp; Tricks</h1>
+	<preview>
+		<text>
+			Wie malt man Licht?
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+			    <h2>Verschiedene Malweisen </h2>
+				<p>Rembrandt kombiniert in diesem Gemälde verschiedene Malweisen. Für die Lichteffekte trägt er die Farbe stellenweise pastos, das heißt dick und reliefartig, auf. Die Wolken und den grauen Himmels malt er lasierend, das heißt in dünnen Farbschichten übereinander. So scheint der Grund durch und die Struktur der Holztafel spricht mit. Bei der Hügelkette am Horizont findet sich eine verschwimmende Farbstruktur. Mit ihr erzeugt der Maler den Eindruck einer sich auflösenden Ferne. Der Einfluss der experimentellen Landschaftsgraphiken seines Kollegen Herkules Seghers (um 1589-1638) ist unverkennbar.<p/>
+			]]></text>
+		</column>
+		<column>
+			<text><![CDATA[
+				<h2>Schäden am Bild</h2>
+				<p>An vielen Stellen im  Bild, vor allem an Bäumen und Büschen, ist die grüne Farbe krepiert, d.h. in ein fahles Grauweiß umgeschlagen. Am deutlichsten zu sehen ist dies an den Bäumen der Hügelkette oben links. Dem Gesamteindruck des Gemäldes können diese Beeinträchtigungen jedoch nichts anhaben.</p>
+				
+			]]></text>
+		</column>
+	</content>
+</card>

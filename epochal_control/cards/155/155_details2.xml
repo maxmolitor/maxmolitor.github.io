@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<card type="details">
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+<!-- <card type="zuschreibung"> -->
+
+	<h1>Details &amp; Symbolik</h1>
+	<preview>
+		<text>
+			Der Mensch – eine Seifenblase!
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<!-- <text><![CDATA[
+				<h2>Noch immer schön</h2>
+				<p>Das Selbstbildnis zeigt Anna Rosina de Gasc im Alter von 54 Jahren als noch immer schöne, schlanke Frau, mit glatter Haut, rosigen Wangen und einem makellosen Dekolleté. Sie trägt ein ebenso schlichtes wie elegantes grün-graues Samtkleid. Ein weißer Schleier mit Punkten bedeckt ihr ungepudertes graues Haar. Doch  wirkt die Künstlerin </p>
+			]]></text> -->
+			<text><![CDATA[
+				<h2>Mit Seifenblasen spielen</h2>
+				<p>Im Hintergrund des Bildes ist ein Gemälde ange-deutet (siehe Abbildung unten links). Zu erkennen sind zwei Kinder, die mit Seifenblasen spielen. „Der Mensch ist wie eine Seifenblase“ diese Erkenntnis von der Vergänglichkeit, Kürze und Nichtigkeit des Lebens hatten bereits antike Autoren formuliert.</p>
+			]]></text> 
+		
+			<img src="155/selbstbildnis.jpg" maxHeight="360" caption="Anna Rosina de Gasc" allowZoom="true" zoomCaption="Anna Rosina de Gasc: &lt;i&gt;Selbstbildnis&lt;/i&gt;, Leinwand, 1767, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+			<!-- <highlight x="0.68" y="0.41" radius="0.17" href="155/zweikinder.xml" id="155.selbstbildnis.jpg.h1"/> -->
+			</img>
+		</column>
+		<column>
+		<text><![CDATA[
+				<h2>Melancholische Haltung</h2>
+				<p>Etwa seit dem 16. Jahrhundert wurde dieser Ver-gleich vielfältig künstlerisch gestaltet, wie z. B. von Cornelis des Vos in seiner <i>Allegorie der Vergänglich-keit</i> (siehe Abbildung unten rechts). Hier sind auch zwei Kinder zu sehen, die mit einer Seifenblase spielen sowie eine Frau, die trotz allen Reichtums in einer nachdenklichen Haltung ist. Wie diese Frau sinnt auch de Gasc vermutlich über Alter und Vergänglichkeit nach. Die Malerin wirkt trotz ihrer Schönheit müde und resigniert – ganz so, als ziehe sie die Bilanz ihres Lebens und ihrer Arbeit.</p>
+			]]></text>
+	
+			<img src="155/allegorie.jpg" maxHeight="240" caption="Allegorie der Vergänglichkeit" allowZoom="true" zoomCaption="Cornelis des Vos: &lt;i&gt;Allegorie der Vergänglichkeit&lt;/i&gt;, Leinwand, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+		
+		</column>
+	</content>
+</card>

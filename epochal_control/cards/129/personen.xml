@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+  <img src="129/detailmutter.jpg" caption=" "/>
+   <text><![CDATA[	
+	<p><span class="popuptext">Die Frau, die im <i>Familienbild</i> die Mutter verkörpert (siehe Abbildung oben), taucht in einem weiteren Gemälde Rembrandts als Ehefrau auf (siehe Abbildung unten).</span></p>
+	]]></text>
+    <!-- <text><![CDATA[	
+	<p><span class="popuptext">Die Frau, die im <i>Familienbild</i> die Mutter verkörpert (siehe Abbildung oben), taucht in zwei weiteren Gemälden Rembrandts als Mutter bzw. Ehefrau auf (siehe Abbildungen unten).</span></p>
+	]]></text> -->
+ <imggroup>
+ <!-- <img src="129/jacob-kopie(bildrechte).jpg" caption=" "/>-->
+ <img src="129/isaak.jpg" caption=" "/>
+</imggroup>
+<!-- <text><![CDATA[	
+	<p><span class="popuptext">links: Rembrandt: <i>Jakob segnet Ephraim und Manasse</i> BILDRECHTE!, 1656, Kassel, Staatliche Kunstsammlungen, Gemäldegalerie.</span></p>
+	]]></text> -->
+	<text><![CDATA[	
+	<p><span class="popuptext">Rembrandt: <i>Isaak und Rebekka</i>, Leinwand, um 1666/67, Amsterdam, Rijksmuseum.</span></p>
+	]]></text>
+</content>

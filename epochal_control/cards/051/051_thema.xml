@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Pietá</h1>
+	<preview>
+		<text>
+		Was bedeutet Pietá?
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text><![CDATA[
+				<h2>Die trauernde Maria</h2>
+				<p>Als <a href="051/pieta.xml" >Pietá</a> bezeichnet man die Darstellung der trauernden Maria mit dem vom Kreuz abgenommenen Leichnam ihres Sohnes Jesu Christi. In der deutschen Sprache wird sie auch <a href="051/vesperbild.xml" >„Ves-perbild“</a> genannt. Die Pietá gilt als eine eigenständige Episode innerhalb der <a href="glossar/passionchristi.xml" >Passionsgeschichte</a> und stellt die Zeit zwischen Kreuzabnahme und Grablegung dar. Obwohl in der Bibel nicht von der Fürsorge Marias für den Leichnam ihres Sohnes berichtet wird, ist diese aus den <a href="glossar/mittelalter.xml" >mittelalterlichen</a> religiösen Schriften bekannt.</p>
+			]]></text>
+			<space height="40"/> 
+			<text><![CDATA[
+				<h2>Die Pietá in der bildenden Kunst</h2>
+				<p>In der bildenden Kunst tritt die Pietá zu Andachtszwecken zunächst in der deutschen Bildhauerei am Anfang des 14. Jahrhunderts auf. Erst in der zweiten Hälfte des 15. Jahrhun-derts erscheint sie auch auf Gemälden. Sowohl in der Bild-hauerei als auch in der Malerei wird die trauernde Maria gemeinhin allein mit ihrem Sohn auf dem Schoß dargestellt. Auf unserem Bild sind zusätzlich noch fünf <a href="051/engelsgesichter.xml" >Engelsgesichter</a> zu erkennen. In der Malerei finden sich auch Beispiele, wie die <i>Pietá</i> (siehe Abbildung) von <a href="glossar/delpiombo.xml" >Sebastiano del Piombo</a>, in der Maria von <a href="051/mariamagdalena.xml" imageHighlightId="051.pieta2.jpg.h1">Maria Magdalena</a> und dem <a href="051/evangelistjohannes.xml" imageHighlightId="051.pieta2.jpg.h2">Evangelisten Johannes</a> begleitet wird.</p>
+			]]></text>
+		</column> 
+
+		<column>
+		<space height="00"/>
+			<img src="051/pieta2.jpg" maxHeight="500" caption="Pietá von Sebastiano del Piombo " allowZoom="true" zoomCaption="Sebastiano del Piombo: &lt;i&gt;Pietá&lt;/i&gt;, Stein, 1540, &lt;br/&gt;Sevilla, Fundación Casa Ducal de Medinaceli.">
+			    <highlight x="0.01" y="0.06" radius="0.1" href="051/mariamagdalena.xml" id="051.pieta2.jpg.h1"/>
+				<highlight x="0.8" y="0.02" radius="0.1" href="051/evangelistjohannes.xml" id="051.pieta2.jpg.h2"/>
+			</img>
+		</column>
+	</content>
+</card>

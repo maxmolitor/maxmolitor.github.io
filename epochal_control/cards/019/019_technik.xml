@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+<card type="technik">
+	<h1>Technik</h1>
+	<preview>
+		<text>
+			Was ist ein Kupferstich?
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Tiefdruckverfahren</h2>
+				<p>Der Kupferstich ist ein Tiefdruckverfahren. Anders als beim Hochdruck (Holz- und Linolschnitt) drucken nicht die hochstehenden, sondern die tiefliegenden Partien der Platte. Als Basis dient eine Metallplatte, meist aus Kupfer oder Zink. Beim Kupferstich wird die Zeichnung mit einem <a href="019/grabstichel.xml" >Grabstichel</a> in die Platte <a href="019/eingraben.xml" imageHighlightId="019.kupferstich.jpg.h1">eingegraben</a> (siehe Abbildung), wobei der Stichel für jede Linie einen Metallspan aus der Platte heraushebt.</p>
+			]]></text>	
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Druckvorgang</h2>
+				<p>Ist die Zeichnung eingeritzt, wird die Platte mit Druckfarbe eingerieben, so dass diese sich in den eingegrabenen Vertiefungen festsetzt. Dann drückt man feuchtes Papier auf die Platte, das die Farbe aus den Vertiefungen heraussaugt. Die Zeichnung ist im Vergleich zur Platte nun seitenverkehrt auf das Papier aufgebracht. Der Druckvorgang ist wieder-holbar, deswegen ist der Kupferstich auch ein Ver-vielfältigungsverfahren.</p>
+			]]></text>
+		</column>
+		<column>
+		 <space height="00"/>
+		 
+			<img src="019/kupferstich.jpg" maxHeight="400" caption="Kupferstichtechnik" allowZoom="true" zoomCaption="Darstellung der Kupferstichtechnik&lt;br/&gt; in Diderots Encyclopédie um 1760">
+			   <highlight x="0.03" y="0.43" radius="0.14" href="019/eingraben.xml" id="019.kupferstich.jpg.h1"/>
+			</img>
+		</column>
+	</content>
+</card>

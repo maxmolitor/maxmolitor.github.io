@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<card type="komposition">
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Raum &amp; Komposition</h1>
+	<preview>
+		<text>
+			Wie wird räumliche &lt;br/&gt;Tiefe dargestellt?
+		</text>
+	</preview>
+	<content template="2">
+		<column>
+			<text><![CDATA[
+			    <p>Dieses Werk (siehe Abbildung) ist gut geeignet, unterschied-liche Techniken zur Erzeugung der räumlichen Tiefenwirkung zu erklären.</p>
+                <p>1) Aufteilung in verschiedene Ebenen: Ausgehend von den Dachlinien der Häuser verlaufen zwei diagonale Strukturen im Bild (siehe gelbe Linien); sie kreuzen sich in der Bildmitte und teilen das Bild in drei Ebenen. Der untere Bereich, in dem der Sohn und die Schweine sich befinden, bildet den Vordergrund. Die Bereiche in den beiden mittleren Dreiecken (siehe rote Schattierungen) stellen den Mittelgrund, und die Gebäude in dem oberen Bereich den Hintergrund dar.</p> 
+				<p>2) Perspektivische Verkürzung: Gleiche Distanzen werden kür-zer dargestellt, wenn sie sich weiter hinten in der Szene befin-den, wie man z. B. an dem <a href="019/haeuser.xml" imageHighlightId="019.komposition.jpg.h1">Haus</a> und dem <a href="019/futtertrog.xml" imageHighlightId="019.komposition.jpg.h2">Futtertrog</a> sehen kann.</p> 
+				<p>3) Größenunterschiede: Mit zunehmender Entfernung erschei-nen uns Objekte kleiner als sie in Wirklichkeit sind. Beispiels-weise ist das <a href="019/haus.xml" imageHighlightId="019.komposition.jpg.h3">Haus</a> in der Mitte kleiner dargestellt als der Sohn, wodurch wir den Größenunterschied als Distanz wahrnehmen.</p> 
+				<p>4) Überdeckung: Aufgrund unserer Seherfahrungen im realen Raum deuten wir überdeckte Objekte als hinten und nicht überdeckte Objekte als vorne stehend, wie man z. B. an den hintereinander <a href="019/staffelung.xml" imageHighlightId="019.komposition.jpg.h4">gestaffelten</a> Körpern der Schweine sehen kann.</p>
+				]]></text>
+		</column>
+		<column>
+		 <space height="00"/>
+			<img src="019/komposition.jpg" maxHeight="500" caption="Der verlorene Sohn" allowZoom="true" zoomCaption="Albrecht Dürer: &lt;i&gt;Der verlorene Sohn&lt;/i&gt;, Kupferstich, um 1496,&lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett.">
+			    <highlight x="0.70" y="0.54" radius="0.14" href="019/staffelung.xml" id="019.komposition.jpg.h4"/>
+				<highlight x="0.67" y="0.25" radius="0.18" href="019/haeuser.xml" id="019.komposition.jpg.h1"/>
+				<highlight x="0.52" y="0.69" radius="0.10" href="019/futtertrog.xml" id="019.komposition.jpg.h2"/>
+				<highlight x="0.34" y="0.21" radius="0.15" href="019/haus.xml" id="019.komposition.jpg.h3"/>
+			</img>
+		</column>
+	</content>
+</card>

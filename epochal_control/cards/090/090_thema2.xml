@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<card type="thema">
+
+	<h1>Die Perücke</h1>
+	<preview>
+		<text>
+			Lockenpracht und Herrschermacht
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text><![CDATA[
+				<h2>Für den kahlen Kopf</h2>
+				<p>Perücken wurden bereits im alten Ägypten und Griechenland von Männern und Frauen getragen. Danach verschwanden sie über Jahrhunderte aus der Modewelt und fanden erst wieder im frühen <a href="glossar/barock.xml">Barock</a> Verbreitung. Sie dienten damals vor allem dem Kaschieren von Haarausfall.</p>
+				]]></text>
+			<space height="35"/>
+			<text><![CDATA[
+				<h2>Die Perücke als Statussymbol</h2>
+				<p>Als sich auch der Sonnenkönig <a href="glossar/sonnenkoenig.xml">Ludwig der XIV.</a> wegen seines schütteren Haars mit Perücke zu präsentieren begann und die sogenannte <a href="glossar/allongeperuecke.xml">Allongeperücke</a> 1673 zur Staatsperücke ernannte (siehe Abbildung), wurde sie bis zur Französischen Revolution Statussymbol des europäischen Hofes. Zeitweise wurde in Preußen sogar eine Perückensteuer eingeführt, die nach der Länge der Perücke berechnet wurde. Das Pudern der Perücke war nur den oberen Schichten vorbehalten und ebenfalls mit einer Steuer belegt.</p>
+				]]></text>
+			<space height="35"/>
+				<text><![CDATA[
+				<h2>Amtstracht bis heute</h2>
+				<p>Die Allongeperücke kam im 18. Jahrhundert nach und nach außer Gebrauch und wurde schließlich nur noch als Amtstracht von Richtern genutzt, wie es bis heute in Australien und dem Vereinigten Königreich üblich ist.</p>
+				]]></text>
+		</column>
+		<column>
+		<space height="00"/>
+			
+				<img src="090/ludwig.jpg" maxHeight="400" caption="Porträt des Sonnenkönigs" allowZoom="true" zoomCaption="Hyacinthe Rigaud: &lt;i&gt;König Ludwig XIV. von Frankreich im Krönungsornat&lt;/i&gt;, Leinwand, 1701, Paris, Musée du Louvre."/>
+				
+			
+			<!-- <imggroup maxHeight="500">
+			</imggroup> -->
+			
+			
+		</column>
+	</content>
+</card>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- disable zooming -->
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+  <title>Flip Cards</title>
+  <style media="screen">
+
+    html, body {
+        margin:0;
+        padding:0;
+        height:100%;
+        width: 100%;
+        /* See http://stackoverflow.com/questions/9280258/prevent-body-scrolling-but-allow-overlay-scrolling */
+        position:fixed;
+        overflow: hidden;
+        font-size: 18px;
+        background:gray;
+        font-family:arial,sans-serif;
+        color:#FFF;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-overflow-scrolling: auto;
+        user-select: none;
+        touch-action: manipulation;
+    }
+
+    .site {
+        display: flex;
+        min-height: 100%;
+        flex-direction: column;
+    }
+
+    main {
+        flex-grow: 1;
+        overflow: hidden;
+        position:relative
+    }
+
+    .container {
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+    }
+    </style>
+
+    <script type="text/javascript" src="../../lib/3rdparty/all.js"></script>
+    <script type="text/javascript" src="../../lib/pixi/all.js"></script>
+    <script type="text/javascript" src="../../lib/all.js"></script>
+</head>
+<body class="site" onload="loaded()">
+<main id="main" class="container">
+    <canvas id="canvas" width="100%" height="100%" style="position: absolute; z-index:10000; user-select: none; pointer-events: none;">
+	    Get a better browser, bro.
+    </canvas>
+    <img src="women.jpeg" id="image" draggable="false" width="274" height="184"/>
+</main>
+<script>
+const test = new AppTest(canvas, main)
+const app = new App()
+const scatterContainer = new DOMScatterContainer(main)
+
+function setup() {
+    let imageScatter = new DOMScatter(image, scatterContainer, {
+                        x: 44,
+                        y: 144,
+                        width: image.clientWidth,
+                        height: image.clientHeight,
+                        minScale: 0.5,
+                        maxScale: 5,
+                        scaling: true,
+                        rotating: true})
+}
+
+function reset() {
+    for(let scatter of scatterContainer.scatter.values()) {
+        scatter.reset()
+    }
+}
+
+function loaded() {
+    setup()
+    app.setup()
+    app.run()
+
+    test.setup()
+    test.run(reset)
+}
+
+</script>
+</body>
+</html>

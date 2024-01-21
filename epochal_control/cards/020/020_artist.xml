@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<card type="artist">
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Giorgione da Castelfranco</h1>
+	<preview>
+		<text>
+			Keines seiner Werke &lt;br/&gt;ist signiert
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Kurzes Leben – lange Wirkung</h2>
+				<p>Giorgione da Castelfranco (siehe Abbildung) war einer der wichtigsten Maler der <a href="glossar/renaissance.xml" >Renaissance</a>. Er wurde 1477/78 in Castelfranco im Veneto geboren. Der Name Giorgione (italienisch: großer Giorgio) lässt auf eine stattliche Statur schließen. Bereits 1510 starb er in Venedig an der Pest. Trotz seiner kurzen Lebenszeit entwickelte Giorgione einen eigenen Stil. Dieser war Vorbild für viele Zeitgenossen und nach-kommende Generationen.</p>
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Poetisch – rätselhaft</h2>
+				<p>In seiner Malerei vermied Giorgione scharfe Kon-turen. Mit gedämpftem Licht und warmen Farben schuf er poetische Bilder. Seine beeindruckenden und geheimnisvollen Werke sind teilweise noch heute rätselhaft. Sie ließen ihn schon kurz nach seinem Tod zur Legende werden. Auch als Maler lebensnaher Porträts war er hoch geschätzt.</p>
+				]]></text>
+		</column>
+		<column>
+			<text><![CDATA[
+			     <h2>Kein einziges signiertes Werk</h2>
+				<p>Giorgione war zu seinen Lebzeiten ein anerkannter Maler. Dennoch kann ihm heute nur eine kleine Zahl von Werken eindeutig zugeschrieben werden, vor allem da keines seiner Werke signiert ist.</p>
+				]]></text>
+		<space height="00"/>
+			<img src="020/selbstbildnis.jpg" maxHeight="320" caption="Giorgione" allowZoom="true" zoomCaption="Giorgione da Castelfranco: &lt;i&gt;Selbstbildnis&lt;/i&gt;, Leinwand, um 1508-10, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+		</column>
+	</content>
+</card>

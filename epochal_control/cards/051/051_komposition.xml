@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<card type="komposition">
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Raum &amp; Komposition</h1>
+	<preview>
+		<text>
+			Feinfühlig komponiert
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+				<text><![CDATA[
+				<h2>Nähe, Schutz und Fürsorge</h2>
+				<p>Elsheimers <i><a href="051/pieta.xml" >Pietá</a></i> (siehe Abbildung unten links) appel-liert als <a href="051/andachtsbild.xml" >privates Andachtsbild</a> besonders an das Einfühlungsvermögen des Betrachters. Der Künstler wählt hier eine Komposition aus Kreisformen, die der Darstellung eine hohe Intimität verleiht. Im Zentrum der Komposition (siehe roter Kreis) steht Marias schützende Umarmung, die die liebevolle und innige Zuwendung der Mutter zu ihrem toten Sohn ausdrückt.</p>
+			]]></text>
+			<space height="15"/>
+			 <imggroup maxHeight="400">
+			<img src="051/overlay5.jpg" maxHeight="240" caption="Kompositionslinien von Elsheimers Pietá" allowZoom="true" zoomCaption="Adam Elsheimer: &lt;i&gt;Pietá&lt;/i&gt;, Kupfer, um 1603/05, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+			<highlight x="0.43" y="0.68" radius="0.1" href="051/zentrum.xml" id="051.overlay5.jpg.h1"/>
+			</img>
+			<img src="051/pieta2.jpg" maxHeight="230" caption="Pietá von del Piombo " allowZoom="true" zoomCaption="Sebastiano del Piombo: &lt;i&gt;Pietá&lt;/i&gt;, Stein, 1540, &lt;br/&gt; Sevilla, Fundación Casa Ducal de Medinaceli.">
+			<highlight x="0.01" y="0.25" radius="0.08" href="051/christusreliquien.xml" id="051.pieta2.jpg.h1"/>
+			<highlight x="0.74" y="0.32" radius="0.1" href="051/veraicon.xml" id="051.pieta2.jpg.h2"/>
+			</img>
+			</imggroup>
+		</column>
+		
+		<column>
+				<space height="27"/>
+				 <text><![CDATA[
+				 <p>Eine weitere schützende Umrahmung wird durch Engel, Pflanzen und einem Felsblock gebildet (siehe blauer Kreis). Eine zusätzliche Kreisform ergibt sich aus den Armen Jesu (siehe gelber Kreis). Hier befin-det sich die <a href="051/zentrum.xml" imageHighlightId="051.overlay5.jpg.h1">Hand</a> Marias im Zentrum, die die Wunde ihres Sohnes fürsorglich mit einem Tuch bedeckt.</p>
+				]]></text>
+			<space height="40"/>
+				 <text><![CDATA[
+				<h2>Reliquienpräsentation statt emotionaler Nähe</h2>
+				<p>Eine derart emotionale Darstellung wird von Künst-lern allerdings nicht immer für die Pietá verwendet. In dem Bild von <a href="glossar/delpiombo.xml" >Sebastiano del Piombo</a> beispiels-weise (siehe Abbildung links) umarmt Maria nicht ihren toten Sohn, sondern präsentiert vor allem die <a href="051/christusreliquien.xml" imageHighlightId="051.pieta2.jpg.h1">heiligen Nägel</a> und das <a href="051/veraicon.xml" imageHighlightId="051.pieta2.jpg.h2">Schweißtuch der Veronika</a>. Hier stehen also die Reliquien der <a href="glossar/passionchristi.xml">Passion Christi</a> im Vordergrund. Marias Blick, ihre Positionierung hinter einer Brüstung und ihre distanzierte Haltung lenken die Aufmerksamkeit ganz auf die Symbolkraft der Gegenstände und rufen weniger Mitgefühl beim Betrachter hervor als Elsheimers Bild.</p>
+			]]></text>
+
+			
+		</column>
+	</content>
+</card>

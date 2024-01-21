@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<!-- <text><![CDATA[
+		<p><span class="popuptext">Fortuna (lateinisch: „Glück, Schicksal“) ist in der römischen Mythologie die Göttin des Glücks. Sie ist damit der Tyche der griechischen Mythologie gleichgestellt. Fortuna wird meist mit Füllhorn oder mit Steuerruder dargestellt, oft auch auf einem Globus stehend. Das Glücksrad der Fortuna existiert seit dem Mittelalter und spielt in der Renaissance und dem Barock eine stärkere Rolle. Sie steht in der Antike vor allem für kaiserlichen Triumph und schmückt daher zahlreiche Münzen und Gemmen.</span></p>
+	]]></text> -->
+	<text><![CDATA[
+		<p><span class="popuptext">Fortuna (lateinisch: „Glück, Schicksal“) ist in der römischen Mythologie die Göttin des Glücks, in der griechischen Mythologie wird sie Tyche genannt. Fortuna wird meist mit Füllhorn und Lebensrad auf einer Kugel stehend dargestellt.</span></p>
+	]]></text>
+	<img src="glossar/fortuna.jpg" maxHeight="400" caption=" "/>
+	<text><![CDATA[
+		<p><span class="popuptext">Albrecht Dürer: <i>Nemesis (Das große Glück)</i>, Kupferstich, 1501-1502, Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett.</span></p>
+	]]></text>
+</content>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<card type="extra info">
+	<h1>Kunstwerk im Vergleich</h1>
+	<preview>
+		<text>
+			Schulung an &lt;br/&gt;lebenden Modellen 
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<p>Leonhard Kern lernte in Rom <a href="glossar/aktzeichnen.xml" >Aktzeichnen</a> nach lebenden Modellen. Hieraus scheint sich sein be-sonderes anatomisches Verständnis entwickelt zu haben, wie es auch die <i>Klagende Eva</i> vorführt (siehe Abbildung unten links).</p>
+			]]></text>
+			<space height="10"/>
+			<img src="063/klagendeeva.jpg" maxHeight="366" caption="Klagende Eva" allowZoom="true" zoomCaption="Leonhard Kern: &lt;i&gt;Klagende Eva&lt;/i&gt;, Birnbaumholz, 1640/45, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+		</column>
+		<column>
+		<text><![CDATA[					
+				<p>In Rom und Florenz dürfte Kern nach den Haupt-werken der Antike und der <a href="glossar/hochrenaissance.xml" >Hochrenaissance</a> (z. B. <a href="glossar/michelangelo.xml" >Michelangelo</a> und <a href="glossar/raffael.xml" >Raffael</a>) gezeichnet haben. In Flo-renz haben ihm sicherlich die Statuetten <a href="glossar/giambologna.xml" >Giambo-lognas</a> Anregung gegeben (siehe Abbildung unten mitte). Diese Figuren, die sich spiralig emporschrau-ben, verkörpern den Typus der <a href="glossar/manierismus.xml" >manieristischen</a> <a href="glossar/figuraserpentinata.xml" >„figura serpentinata“</a>. In Padua könnten Kern die Bronzen <a href="glossar/andreariccio.xml" >Andrea Riccios</a> beeinflusst haben (siehe Abbildungen unten rechts).</a></p> 
+			]]></text>	
+			<space height="20"/>
+			<imggroup maxHeight="250">
+			
+			<img src="063/mars.jpg" caption="Giambologna" allowZoom="true" zoomCaption="Giambologna: &lt;i&gt;Der Kriegsgott Mars&lt;/i&gt;, Bronze, Modell vor 1587, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+			<img src="063/riccio.jpg" caption="Andrea Riccio" allowZoom="true" zoomCaption="Andrea Riccio: &lt;i&gt;Satyrweibchen&lt;/i&gt;, Bronze, um 1520/30, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum."/>
+			</imggroup>
+		</column>
+	</content>
+</card>

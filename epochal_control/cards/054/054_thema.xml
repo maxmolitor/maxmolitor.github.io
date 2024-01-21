@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Die Dornenkrönung Christi</h1>
+	<preview>
+		<text>
+			Als König der Juden verspottet
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text><![CDATA[
+				<h2>„…und flochten eine Dornenkrone…“</h2>
+				<p>Dargestellt ist eine Szene aus der <a href="glossar/passionchristi.xml" >Passion Christi</a>, die nach der Verurteilung durch den römischen <a href="glossar/statthalter.xml" >Statthalter</a> in Judäa, Pontius Pilatus, stattfand. Dessen Knechte geißeln und verspotten Christus. Dieser hatte von sich behauptet, er sei – in einem höheren, spirituellen Sinn – der König der Juden. Darum zogen sie „ihn aus und legten ihm einen Purpurmantel um und flochten eine Krone aus Dornen und setzten sie auf sein Haupt, und gaben ihm ein Rohr in seine rechte Hand; und sie fielen vor ihm auf die Knie und verspotteten ihn und sagten: Sei gegrüßt, König der Juden! Und sie spieen ihn an, nahmen das Rohr und schlugen ihn auf das Haupt.“ (Matthäus 27,29-30).</p>
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Christus zwischen zwei Schergen</h2>
+				<p>Wir sehen von einem leicht erhöhten Standpunkt auf die Szene herab, deren Mitte Christus bildet (siehe Abbildung). Er ist nur mit einem Lendentuch bekleidet. Der „Purpurmantel“ liegt über seinem Schoß. Christus sitzt zwischen zwei stehenden <a href="glossar/scherge.xml" >Scher-gen</a>. Der eine zwingt brutal seinen Kopf herab und hält ihm die <a href="054/dornenkrone.xml" imageHighlightId="054.gentileschi.jpg.h1">Dornenkrone</a> vor. Der andere packt seinen rechten Arm und drückt ihm das Rohr als „Zepter“ in die <a href="054/hand.xml" imageHighlightId="054.gentileschi.jpg.h2">Hand</a>.</p>
+			]]></text>
+		</column>
+		<column>
+		<space height="00"/>
+			<img src="054/gentileschi.jpg" maxHeight="500" caption="Die Dornenkrönung Christi" allowZoom="true" zoomCaption="Orazio Gentileschi: &lt;i&gt;Die Dornenkrönung Christi&lt;/i&gt;, Leinwand, um 1610/15, &lt;br/&gt; Braunschweig, Herzog Anton Ulrich-Museum.">
+			    <highlight x="0.22" y="0.44" radius="0.1" href="054/dornenkrone.xml" id="054.gentileschi.jpg.h1"/>
+				<highlight x="0.61" y="0.57" radius="0.09" href="054/hand.xml" id="054.gentileschi.jpg.h2"/>
+			</img>
+				<!-- <text><![CDATA[
+				<p></p>
+				<p>Die Dornenkrönung Christi ist auch der Gegenstand einer überaus kostbaren, um 1601 entstandenen <a href="054/federzeichnung.xml" >Federzeichnung</a> von Peter Paul Rubens, die im Kupferstichkabinett des Herzog Anton Ulrich-Museums aufbewahrt wird. </p>
+			]]></text> -->
+		</column>
+	</content>
+</card>

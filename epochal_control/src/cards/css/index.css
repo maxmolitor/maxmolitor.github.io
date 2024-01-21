@@ -1,0 +1,116 @@
+
+@font-face {
+font-family: MyriadRegular;
+src: url('../../assets/fonts/MyriadPro-Regular.otf') format(„opentype“);
+}
+
+#info{
+  position: absolute;
+  right: 0;
+  width: 200px;
+
+  background-color: rgb(186, 4, 54);
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+
+  text-align: center;
+ /* font-family: 'MyriadRegular', san-serif; */
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.mainview {
+  height: 100%;
+
+  font-family: 'MyriadRegular', sans-serif;
+  font-size: 16px;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+header.mainHeader {
+  height: 250px;
+  width: 90%;
+  margin: 5% auto 0 auto;
+  padding: 10px;
+  color: #FFF;
+}
+
+section.mainSection {
+  float:left;
+  margin-left: 20px;
+  font-weight: bold;
+  width: 70%;
+}
+
+p.artist{
+  font-size: 20px;
+  line-height: 0.4em;
+}
+p.title{
+  font-size: 24px;
+  line-height: 0.4em;
+}
+p.misc{
+  font-size: 16px;
+  line-height: 1.2em;
+}
+p.description{
+  font-size: 18px;
+  line-height: 1.2em;
+  text-align:justify;
+}
+
+.thumbnail {
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid lightgrey;
+  float:left;
+  max-width: 25%;
+  max-height: 100%;
+}
+
+.mainview .mainContent {
+  height: 70%;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  justify-content: space-around;
+  align-content: space-around;
+  transition: all 400ms linear;
+}
+
+.card{
+  height: 280px;
+  width: 27%;
+  margin: 30px;
+  border: 8px solid white;
+
+  transition: all 400ms linear;
+  /*flex-grow: 0;*/
+
+  /*background-color: white;
+  color: gray;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  overflow: hidden;*/
+}
+
+.card .icon{
+  position:absolute;
+  z-index: 20;
+  bottom: -8px;
+  right: -8px;
+  border-radius: 50%;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.card { transform: rotate(0deg); }
+.card:nth-child(2n) { transform: rotate(0deg); }
+.card:nth-child(3n) { transform: rotate(0deg); }
+.card:nth-child(5n) { transform: rotate(0deg); }

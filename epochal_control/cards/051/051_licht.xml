@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<card type="licht und farbe">
+	<h1>Licht &amp; Farbe</h1>
+	<preview>
+			<img src="051/licht.jpg"/>
+	</preview>
+	
+	<content template="2">
+		<column>
+			<text><![CDATA[
+			    <h2>Eine trostlose Atmosphäre</h2>
+				<p>Das Bild ist überwiegend in düsteren Grün- und Gelbbraun-tönen gemalt (siehe Abbildung). Diese Farbigkeit verleiht der Szene – passend zum Bildthema – eine trostlose Atmosphäre. Davor zeichnen sich das helle <a href="glossar/inkarnat.xml" >Inkarnat</a> des entblößten Leibs Jesu, die weißen Tücher sowie das Blau und Rot der Gewänder Mariens ab. Diese Farben wiederholen sich auch in einzelnen Bilddetails: Während das Blau im <a href="051/schatten.xml" imageHighlightId="051.pieta.jpg.h1" >Schatten</a> auf dem Leib Jesu und in den <a href="051/fluegel.xml" imageHighlightId="051.pieta.jpg.h2" >Flügeln</a> der Engel aufgenommen wird, findet sich das Rot in den blutigen <a href="051/wundmale.xml" imageHighlightId="051.pieta.jpg.h3" >Wunden</a> Jesu, auf den <a href="051/wangen.xml" imageHighlightId="051.pieta.jpg.h4" >Wangen</a> der Engelsgesichter sowie auch in den <a href="051/rotepflanze.xml" imageHighlightId="051.pieta.jpg.h5" >Blüten</a> im Hintergrund wieder.</p>
+			]]></text>	
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Spuren des Lichts</h2>
+				<p>Ein mildes Licht fällt von <a href="051/obenlinks.xml" imageHighlightId="051.pieta.jpg.h6" >oben links</a> auf die Szene ein und hebt die Figuren vor dem dunklen Hintergrund hervor. Der Licht-einfall macht sich sowohl durch die <a href="051/glanzlichter.xml" imageHighlightId="051.pieta.jpg.h8" >Glanzlichter</a> auf Glasflasche und Nägeln als auch auf den Gesichtern der Figuren be-merkbar: Durch diesen Lichteinfall entstehen starke <a href="051/schattenkontraste.xml" imageHighlightId="051.pieta.jpg.h9" >Licht- und Schattenkontraste</a>. Sie schaffen nicht nur einen dramatischen Ausdruck, sondern lassen auch die Figuren plastisch und realitätsnah erscheinen.</p>inen schimmernden Akzent setze
+			]]></text>	
+		</column>
+		<column>
+		<space height="00"/>
+		   <img src="051/pieta.jpg" maxHeight="500" caption="Pietá" allowZoom="true" zoomCaption="Adam Elsheimer: &lt;i&gt;Pietá&lt;/i&gt;, Kupfer, um 1603/05, &lt;br/&gt;Braunschweig, Herzog Anton Ulrich-Museum.">
+		        <highlight x="0.22" y="0.84" radius="0.06" href="051/schatten.xml" id="051.pieta.jpg.h1"/>
+				<highlight x="0.59" y="0.08" radius="0.13" href="051/fluegel.xml" id="051.pieta.jpg.h2"/>
+				<highlight x="0.49" y="0.07" radius="0.06" href="051/wangen.xml" id="051.pieta.jpg.h4"/>
+				<highlight x="0.43" y="0.68" radius="0.1" href="051/wundmale.xml" id="051.pieta.jpg.h3"/>
+				<highlight x="0.04" y="0.15" radius="0.06" href="051/rotepflanze.xml" id="051.pieta.jpg.h5"/>
+				<highlight x="0.68" y="0.65" radius="0.09" href="051/obenlinks.xml" id="051.pieta.jpg.h6"/>
+				<highlight x="0.0" y="0.66" radius="0.12" href="051/glanzlichter.xml" id="051.pieta.jpg.h8"/>
+				<highlight x="0.4" y="0.41" radius="0.09" href="051/schattenkontraste.xml" id="051.pieta.jpg.h9"/>
+			</img>
+		</column>
+	</content>
+</card>

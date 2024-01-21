@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<card type="licht und farbe">
+<!-- <card type="extra info"> -->
+
+	<h1>Licht &amp; Farbe</h1>
+	<preview>
+		<text>
+			Grünbraun mit Gold und Rot
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Die Farbigkeit</h2>
+				<p>Die Farbigkeit ist überwiegend in Grün- und Brauntönen gehalten; hinzu kommt ein zartes Grau für die angedeuteten Wolken. Mit diesem Kolorit harmonieren sehr schön die Goldborten. Sie sind bei Kanne und Unterschale zusätzlich mit eisenroten Blüten angereichert. </p>
+			]]></text>
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Abstufung vom Großen zum Kleineren </h2>
+				<p>Die Einheitlichkeit des <a href="glossar/kolorit.xml">Kolorits</a>, von Jahres- und Tageszeit und Wetter erweckt den Eindruck, verschiedene Ansichten derselben Landschaft vor sich zu haben. Ja, über das gesamte Service hin durchwandert man diese Landschaft mit dem Auge. Dabei ist – von der Kanne, bis zum Löffel – eine Abstufung vom Großen zum Kleineren auszumachen, je nach Größe des zugrunde liegenden Stücks.</p>
+			]]></text>
+		</column>
+		<column>
+		<space height="00"/>
+			<img src="101/kanne2.jpg" maxHeight="400" caption="Kanne und Löffel" allowZoom="true" zoomCaption="Pascha Johann Friedrich Weitsch: &lt;i&gt;Kanne und Löffel des Kaffeeservices mit Hirtenlandschaften&lt;/i&gt;, Porzellan, um 1765, Braunschweig, Herzog Anton Ulrich-Museum.">
+			</img>
+
+		</column>
+	</content>
+</card>

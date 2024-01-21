@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+	<img src="098/seite.jpg" maxHeight="400" caption=" "/>
+	<text><![CDATA[
+		<p><span class="popuptext">Diese Frau ist in der Seitenansicht dargestellt.</span></p> 
+	]]></text>
+	
+</content>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>PIXI BlurFilter</title>
+
+    <link rel="stylesheet" href="../../lib/3rdparty/highlight/styles/default.css">
+    <link rel="stylesheet" href="../../css/doctest.css">
+
+    <script src="../../lib/3rdparty/highlight/highlight.pack.js"></script>
+    <script src="../../lib/3rdparty/all.js"></script>
+
+    <script src="../all.js"></script>
+    <script src="./all.js"></script>
+</head>
+<body onload="Doctest.run()">
+    <h1>BlurFilter</h1>
+    <p>
+        The BlurFilter class creates a blur filter on the renderer. In contrast to the PIXI BlurFilter, you can specify
+        a range (defined as a PIXI.Rectangle) on which the filter should be applied.
+    </p>
+    <h2>Example with Image</h2>
+    <p>Let's look at an example of creating a new blur filter near the bottom:</p>
+    <canvas id="canvas" class="interactive"></canvas>
+    <p>
+        What you should see: A sniffing hedgehog and three blurred areas (with different strengths of blur).
+    </p>
+    <script class="doctest">
+// Create the app
+const app = new PIXIApp({
+    view: canvas,
+    width: 480,
+    height: 270,
+    transparent: false
+}).setup().run()
+
+// Load a video and add it to the scene
+const videoSprite = new PIXI.Sprite(PIXI.Texture.fromVideo("assets/blurfilter.mp4"))
+videoSprite.width = app.size.width
+videoSprite.height = app.size.height
+app.scene.addChild(videoSprite)
+
+// Create three filters and assign them to the scene
+const blurFilter1 = new BlurFilter(new PIXI.Rectangle(40, 40, 120, 80))
+const blurFilter2 = new BlurFilter(new PIXI.Rectangle(240, 140, 100, 100), 150)
+const blurFilter3 = new BlurFilter(new PIXI.Rectangle(380, 40, 100, 100), 20)
+app.scene.filters = [blurFilter1, blurFilter2, blurFilter3]
+    </script>
+</body>

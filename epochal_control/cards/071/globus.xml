@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>
+    <!-- <img src="071/astrolabium.jpg" maxHeight="200"/> -->
+	<img src="071/globus.jpg"/>
+	
+    <text><![CDATA[
+		<p><span class="popuptext">Ein Globus ist die Darstellung der Erdkugel oder des Sternenhimmels in der Form eine Kugel.</span></p> 
+	]]></text>
+</content>

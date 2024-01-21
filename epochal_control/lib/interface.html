@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="../lib/3rdparty/highlight/styles/default.css">
+	<link rel="stylesheet" href="../css/doctest.css">
+	<script src="../lib/3rdparty/highlight/highlight.pack.js"></script>
+	<script src="all.js"></script>
+</head>
+<body onload="Doctest.run()" >
+<h1>
+	Interfaces
+</h1>
+<p>
+Interfaces are objects that specify (document) the external behavior of objects
+that “provide” them. An interface specifies behavior through method definitions
+that specify functions and their signatures.
+</p>
+<p>Let's look at an example of an interface and a class implementing the interface:</p>
+<script class="doctest">
+
+class ITestable extends Interface {
+    reset() {}
+    run() {}
+}
+
+class Testable {
+
+    reset() {
+        print("Resetting testable object")
+    }
+
+    run() {
+        print("Running testable object")
+    }
+}
+</script>
+<p>We can now check whether the promised interface methods are implemented by the
+class:</p>
+<script class="doctest">
+Doctest.expect(ITestable.implementedBy(Testable), true)
+</script>
+<p>
+<h2>
+References
+</h2>
+<ul>
+    <li><a href="https://zopeinterface.readthedocs.io">Zope Interfaces</a></li>
+</ul>
+</body>

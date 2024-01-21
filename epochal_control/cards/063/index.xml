@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+<img src="063/063.jpg"/>
+<header>
+	<!-- Thumbnail of artwork with 512px large side -->
+	<!-- <thumbnail>063/thumbnail.jpg</thumbnail> -->
+	<artist>Leonhard Kern (1588-1663)</artist>
+	<title>Klagende Eva (1640/45)</title>
+	<misc>Birnbaumholz, Höhe: 34 cm, Breite: 11,5 cm, Tiefe: 11 cm</misc>
+		<year>1642</year>
+		<nr>0063</nr>
+	<description>
+		Bereits im 18. Jahrhundert wurde diese Figur als Eva interpretiert, die über das verlorene Paradies klagt. Solche kleinen Skulpturen nackter Körper sind kennzeichnend für das Werk Leonhard Kerns. Sie waren im 17. Jahrhundert beliebte Sammlerstücke.
+	</description>
+	<!-- <annotation >Zur Zeit nicht ausgestellt</annotation> -->
+</header>
+
+<card src="063/063_artist.xml"/>
+
+<card src="063/063_dargestellte.xml"/>
+
+<card src="063/063_thema.xml"/>
+
+<card src="063/063_vergleich.xml"/>
+
+<card src="063/063_extrainfo1.xml"/>
+
+<card src="063/063_thema3.xml"/>
+
+</data>

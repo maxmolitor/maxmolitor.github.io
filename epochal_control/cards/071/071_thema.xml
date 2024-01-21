@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Gelehrter in seiner Studierstube</h1>
+	<preview>
+		<text>
+			So sah Goethe  &lt;br/&gt;seinen Faust
+		</text>
+	</preview>
+	
+	<content template="2">
+		<column>
+			
+			<text><![CDATA[
+				<h2>Unbekannter Gelehrter oder Dr. Faustus?</h2>
+				<p>Ein alter Mann steht vor einem Pult und hält als Zeichen seiner Gelehrsamkeit in seiner rechten Hand eine <a href="071/feder.xml" imageHighlightId="071.gelehrter.jpg.h3">Feder</a> (siehe Abbil-dung). Außerdem befinden sich wissenschaftliche Instrumente wie <a href="071/buecher.xml" imageHighlightId="071.gelehrter.jpg.h1">Bücher</a> und ein <a href="071/globus.xml" imageHighlightId="071.gelehrter.jpg.h2">Globus</a> vor ihm. Demgemäß entspricht auch seine Kleidung der eines Gelehrten.</p>
+			]]></text>  
+			<space height="20"/>
+				<text><![CDATA[
+				<p>Unklar ist jedoch, um wen es sich bei der dargestellten Person handelt. Rembrandts Verleger Clement de Jonghe nennt in dem 1679 aufgestellten Nachlassinventar keinen Namen, son-dern bezeichnet ihn als „praktizierenden Alchimisten“. Dies war zu jener Zeit die Sammelbezeichnung für spekulative Gelehrte.</p>
+			]]></text>  
+				<space height="20"/>
+			<text><![CDATA[
+				<p>Anfang des 18. Jahrhundert wird diese Grafik zunehmend in Verbindung mit der Gelehrtenfigur <a href="glossar/faust.xml" >Faust</a> gesehen. Zur Enste-hungszeit der <a href="glossar/radierung.xml" >Radierung</a> könnte Rembrandt eine Theaterauf-führung der Fausttragödie von <a href="glossar/marlowe.xml" >Christopher Marlowe</a> in Ams-terdam gesehen haben. Die Interpretation des Gelehrten als Faust hat sich im Laufe des Jahrhunderts als eine mögliche In-terpretation gefestigt, denn wie selbstverständlich illustriert <a href="glossar/goethe.xml" >Goethe</a> seine Faustausgabe von 1790 mit einem Nachstich dieser Radierung.</p>
+			]]></text> 
+			interpretation Faust. Theater bekannt. Interpr gestützt durch Goethes Faust. Unstimmigkeiten, weil: Erscheinung bei Marlow nur Engel, keine Zeichen, keine Kaballa. Vorsichtiger vormulieren "trägt Züge der Faustfigur von Marlow" dadurch vorgeschlagen für Interpretation und mit Goethes Aufnahme in sein Fragment aufnimmt. Mit der Wichtigkeit Goethes ist dies eine interessante Information. Also Goethes' Bild des Fausts und damit durchgesetzt. nicht unumstritten. 
+			Rembrandt hat sich mehr gedacht, als Marlowe. tieferen Sinn. 
+		</column>
+		<column>
+		
+		<space height="00"/>
+			<img src="071/gelehrter.jpg" maxHeight="400" caption="Gelehrter in seiner Studierstube" allowZoom="true" zoomCaption="Rembrandt: &lt;i&gt;Gelehrter in seiner Studierstube&lt;/i&gt;, Radierung, um 1652, Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett.">
+			<highlight x="0.78" y="0.58" radius="0.11" href="071/buecher.xml" id="071.gelehrter.jpg.h1"/>
+			<highlight x="0.70" y="0.77" radius="0.15" href="071/globus.xml" id="071.gelehrter.jpg.h2"/>
+			<highlight x="0.15" y="0.77" radius="0.10" href="071/feder.xml" id="071.gelehrter.jpg.h3"/>
+			
+			
+			</img>
+		
+		</column>
+	</content>
+</card>

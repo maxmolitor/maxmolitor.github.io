@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<card type="thema">
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Die Kaninchenjagd</h1>
+	<preview>
+		<text>
+			Eine „Weltlandschaft“
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text><![CDATA[
+				<h2>Gebirge und Fluss</h2>
+				<p>Wir blicken in der rechten Bildhälfte auf den Steil-hang eines Gebirges (siehe Abbildung), das von einer <a href="031/burg.xml" imageHighlightId="031.kaninchenjagd.jpg.h1">Burg</a> bekrönt ist. In der linken Bildhälfte er-streckt sich eine Flusslandschaft in die Tiefe. Der mäandernde Flusslauf mündet am Horizont bei einer Stadt in das Meer. Auf der rechten Seite wird das Bild durch einen knorrigen Baum am rechten Rand begrenzt.</p>
+			]]></text>	
+			<space height="40"/>
+			<text><![CDATA[
+				<h2>Spuren der Zivilisation</h2>
+				<p>Belebt wird diese <a href="glossar/weltlandschaft.xml" >„Weltlandschaft“</a> von überall zu entdeckenden Spuren der Zivilisation: <a href="031/haus.xml" imageHighlightId="031.kaninchenjagd.jpg.h2">Häuser</a>, <a href="031/gehoeft.xml" imageHighlightId="031.kaninchenjagd.jpg.h3">Ge-höfte</a>, <a href="031/kirche.xml" imageHighlightId="031.kaninchenjagd.jpg.h4">Kirchen</a>, <a href="031/kapelle.xml" imageHighlightId="031.kaninchenjagd.jpg.h9">Kapellen</a>, eine <a href="031/windmuehle.xml" imageHighlightId="031.kaninchenjagd.jpg.h5">Windmühle</a>, <a href="031/kuehe.xml" imageHighlightId="031.kaninchenjagd.jpg.h6">Schafe und Kühe</a>, vereinzelte <a href="031/menschen.xml" imageHighlightId="031.kaninchenjagd.jpg.h7">menschliche Figuren</a> und <a href="031/boot.xml" imageHighlightId="031.kaninchenjagd.jpg.h8">Boote</a> auf dem Fluss. Während die Architektur und die linke Bildhälfte eher an die nordeuropäische Heimat des Künstlers erinnern, ist das Gebirge wohl von seiner Italienreise beeinflusst.</p>
+			]]></text>
+		</column>
+		<column>
+		<space height="00"/>
+			<img src="031/kaninchenjagd.jpg" maxHeight="500" caption="Die Kaninchenjagd" allowZoom="true" zoomCaption="Pieter Bruegel d. Ä.: &lt;i&gt;Die Kaninchenjagd&lt;/i&gt;, Radierung,&lt;br/&gt;1560, Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett.">
+			    <highlight x="0.65" y="0.02" radius="0.08" href="031/burg.xml" id="031.kaninchenjagd.jpg.h1"/>
+				<highlight x="0.27" y="0.58" radius="0.04" href="031/haus.xml" id="031.kaninchenjagd.jpg.h2"/>
+				<highlight x="0.30" y="0.42" radius="0.04" href="031/gehoeft.xml" id="031.kaninchenjagd.jpg.h3"/>
+				<highlight x="0.03" y="0.38" radius="0.03" href="031/kirche.xml" id="031.kaninchenjagd.jpg.h4"/>
+			    <highlight x="0.00" y="0.29" radius="0.04" href="031/windmuehle.xml" id="031.kaninchenjagd.jpg.h5"/>
+				<highlight x="0.22" y="0.32" radius="0.05" href="031/kuehe.xml" id="031.kaninchenjagd.jpg.h6"/>
+				<highlight x="0.23" y="0.47" radius="0.04" href="031/menschen.xml" id="031.kaninchenjagd.jpg.h7"/>
+				<highlight x="0.05" y="0.47" radius="0.05" href="031/boot.xml" id="031.kaninchenjagd.jpg.h8"/>
+				<highlight x="0.38" y="0.36" radius="0.035" href="031/kapelle.xml" id="031.kaninchenjagd.jpg.h9"/>
+			</img>
+		</column>
+	</content>
+</card>

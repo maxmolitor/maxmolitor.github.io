@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<content>  
+    <!-- <img src="glossar/anatomischesmodell.jpg" caption=" "/> -->
+  <text><![CDATA[
+		<p><span class="popuptext">Wunderkugeln sind mehrere, ineinander liegende hohle Kugeln. Sie werden aus einem Stück Elfenbein mithilfe spezieller Messer gefertigt. </span></p> 
+	]]></text>
+	  <img src="glossar/wunderkugel.jpg" caption=" "/>
+  <text><![CDATA[
+		<p><span class="popuptext">Lorenz Zick: </i>Kugelwerk</i>, Elfenbein und Holz, 17. Jahrhundert, Braunschweig, Herzog Anton Ulrich-Museum.</span></p> 
+	]]></text>
+</content>

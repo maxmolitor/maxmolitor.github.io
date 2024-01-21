@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<card type="artist">
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<!-- <card type="licht und farbe"> -->
+<!-- <card type="extra info"> -->
+	<h1>Daniel Nikolaus Chodowiecki</h1>
+	<preview>
+		<text>
+			 Illustrierte Romane berühmter Autoren 
+		</text>
+	</preview>
+	
+	<content template="1">
+		<column>
+			<text>
+			<![CDATA[
+				<h2>Anfänge in Danzig und Berlin</h2>
+				<p>Daniel Nikolaus Chodowiecki wurde 1726 als Sohn eines Getreidehändlers und Miniaturmalers in Dan-zig geboren. 1740 begann er eine kaufmännische Lehre, 1743 ging er nach Berlin und arbeitete in der Eisenwarenhandlung seines Onkels. Dort kopierte er Grafiken, die als Miniaturen auf Dosen eingebracht wurden. Um 1748 erlernte er bei Johann Jacob Haid die Emailmalerei.</p>
+			]]></text>
+		<space height="40"/>
+			<text>
+			<![CDATA[
+				<h2>Maler und Radierer</h2>
+				<p>1754 machte Chodowiecki sich als Miniatur- und Emailmaler selbstständig und stellte vor allem häus-liche Szenen aus dem bürgerlichen Leben dar. 1767 begann er eine kontinuierliche Produktion von kleinformatigen Radierungen (siehe Abbildung). Seine Illustrationen der Romane und Dramen, u. a. von Goethe, Cervantes, Shakespeare, Lessing, Schil-ler, machten ihn international bekannt. In späteren Arbeiten entwickelte Chodowiecki einen besonde-ren, originellen Bildwitz. Sein druckgrafisches Werk umfasst 2042 Platten. </p>
+				]]></text>
+		</column>
+		<column>
+				<space height="00"/>
+				<img src="105/vermaehlung.jpg" maxHeight="450" caption="Chodowiecki: Die Vermählung" allowZoom="true" zoomCaption="Daniel Nikolaus Chodowiecki: &lt;i&gt;Die Vermählung der Prinzessin Friderike Sophie Wilhelmine von Preussen mit dem Prinzen Wilhelm V. von Oranien&lt;/i&gt; (Detail), Radierung, 1767, Braunschweig, Herzog Anton Ulrich-Museum, Kupferstichkabinett." />
+		
+		</column>
+	</content>
+</card>

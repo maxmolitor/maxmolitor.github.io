@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <card type="artist"> -->
+<!-- <card type="thema"> -->
+<!-- <card type="details"> -->
+<!-- <card type="leben des kunstwerks"> -->
+<!-- <card type="komposition"> -->
+<card type="licht und farbe">
+<!-- <card type="extra info"> -->
+	<h1>Licht &amp; Farbe</h1>
+	<preview>
+		<text>
+			Die Farbe des Göttlichen
+		</text>
+	</preview>
+	<content template="1">
+		<column>
+			
+			<text><![CDATA[
+				<h2>Majolikafarben</h2>
+				<p>Für die Bemalung unseres Tellers wurden die soge-nannten Majolikafarben verwendet. Diese bestehen aus einer Farboxidmischung, werden in die Zinngla-sur gemalt und bei hohen Temperaturen gebrannt. Ihre Farbskala beschränkt sich auf Blau, Gelb, Oran-ge, Grün und Violett; Rot fehlt in dieser Farbpalette.</p>
+				]]></text>
+				<space height="40"/>
+				<text><![CDATA[
+				<h2>Irdischer Bereich – göttliche Sphäre</h2>
+				<p>Die Farben sind nicht nur nach kompositorischen, sondern auch nach inhaltlichen Gesichtspunkten ver-teilt (siehe Abbildung): Während Blau, Grün und Ocker für irdische Bereiche, wie Wasser, Luftraum, Pflanzen und Erde stehen, hebt das Orange die gött-liche Sphäre hervor. In dieser Farbe leuchten die Aura des <a href="033/apoll2.xml" imageHighlightId="033.platte.jpg.h4">Apoll</a> und die des <a href="033/zeus2.xml" imageHighlightId="033.platte.jpg.h1">Zeus</a> sowie das <a href="033/kleid.xml" imageHighlightId="033.platte.jpg.h2" >Kleid</a> der herbeifliegenden Nike. Auf diese Weise wird die Trennung der unsterblichen Götterwelt vom irdi-schen Leben zum Ausdruck gebracht.</p> 
+				<p>Orange erscheint auch das <a href="033/gewand.xml" imageHighlightId="033.platte.jpg.h3">Gewand</a> des sterblichen Paris. Die <a href="033/diagonaleverteilung.xml" >diagonale Verteilung</a> dieser Farbe von Paris über den <a href="033/apfel.xml" imageHighlightId="033.platte.jpg.h5">Apfel</a> und der Nike zum Göttervater Zeus verweist auf den <a href="033/auftrag.xml" >göttlichen Auftrag</a> und damit auf die Verbindung beider Sphären.</p> 
+			]]></text> 
+			
+		</column>
+		<column>
+		 <space height="00"/>
+			<img src="033/platte.jpg" maxHeight="500" caption="Teller, Das Urteil des Paris" allowZoom="true" zoomCaption="Werkstatt der Fontana: &lt;i&gt;Teller, Das Urteil des Paris&lt;/i&gt;, Majolika, um 1550, Braunschweig, Herzog Anton Ulrich-Museum.">
+		<highlight x="0.75" y="0.2" radius="0.1" href="033/zeus2.xml" id="033.platte.jpg.h1"/>
+		<highlight x="0.43" y="0.36" radius="0.11" href="033/kleid.xml" id="033.platte.jpg.h2"/>
+		<highlight x="0.14" y="0.6" radius="0.11" href="033/gewand.xml" id="033.platte.jpg.h3"/>
+		<highlight x="0.36" y="0.08" radius="0.14" href="033/apoll2.xml" id="033.platte.jpg.h4"/>	
+		<highlight x="0.3" y="0.51" radius="0.04" href="033/apfel.xml" id="033.platte.jpg.h5"/>
+			</img>
+		</column>
+	</content>
+</card>
